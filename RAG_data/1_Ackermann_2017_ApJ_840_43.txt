@@ -1,0 +1,2147 @@
+The Fermi Galactic Center GeV Excess and Implications for Dark Matter
+M. Ackermann1, M. Ajello2, A. Albert3, W. B. Atwood4, L. Baldini5, J. Ballet6, G. Barbiellini7,8, D. Bastieri9,10, R. Bellazzini11,
+E. Bissaldi12, R. D. Blandford13, E. D. Bloom13, R. Bonino14,15, E. Bottacini13, T. J. Brandt16, J. Bregeon17, P. Bruel18, R. Buehler1,
+T. H. Burnett19, R. A. Cameron13, R. Caputo4, M. Caragiulo12,20, P. A. Caraveo21, E. Cavazzuti22, C. Cecchi23,24, E. Charles13,
+A. Chekhtman25, J. Chiang13, A. Chiappo26,27, G. Chiaro10, S. Ciprini22,23, J. Conrad26,27,67, F. Costanza12, A. Cuoco14,28,
+S. Cutini22,23,F .D ’Ammando29,30, F. de Palma12,31, R. Desiante14,32, S. W. Digel13, N. Di Lalla5, M. Di Mauro13,
+L. Di Venere12,20, P. S. Drell13, C. Favuzzi12,20, S. J. Fegan18, E. C. Ferrara16, W. B. Focke13, A. Franckowiak1, Y. Fukazawa33,
+S. Funk34, P. Fusco12,20, F. Gargano12, D. Gasparrini22,23, N. Giglietto12,20, F. Giordano12,20, M. Giroletti29, T. Glanzman13,
+G. A. Gomez-Vargas35,36, D. Green16,37, I. A. Grenier6, J. E. Grove38, L. Guillemot39,40, S. Guiriec16,68, M. Gustafsson41,
+A. K. Harding16, E. Hays16, J. W. Hewitt42, D. Horan18, T. Jogler34,43, A. S. Johnson13, T. Kamae44, D. Kocevski44, M. Kuss11,
+G. La Mura10, S. Larsson27,45, L. Latronico14,J .L i46, F. Longo7,8, F. Loparco12,20, M. N. Lovellette38, P. Lubrano23, J. D. Magill37,
+S. Maldera14, D. Malyshev34, A. Manfreda5, P. Martin47, M. N. Mazziotta12, P. F. Michelson13, N. Mirabal16,68, W. Mitthumsiri48,
+T. Mizuno49, A. A. Moiseev37,50, M. E. Monzani13, A. Morselli36, M. Negro14,15, E. Nuss17, T. Ohsugi49, M. Orienti29,
+E. Orlando13, J. F. Ormes51, D. Paneque52, J. S. Perkins16, M. Persic7,53, M. Pesce-Rollins11, F. Piron17, G. Principe34, S. Rainò12,20,
+R. Rando9,10, M. Razzano11,66, S. Razzaque54, A. Reimer13,55, O. Reimer13,55, M. Sánchez-Conde26,27, C. Sgrò11, D. Simone12,
+E. J. Siskind56, F. Spada11, G. Spandre11, P. Spinelli12,20, D. J. Suson57, H. Tajima13,58, K. Tanaka33, J. B. Thayer13, L. Tibaldo59,
+D. F. Torres46,60, E. Troja16,37, Y. Uchiyama61, G. Vianello13, K. S. Wood62, M. Wood13, G. Zaharijas63,64, and S. Zimmer65
+(TheFermi LAT Collaboration )
+1Deutsches Elektronen Synchrotron DESY, D-15738 Zeuthen, Germany; afrancko@slac.stanford.edu2Department of Physics and Astronomy, Clemson University, Kinard Lab of Physics, Clemson, SC 29634-0978, USA3Los Alamos National Laboratory, Los Alamos, NM 87545, USA; aalbert@slac.stanford.edu4Santa Cruz Institute for Particle Physics, Department of Physics and Department of Astronomy and Astrophysics, University of California at Santa Cr uz, Santa Cruz,
+CA 95064, USA5Università di Pisa and Istituto Nazionale di Fisica Nucleare, Sezione di Pisa I-56127 Pisa, Italy6Laboratoire AIM, CEA-IRFU /CNRS /Université Paris Diderot, Service d ’Astrophysique, CEA Saclay, F-91191 Gif sur Yvette, France7Istituto Nazionale di Fisica Nucleare, Sezione di Trieste, I-34127 Trieste, Italy8Dipartimento di Fisica, Università di Trieste, I-34127 Trieste, Italy9Istituto Nazionale di Fisica Nucleare, Sezione di Padova, I-35131 Padova, Italy10Dipartimento di Fisica e Astronomia “G. Galilei, ”Università di Padova, I-35131 Padova, Italy11Istituto Nazionale di Fisica Nucleare, Sezione di Pisa, I-56127 Pisa, Italy12Istituto Nazionale di Fisica Nucleare, Sezione di Bari, I-70126 Bari, Italy13W. W. Hansen Experimental Physics Laboratory, Kavli Institute for Particle Astrophysics and Cosmology, Department of Physics and SLAC National Acc elerator
+Laboratory, Stanford University, Stanford, CA 94305, USA; echarles@slac.stanford.edu14Istituto Nazionale di Fisica Nucleare, Sezione di Torino, I-10125 Torino, Italy15Dipartimento di Fisica, Università degli Studi di Torino, I-10125 Torino, Italy16NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA17Laboratoire Univers et Particules de Montpellier, Université Montpellier, CNRS /IN2P3, F-34095 Montpellier, France18Laboratoire Leprince-Ringuet, École polytechnique, CNRS /IN2P3, F-91128 Palaiseau, France19Department of Physics, University of Washington, Seattle, WA 98195-1560, USA20Dipartimento di Fisica “M. Merlin ”dell’Università e del Politecnico di Bari, I-70126 Bari, Italy21INAF-Istituto di Astro ﬁsica Spaziale e Fisica Cosmica Milano, via E. Bassini 15, I-20133 Milano, Italy22Agenzia Spaziale Italiana (ASI )Science Data Center, I-00133 Roma, Italy23Istituto Nazionale di Fisica Nucleare, Sezione di Perugia, I-06123 Perugia, Italy24Dipartimento di Fisica, Università degli Studi di Perugia, I-06123 Perugia, Italy25College of Science, George Mason University, Fairfax, VA 22030, resident at Naval Research Laboratory, Washington, DC 20375, USA26Department of Physics, Stockholm University, AlbaNova, SE-106 91 Stockholm, Sweden27The Oskar Klein Centre for Cosmoparticle Physics, AlbaNova, SE-106 91 Stockholm, Sweden28RWTH Aachen University, Institute for Theoretical Particle Physics and Cosmology (TTK ), D-52056 Aachen, Germany29INAF Istituto di Radioastronomia, I-40129 Bologna, Italy30Dipartimento di Astronomia, Università di Bologna, I-40127 Bologna, Italy31Università Telematica Pegaso, Piazza Trieste e Trento, 48, I-80132 Napoli, Italy32Università di Udine, I-33100 Udine, Italy33Department of Physical Sciences, Hiroshima University, Higashi-Hiroshima, Hiroshima 739-8526, Japan34Erlangen Centre for Astroparticle Physics, D-91058 Erlangen, Germany; dvmalyshev@gmail.com35Instituto de Astrofísica, Facultad de Física, Ponti ﬁcia Universidad Católica de Chile, Casilla 306, Santiago 22, Chile36Istituto Nazionale di Fisica Nucleare, Sezione di Roma “Tor Vergata, ”I-00133 Roma, Italy37Department of Physics and Department of Astronomy, University of Maryland, College Park, MD 20742, USA38Space Science Division, Naval Research Laboratory, Washington, DC 20375-5352, USA39Laboratoire de Physique et Chimie de l ’Environnement et de l ’Espace —Université d ’Orléans /CNRS, F-45071 Orléans Cedex 02, France40Station de radioastronomie de Nançay, Observatoire de Paris, CNRS /INSU, F-18330 Nançay, France41Georg-August University Göttingen, Institute for Theoretical Physics —Faculty of Physics, Friedrich-Hund-Platz 1, D-37077 Göttingen, Germany42University of North Florida, Department of Physics, 1 UNF Drive, Jacksonville, FL 32224, USA43Friedrich-Alexander-Universität, Erlangen-Nürnberg, Schlossplatz 4, D-91054 Erlangen, Germany44Department of Physics, Graduate School of Science, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan45Department of Physics, KTH Royal Institute of Technology, AlbaNova, SE-106 91 Stockholm, SwedenThe Astrophysical Journal, 840:43 (34pp ), 2017 May 1 https://doi.org /10.3847 /1538-4357 /aa6cab
+© 2017. The American Astronomical Society. All rights reserved.
+1
+46Institute of Space Sciences (IEEC-CSIC ), Campus UAB, Carrer de Magrans s /n, E-08193 Barcelona, Spain47CNRS, IRAP, F-31028 Toulouse cedex 4, France48Department of Physics, Faculty of Science, Mahidol University, Bangkok 10400, Thailand49Hiroshima Astrophysical Science Center, Hiroshima University, Higashi-Hiroshima, Hiroshima 739-8526, Japan50Center for Research and Exploration in Space Science and Technology (CRESST )and NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA51Department of Physics and Astronomy, University of Denver, Denver, CO 80208, USA52Max-Planck-Institut für Physik, D-80805 München, Germany53Osservatorio Astronomico di Trieste, Istituto Nazionale di Astro ﬁsica, I-34143 Trieste, Italy54Department of Physics, University of Johannesburg, PO Box 524, Auckland Park 2006, South Africa55Institut für Astro- und Teilchenphysik and Institut für Theoretische Physik, Leopold-Franzens-Universität Innsbruck, A-6020 Innsbruck, Austri a56NYCB Real-Time Computing Inc., Lattingtown, NY 11560-1025, USA57Department of Chemistry and Physics, Purdue University Calumet, Hammond, IN 46323-2094, USA58Solar-Terrestrial Environment Laboratory, Nagoya University, Nagoya 464-8601, Japan59Max-Planck-Institut für Kernphysik, D-69029 Heidelberg, Germany; ltibaldo@slac.stanford.edu60Institució Catalana de Recerca i Estudis Avançats (ICREA ), E-08010 Barcelona, Spain61Department of Physics, Rikkyo University, 3-34-1 Nishi-Ikebukuro, Toshima-ku, Tokyo 171-8501, Japan62Praxis Inc., Alexandria, VA 22303, resident at Naval Research Laboratory, Washington, DC 20375, USA63Istituto Nazionale di Fisica Nucleare, Sezione di Trieste, and Università di Trieste, I-34127 Trieste, Italy64Laboratory for Astroparticle Physics, University of Nova Gorica, Vipavska 13, SI-5000 Nova Gorica, Slovenia65University of Geneva, Département de physique nucléaire 4, Switzerland
+Received 2016 December 23; revised 2017 March 22; accepted 2017 April 9; published 2017 May 4
+Abstract
+The region around the Galactic Center (GC )is now well established to be brighter at energies of a few GeV than
+what is expected from conventional models of diffuse gamma-ray emission and catalogs of known gamma-raysources. We study the GeV excess using 6.5 yr of data from the Fermi Large Area Telescope. We characterize the
+uncertainty of the GC excess spectrum and morphology due to uncertainties in cosmic-ray source distributions and
+propagation, uncertainties in the distribution of interstellar gas in the Milky Way, and uncertainties due to a
+potential contribution from the Fermi bubbles. We also evaluate uncertainties in the excess properties due to
+resolved point sources of gamma rays. The GC is of particular interest, as it would be expected to have the
+brightest signal from annihilation of weakly interacting massive dark matter (DM )particles. However, control
+regions along the Galactic plane, where a DM signal is not expected, show excesses of similar amplitude relative tothe local background. Based on the magnitude of the systematic uncertainties, we conservatively report upper
+limits for the annihilation cross-section as a function of particle mass and annihilation channel.
+Key words: cosmic rays –Galaxy: bulge –Galaxy: center –Galaxy: halo –gamma rays: general –ISM: general
+1. Introduction
+The region around the Galactic Center (GC )is one of the
+richest in the gamma-ray sky. Gamma-ray emission in this
+direction includes the products of interactions between cosmic
+rays (CRs )with interstellar gas (from nucleon –nucleon
+inelastic collisions and electron /positron bremsstrahlung )and
+radiation ﬁelds (from inverse Compton scattering of electrons
+and positrons ), as well as many individual sources such as
+pulsars, binary systems, and supernova remnants (SNRs ).
+Some of the most compelling theories advocate dark matter
+(DM )to consist of weakly interacting massive particles
+(WIMPs )that can self-annihilate to produce gamma rays in
+theﬁnal states (for a review see, e.g., Bertone et al. 2005 ;
+Bergström 2012 ). A hypothetical signal in gamma rays from
+WIMP annihilation is expected to be brightest toward the GC(e.g., Springel et al. 2008 ; Kuhlen et al. 2009 ).
+Based on data from the Large Area Telescope (LAT
+)on
+board the Fermi Gamma-ray Space Telescope (Atwood et al.
+2009 ), several groups reported the detection of excess emission
+at energies of a few GeV near the GC on top of a variety of
+models for interstellar gamma-ray emission and point sources
+(PSs; e.g., Goodenough & Hooper 2009 ; Vitale et al. 2009 ;
+Hooper & Goodenough 2011 ; Abazajian & Kaplinghat 2012 ;Gordon & Macías 2013 ; Hooper & Slatyer 2013 ; Calore
+et al. 2015 ; Zhou et al. 2015 ; Ajello et al. 2016 ; Daylan et al.
+2016 ), while other groups refuted the existence of an excess
+after considering the uncertainties in the modeling of sourcesand interstellar emission (e.g., Boyarsky et al. 2011 ). Some
+studies claim that the excess appears to have a spherical
+morphology centered at the GC and spectral characteristics
+consistent with DM annihilation (e.g., Daylan et al. 2016 ;
+Huang et al. 2016 ), while de Boer et al. (2016 )ﬁnd that the GC
+excess is correlated with the distribution of molecular clouds.Yang & Aharonian (2016 )and Macias et al. (2016 )have
+argued that the morphology of the excess has a bi-lobed
+structure, which is expected for a continuation of the Fermi
+bubbles. Calore et al. (2015 )investigated uncertainties of
+foreground /background models using both a model-driven and
+a data-driven approach and concluded that an excess is present,
+but uncertainties due to interstellar emission modeling are too
+large to conclusively prove a DM origin. Ajello et al. (2016 )
+studied in detail the different components of gamma-rayemission toward the GC and con ﬁrmed that a residual
+component is consistently found above interstellar emissionand sources, and that its spectrum is highly dependent on the
+choice of interstellar emission model. More recently, some
+groups advocated that data favor an origin of the excess from apopulation of yet undetected gamma-ray sources such asmillisecond pulsars (MSPs; Brandt & Kocsis 2015 ; Bartels
+et al. 2016 ; Lee et al. 2016 ), although MSPs may be insuf
+ﬁcient
+to explain the excess if aging is taken into account (Petrovi ć66Funded by contract FIRB-2012-RBFR12PM1F from the Italian Ministry of
+Education, University and Research (MIUR ).
+67Wallenberg Academy Fellow.
+68NASA Postdoctoral Program Fellow, USA.
+2The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+et al. 2015 ; Hooper & Linden 2016 ). Additional sources of CRs
+near the GC may also signi ﬁcantly affect the properties of the
+excess (Cholis et al. 2015 ; Gaggero et al. 2015 ; Carlson
+et al. 2016 ).
+This paper revisits the Fermi GC GeV excess using data
+from 6.5 yr of observations. The new Pass 8 event-level
+analysis (Atwood et al. 2013 )provides improved direction
+and energy reconstruction, better background rejection, a widerenergy range, and signi ﬁcantly increased effective area,
+especially at the high- and low-energy ends. In addition,information provided by the Pass 8 data set enables the user to
+subselect events based on the quality of their energy ordirection reconstruction (i.e., based on energy dispersion and
+point-spread function [PSF]).
+The two main goals of this work are to study the range of
+aspects in the modeling of interstellar emission and discretesources in the vicinity of the GC that can possibly affect the
+characterization of the GC GeV excess, and to explore the
+implications for DM accounting at best for these sources ofuncertainty. The paper is organized as follows.
+In Section 2, we describe the data set used and the
+generalities of the analysis procedure. A sample interstellar
+emission model is constructed and ﬁt to the data, along with a
+list of sources to test the presence of an excess at the GC andderive its spectrum.
+Sections 3–6are dedicated to exploring the impact on the
+determination of the properties of the GC excess of severalaspects of the foreground /background emission models and
+analysis features, with emphasis on the spectrum of the excess.Section 3considers the choice of data set and region of the sky
+analyzed. Section 4focuses on modeling choices related to
+interstellar emission, including distribution of CR sources andtargets, and assumptions about CR transport in the Milky Way.
+In Section 5we use a spectral component analysis (SCA )
+technique (Malyshev 2012 ; Ackermann et al. 2014 )to derive
+spatial templates for some gamma-ray emission components inthe vicinity of the GC, i.e., the Fermi bubbles (Su et al. 2010 )
+and the GC excess itself. In Section 6, we study the impact on
+the GC excess of different choices concerning the modeling ofindividual gamma-ray sources.
+Section 7
+summarizes our results concerning the spectrum of
+the GC excess. Section 8focuses on the morphology of the GC
+excess in light of previously discussed sources of uncertainty.We consider some key properties of the excess morphology,contrasting the hypotheses of spherical and bipolar morphology
+and studying the radial steepness and the excess centroid
+location.
+The conclusion from this ﬁrst part of the analysis is that the
+excess emission remains signi ﬁcant around a few GeV in all the
+model variations that we have tested. However, it is practicallyimpossible to consider an exhaustive set of models thatencompass all the uncertainties in foreground /background
+emission. Therefore, in Section 9, we consider an empirical
+approach to test the robustness of a DM interpretation of theexcess. Control regions along the Galactic plane (GP ), where
+no DM signal is expected, are used for this purpose. Combining
+the results with those previously obtained from varying
+modeling and analysis features, we set constraints on DMannihilation in the GC from a variety of candidates. Ourconclusions are summarized in Section 10.
+In Appendix Awe provide details of the derivation of
+alternative distribution of gas along the line of sight usingstarlight extinction by dust. We calculate the ratio of the GC
+excess signal in the Sample Model to statistical and systematicuncertainty maps in Appendix B, while in Appendix Cwe give
+details of the derivation of the DM limits.
+2. Data Selection, Analysis Methodology, and Sample
+Model Fit to the Data
+2.1. Data Selection
+The analysis is based on 6.5 yr of Fermi LAT data recorded
+between 2008 August 4 and 2015 January 31 (Fermi Mission
+Elapsed Time 239,557,418 –444,441,067 s ). We select the
+standard good-time intervals, e.g., excluding calibration runs.
+In order not to be biased by residual backgrounds in all-sky orlarge-scale analysis, we select events belonging to the Pass 8
+UltraCleanVeto class, which provides the highest purity against
+contamination from charged particles misclassi ﬁed as gamma
+rays. Additionally, to minimize the contamination fromemission from Earth ’s atmosphere, we select events with an
+angle θ<90°with respect to the local zenith.
+We use events with measured energies between 100 MeV
+and 1 TeV in 27 logarithmic energy bins, which is about seven
+bins per decade. For each energy bin events are binned spatially
+using HEALPix
+69(Górski et al. 2005 )with a pixelization of
+order 6 (≈0°.92 pixel size )or order 7 (≈0°.46 pixel size ). For
+all-sky ﬁtting we use maps with adaptive resolution that have
+order 7 pixels in areas with large statistics (near the GP or close
+to bright sources )and order 6 in areas with fewer counts. The
+pixelization is determined based on the count map between 1.1
+and 1.6 GeV at order 6, for which we further subdivide pixels
+with more than 100 photons to order 7. In the resulting mapswe also mask 200 PSs with largest ﬂux above 1 GeV from the
+Fermi LAT third source catalog (3FGL; Acero et al. 2015 )
+within a radius of 1 °(we mask pixels with centers within
+a 1s i n 4 p + () from the position of PSs, where a≈0°.46 is
+the size of pixels at order 7 ). Masking the bright PS effectively
+excludes pixels within about 2 °from the GC (the fraction of
+masked pixels within 4 °is about 50%; within 10 °it is about
+20% ). We test the effect of the PS mask on the GC excess in
+Section 6.2, where we re ﬁt PS within 10 °from the GC and only
+mask the 200 brightest PSs outside of 10 °. The order 6 pixels at
+high latitudes are masked if any of the underlying order 7
+pixels are masked.
+We calculate the exposure and PSF using the standard Fermi
+LAT Science Tools package version 10-01-01 available from
+theFermi Science Support Center70using the P8R2_ULTRA-
+CLEANVETO_V6 instrument response functions.
+2.2. Sample Model
+The emission measured by the LAT in any direction on the
+sky can be separated into individually detected sources, most ofwhich are point-like sources, and diffuse emission. The
+majority of diffuse gamma-ray emission at GeV energies arises
+from inelastic hadronic collisions, mostly through the decay ofneutral pions (π
+0). This component is produced in interactions
+of CR nuclei with interstellar gas; therefore, it is spatially
+correlated with the distribution of gas in the Milky Way.Another interstellar emission component, which becomes
+dominant at the highest and lowest gamma-ray energies, is
+69http://sourceforge.net /projects /healpix /
+70http://fermi.gsfc.nasa.gov /ssc/data/analysis /
+3The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+due to inverse Compton (IC)scattering of leptonic CRs
+(electrons and positrons )interacting with the low-energy
+interstellar radiation ﬁeld (ISRF ). The ISRF can be considered
+to consist of three components: starlight, infrared light emitted
+by dust, and the cosmic microwave background (CMB )
+radiation. The IC contribution is expected to be less structured
+compared to the hadronic component. At energies 10 GeV,
+bremsstrahlung emission from electrons and positrons inter-
+acting with interstellar gas can become important. All of these
+three components of Galactic interstellar emission are brighter
+in the direction of the Galactic disk. Additionally, there is adiffuse emission component with approximately isotropic
+intensity over the sky. It is made of residual contamination
+from interactions of charged particles in the LAT misclassi ﬁed
+as gamma rays, unresolved (i.e., not detected individually )
+extragalactic sources, and, possibly, truly diffuse extragalactic
+gamma-ray emission.
+Throughout the paper, we will model Galactic interstellar
+emission from the large-scale CR populations in the Galaxy
+starting from predictions obtained through the GALPROP
+code71(Moskalenko & Strong 1998 ; Strong et al. 2000 ,2004 ;
+Ptuskin et al. 2006 ; Strong et al. 2007 ; Porter et al. 2008 ;
+Vladimirov et al. 2011 ). We use the GALPROP package v54.1
+unless mentioned otherwise. GALPROP calculates the propa-
+gation and interactions of CRs in the Galaxy by numerically
+solving the transport equations given a model for the CR source
+distribution, a CR injection spectrum, and a model of targets for
+CR interactions. Parameters of the model are constrained to
+reproduce various CR observables, including CR secondary
+abundances and spectra obtained from direct measurements in
+the solar system, and diffuse gamma-ray and synchrotron
+emission. GALPROP is used to generate spatial templates forthe gamma-ray emission produced in CR interactions with
+interstellar gas and radiation ﬁelds, which are then ﬁtted to the
+data as described below.
+The GALPROP models we employ in this paper assume CR
+diffusion with a Kolmogorov spectrum of interstellar turbu-
+lence plus reacceleration, and no convection. The diffusioncoefﬁcient is assumed to be constant and isotropic in the
+Galaxy. Additionally, unless otherwise mentioned, calculations
+assume azimuthal symmetry of the CR density with respect to
+the GC. For the Sample Model described in this section we
+chose one of the models from Ackermann et al. (2012 ).I t
+assumes a CR source distribution traced by the measured
+distribution of pulsars (Lorimer et al. 2006 , from now on
+referred to as Lorimer ); the CR con ﬁnement volume has a
+height of 10 kpc and a radius of 20 kpc. It should be stressed
+that the parameters selected for the Sample Model represent
+only one of the possible choices. The goal of our analysis is not
+toﬁnd the best model, but rather to estimate the uncertainty in
+the GC excess due to the choice of parameters and analysis
+procedure. A study of the dependence of the results on
+propagation parameters and on the distribution of CR sources ispresented in Section 4. Also, note that the Sample Model, as for
+most of the models considered in the paper, is derived from
+solving the transport equation in two dimensions (galacto-
+centric radius, height over the GP ). This speeds up the
+derivation of the model, but it is worth noting that cylindrical
+coordinates have a coordinate singularity at the GC. In our
+case, the modeling of interstellar emission is meant mainly forestimating the foreground /background emission (which dom-
+inates over emission from the region near the GC ), and this is
+not a source of concern. In Section 4.4we will employ some
+three-dimensional GALPROP models to address the case of CR
+sources near the GC.
+The distribution of target gas is based on multiwavelength
+surveys. For the Sample Model described in this section, the
+calculation of gamma-ray ﬂuxes from CR interactions employs
+the LAB survey (Kalberla et al.
+2005 )of the 21 cm line of H I
+and the survey of a 2.6 mm line of CO (a tracer of H 2)by
+Dame et al. (2001 )to evaluate the distribution of atomic and
+molecular gas, respectively, in galactocentric annuli. Thepartitioning of the interstellar gas into galactocentric annuli
+based on the Doppler shifts of the lines is particularly uncertain
+at longitudes within about 10 °of the GC, for latitudes within a
+few degrees of the Galactic equator. This is because the
+velocity from circular motion is almost perpendicular to the
+line of sight; therefore, Doppler shifts of the H
+Iand CO lines
+are small relative to random and streaming motions of the
+interstellar medium in this range. The Sample Model taken
+from Ackermann et al. (2012 )assumes H Icolumn densities
+derived from the 21 cm line intensities for a spin temperature
+of 150 K. The dust reddening map of Schlegel et al. (1998 )is
+used to correct the H Imaps to account for the presence of dark
+neutral gas not traced by the combination of H Iand CO
+surveys (Grenier et al. 2005 ; Ackermann et al. 2012 ).W e
+neglect the contribution from ionized gas. The impact of the
+choice of input data for modeling the interstellar gasdistribution is addressed in Section 4.3.
+Since the distribution of CR densities in the Galaxy is not
+well constrained a priori, we ﬁt the templates for the emission
+from interstellar gas split into galactocentric annuli to the
+gamma-ray data, independently for each energy bin, using theprocedure described later. In the ﬁt we use ﬁve independent
+annuli: three inner annuli spanning galactocentric radii
+0–1.5 kpc, 1.5 –3.5 kpc, and 3.5 –8 kpc; a local ring spanning
+8–10 kpc, and an outer ring spanning 10 –50 kpc. Also, H
+Iand
+CO maps are ﬁtted independently to the data so that assuming
+an a priori CO-to-H 2ratio is not required. In each ring, we add
+the bremsstrahlung and the hadronic components together in
+one template.
+Furthermore, we separately ﬁt to the data templates for the
+three IC components from CMB, dust infrared emission, and
+starlight, as models for the last two have signi ﬁcant
+uncertainties. Note that since we ﬁt the model maps to the
+data in several independent energy bins and the morphology of
+gamma-ray emission from gas is determined mainly by the
+distribution of interstellar gas, the CR transport modeling inGALPROP in our case affects the analysis mainly through the
+morphology predicted for IC emission.
+The LAT data revealed the presence of diffuse emission
+components extending over large fractions of the sky, which
+are not represented in the GALPROP templates that we use tomodel gamma-ray emission resulting from CR interactions in
+the Galaxy. Loop I is a giant radio loop spanning 100 °on the
+sky (Large et al. 1962 ), which was also detected in LAT
+data (Casandjian & Grenier 2009 ). The origin of Loop Ii sa n
+open question. It may be a local object, produced either by a
+nearby supernova explosion or by the wind activity of theScorpio –Centaurus OB association at a distance of
+170 pc (Wolleben 2007 ; Sun et al. 2015 ). Alternatively, it
+may be interpreted as the result of a large-scale out ﬂow from
+71http://galprop.stanford.edu
+4The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+the GC (Kataoka et al. 2013 ). In the Sample Model we account
+for Loop I using a geometric model (e.g., Figure 2 of
+Ackermann et al. 2014 )based on a polarization survey at
+1.4 GHz (Wolleben 2007 ). The geometric Loop I model
+assumes synchrotron emission from two shells. Each shell is
+described by ﬁve parameters: the center coordinates ℓ,b; the
+distance to the center d; and the inner (rin)and outer (rout)
+radius of the shell. The parameters are set to ℓ1=341°,
+b1=3°,d1=78 pc, rin,1=62 pc, rout,1 =81 pc, ℓ2=332°,
+b2=37°,d2=95 pc, rin,2=58 pc, and rout,2 =82 pc.
+An additional large-scale extended emission component is
+represented by the so-called Fermi bubbles, two large gamma-
+ray lobes seen above and below the GC (Su et al. 2010 ;
+Ackermann et al. 2014 ). While the Fermi bubbles are well
+studied at high latitudes, a careful characterization of their
+properties close to the GP is complicated by large systematicuncertainties introduced by the modeling of other brightcomponents of Galactic interstellar emission in this region. In
+the Sample Model we include a ﬂat intensity spatial model of
+theFermi bubbles at
+b 10> ∣∣ (Figure 5 of Ackermann
+et al. 2014 ). In Section 5we will derive an alternative template
+of the Fermi bubbles that includes emission at low latitudes.
+We model the emission from the Sun (Moskalenko
+et al. 2006 ; Orlando & Strong 2007 ,2008 )and Moon, which
+is trailed along the ecliptic in our long data set, using templatesderived with the Fermi Science Tools
+72following the
+description in Johannesson et al. (2013 ).
+For the Sample Model, we use the 3FGL catalog (Acero
+et al. 2015 ). We add all PSs in a single template in each energy
+bin. To construct the template, we use the parameterizedspectra from the catalog and convolve with the PSF in each
+energy bin. Extended sources, except for the Large Magellanic
+cloud (LMC )and Cygnus region, are assembled in a separate
+template. Since the LMC and Cygnus are the brightestextended sources, we have independent templates. We describe
+extended sources based on the templates used in 3FGL.
+Unresolved Galactic sources, which may amount to up to∼10% of the Galactic diffuse component (Acero et al. 2015 ),
+are not explicitly accounted for, but their spatial distribution isassumed to be similar to other Galactic components, and so the
+corresponding emission will be taken up by the other
+components in the ﬁt(such as π
+0, bremsstrahlung, and IC ).We tentatively include in the Sample Model an additional
+component with the spatial distribution expected from annihila-
+tion of DM that follows in the inner Galaxy a generalizedNavarro –Frenk –White (gNFW )proﬁle with index γ=1.25 and
+scaling radius r
+s=20 kpc. The NFW pro ﬁle is an approx-
+imation to the equilibrium con ﬁguration of DM produced in
+simulations of collisionless particles (Navarro et al. 1997 ).
+Modi ﬁed NFW pro ﬁles with γ>1 are expected from numerical
+simulations of DM halos including baryons (e.g., Guedes
+et al. 2011 ). However, in our Sample Model the modi ﬁed
+NFW pro ﬁle is mainly motivated by earlier analyses of the GeV
+excess (Goodenough & Hooper 2009; Abazajian et al. 2014;
+Calore et al. 2015 ), which found it to be a good representation
+for the residual emission, with values of γvarying around
+∼1.25. We will consider different γvalues in Section 8.3.
+The components of the Sample Model are summarized in
+Table 1.
+2.3. Fitting Procedure
+We simultaneously ﬁt the different components of diffuse
+emission (including an isotropic component )and a combined map
+of PSs to the Fermi LAT maps independently in each energy bin
+by maximizing the likelihood fun ction based on Poisson statistics
+dd log log log , 1
+iiii i å mm =- - ( ( !)) ( )
+where direpresents the photon counts in the spatial pixel with
+index iandμirepresents the model counts in the same bin
+(since the ﬁt is performed in each energy bin independently, we
+omit the energy bin index in this and the following equations ).
+The model is constructed as a linear combination of templates
+fP ,2i
+mmimåm= ()()
+where mlabels the components of emission and Pim()is the
+spatial template of component min the appropriate energy bin
+corrected for exposure and convolved with the LAT PSF. Thecoefﬁcients f
+mare adjusted to maximize the likelihood.
+Occasionally the best solution has negative normalization
+coefﬁcients associated with some of the templates. Since this is
+unphysical, in such a case the corresponding template is
+removed and the ﬁtting procedure is repeated. From comparing
+residual maps to the templates, it seems most likely that thisbehavior is due to incompleteness or imperfections of theTable 1
+Components of the Sample Model
+Component Deﬁnition
+Hadronic interactions and bremsstrahlung GALPROP, ﬁve rings
+Inverse Compton scattering GALPROP, three components (CMB, starlight, infrared )
+Loop I Geometric template based on radio data (Wolleben 2007 )
+Fermi bubbles Flat template from Ackermann et al. (2014 )
+Point sources Template derived from 3FGL catalog
+Extended sources, Cygnus, LMC Templates derived from 3FGL catalog
+Isotropic emission Proportional to Fermi LAT exposure
+Sun and Moon templates Derived with Fermi LAT Science Tools
+GC excess gNFW annihilation template with γ=1.25
+Note. Input to GALPROP: pulsars as a tracer of CR production (Lorimer et al. 2006 );z=10 kpc, R=20 kpc propagation halo; H Ispin temperature 150 K (see text
+for details on the choice of the input parameters ).
+72http://fermi.gsfc.nasa.gov /ssc/data/analysis /scitools /solar_template.html
+5The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+models. The normalization of some of the templates is either
+over- or underestimated to compensate for such defects, andother templates ’normalization in turn may react to this.
+Ourﬁtting strategy differs from previous examples in the
+literature (e.g., Calore et al. 2015 ; Ajello et al. 2016 ).W e
+summarize below the main distinctive features:
+1. We ﬁt the various emission templates independently in
+ﬁne energy bins; this enables us to mitigate the impact on
+the results of several assumptions related to modeling
+background /foreground emission. We reiterate that the
+spectra of the various components, e.g., Figure 1, show
+that our procedure results in stable and physically
+plausible spectra.
+2. We perform an all-sky ﬁt of all the component templates
+simultaneously; this provides us with a fast and simple
+procedure, which can also be consistently applied to other
+regions in the sky as a control sample to assess systematicuncertainties related to the GC results (Section 9).W e
+characterize the impact of the analysis region choice on
+the excess spectrum in Section 3.2.
+2.4. Results from the Analysis with the Sample Model
+The spectra of the components of the Sample Model ﬁtted to
+the all-sky data are shown in Figure 1. The GC excess spectrum
+peaks around 3 GeV and extends up to about 100 GeV. The
+corresponding data maps, total model maps, and fractionalresiduals summed over several energy bins are shown in
+Figure 2. Although the Sample Model approximately repro-
+duces the data, many excesses are evident. There is a clearresidual associated with Loop I at energies below a few GeV in
+spite of including the geometrical template in the Sample
+Model. There are also residuals associated with substructuresinside the Fermi bubbles. Furthermore, many excesses are seen
+along the GP. In Figure 3we show the GC excess modeled bythe gNFW annihilation template added back to the residual
+summed over energy bins between 1.1 and 6.5 GeV.
+The analysis with the Sample Model also serves to con ﬁrm
+through inspection of the likelihood Hessian matrix that the
+large number of degrees of freedom does not create degeneracybetween the model components, i.e., there is enough informa-
+tion in the gamma-ray data to separate them. However, some of
+the components that would be assigned negative ﬂuxes are set
+to zero. As discussed before, this is most likely due to
+imperfections or incompleteness of the model. Although the
+procedure results in stable and physically plausible spectra formost of the various components, in a few instances this is notthe case (e.g., in the Sample Model, for the gas rings between
+1.5 and 3.5 kpc, the reason for which is discussed later in
+Section 4.3 ). This has limited impact on the determination of
+the GC excess properties, as the overall fore /background
+model is physically sound (Figure 1).
+3. Uncertainties from the Analysis Setup
+This section is dedicated to assessing the impact on the results
+of some key aspects of the analysis procedure, namely, theselection of the data sample and of the region of interest (ROI )
+.
+3.1. Data Set Selection
+We start by testing the systematic uncertainty related to
+selection of the data sample. As an alternative to the sampleanalysis we use the Clean event class (P8R2_CLEAN_V6
+instrument response functions )with a selection on zenith
+<100°. By considering the Clean class instead of the
+UltraCleanVeto, we estimate the magnitude of the residual
+CR contamination, which is larger for Clean class events
+compared to the UltraCleanVeto events. By using a largerzenith angle cut, we estimate a possible effect of emission fromthe Earth limb at ∼112°. In general, residual Earth limbFigure 1. Flux of the components of the Sample Model (2.2 )ﬁtted to the all-sky data. Some templates are summed together in several groups for presentation. “π0+
+brems ”includes the hadronic and bremsstrahlung components. “ICS”includes the three IC templates corresponding to the three radiation ﬁelds. “Other ”includes
+Loop I, Sun, Moon, and extended sources. GC excess is modeled by the gNFW template with index γ=1.25. Left: ﬂux of the components integrated over the whole
+sky except for the PS mask. Right: ﬂux of the components integrated inside 10 °radius from the GC; the model is the same as in the left panel, with the only difference
+being the area of integration for the ﬂux. The bubbles are not present in the right panel, since the Sample Model includes the bubble template de ﬁned at
+latitudesb 10 .>∣∣
+6The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+emission, from gamma rays in the tails of the PSF, becomes
+more important at lower energies, where the tails are broadest.Using the Clean class events with the zenith angle cut <100°
+has relatively small in ﬂuence on the GC excess spectrum
+(Figure 4, top left ): the GC excess spectra are consistent within
+the statistical uncertainties.
+We also subselect gamma-ray events with the best angular
+resolution: PSF classes 2 and 3 (Section 2.1 ). We then
+convolve the Sample Model components with the respectiveinstrument response functions (notably, PSF )independently
+and perform a joint ﬁt of the two data sets. The comparison of
+the GC excess ﬂux with the Sample Model is again shown in
+the top left panel of Figure 4. There is a moderate effect on the
+spectrum at low energies only, where the LAT PSF gets worse.
+3.2. Region of Interest Selection
+One of the limitations of the template- ﬁtting approach we
+use is that to model gamma-ray emission from gas we assumethat the CR densities depend only on galactocentric radius anddistance from the GP, and we rely on GALPROP to accuratelypredict the morphology of IC emission at each energy.Therefore, variations of the CR spectrum or mismodeling in
+one part of the Galaxy can lead to oversubtraction or
+unmodeled excesses in other regions.One way to moderate this type of effect is to restrict the ﬁtting
+procedure to a smaller ROI around the GC, so that there is morefreedom to reproduce the features in the data for this speci ﬁcp a r t
+of the sky. To gauge the effect on the spectrum of the GC excess,
+we repeat the analysis in Section 2.2, restricting the ROI to some
+square regions:
+bℓ, 10 , 20 , 30<   ∣∣∣ ∣ . In this subsection we
+use maps with order 7 resolution (for all-sky ﬁts we use adaptive
+resolution as discussed in Section 2.1 ), which gives more than
+1000 pixels even for the bℓ,1 0< ∣∣∣ ∣ case. This is generally
+sufﬁcient to resolve the gas-correlated templates. However, the
+IC templates are rather smooth and may be degenerate in a smallROI. For this reason we combine the three IC templates in theSample Model into a single template for ﬁts in small ROIs. We
+also do not have the bubble template in the
+bℓ,1 0< ∣∣∣ ∣ case,
+because it is de ﬁned only at b 10 .>∣∣
+The results are shown in the top right panel of Figure 4.W e
+note that the gNFW cusp pro ﬁle remains nondegenerate with the
+other components of emission even in the small ROI, because the
+degeneracies would result in large error bars, while the error barson the GC excess ﬂux remain reasonably small below 10 GeV.
+The intensity of the GC excess is generally reduced for the ﬁts in
+smaller ROIs. For a 10 °ROI the GC excess continues to be
+signiﬁcant at energies below 400 MeV, while for a 30 °ROI the
+excess cuts off below 1 GeV. The change in the GC excess ﬂux
+for different ROI sizes is likely due to mismodeling of Galacticdiffuse components.
+Figure 2. Sample Model ﬁt to the data. Gamma-ray data (left ), total model (middle ), and fractional residual (right )maps are summed over several energy bins: 7
+energy bins between 100 MeV and 1.1 GeV (top row ), 5 energy bins between 1.1 and 6.5 GeV (middle row ), 15 energy bins between 6.5 GeV and 1.2 TeV (bottom
+row ). The gray circles for the model and residual maps correspond to the mask constructed for the 200 highest- ﬂux (>1 GeV )3FGL sources (see Section 2.1 ). The
+pixel size is about 0 °.46, corresponding to HEALPix nside =128 (we will use the same pixel size for all all-sky plots in this paper ).
+7The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+4. Uncertainties from the Modeling of Galactic Interstellar
+Emission
+This section is devoted to exploration of the uncertainties in
+the spectrum of the GC excess due to the modeling of Galacticinterstellar emission. We consider the following aspects:
+1. de ﬁnition of the distribution of CR sources, size of the
+CR con ﬁnement halo, and spin temperature of atomic
+hydrogen (for the derivation of gas column densities from
+the 21 cm line data )used in GALPROP;
+2. handling of the IC component in the ﬁt to the gamma-
+ray data;
+3. selection of the tracers of interstellar gas, and distribution
+of gas column densities along the line of sight; and
+4. possible additional sources of CRs near the GC.
+4.1. GALPROP Parameters
+Ackermann et al. (2012 )explored the effects of varying
+several parameters of the GALPROP models that we use tocreate templates for interstellar gamma-ray emission. They
+concluded that the parameters with the largest impact on the
+predictions for gamma rays are (1)distribution of CR sources
+in the Galaxy, (2)height of the CR con ﬁnement halo, and (3)
+spin temperature used in deriving the atomic gas column
+densities from the 21 cm H
+Iline intensities.
+Our Sample Model in Section 2.2uses the Lorimer pulsar
+distribution as a tracer of CR sources (supposedly SNRs, whosedistribution is more dif ﬁcult to determine from observations ),a
+CR con ﬁnement height of 10 kpc, a radius of 20 kpc, and an H I
+spin temperature of 150 K. In order to quantify the impact of
+these choices on the spectrum of the GC excess, we use a subsetof models in Ackermann et al. (2012 ). We have used different
+CR source distributions: an alternative pulsar distribution
+(Yusifov & Küçük 2004, hereafter referred to as Yusifov ),t h e
+distribution of SNRs
+73(Case & Bhattacharya 1998 ), and the
+distribution of OB stars (Bronfman et al. 2000 ). Radial
+distributions of these CR source models are shown in Figure 5.
+We changed the CR con ﬁnement height from 10 to 4 kpc and its
+radius from 20 to 30 kpc. In addition, we derived the H Icolumn
+densities from the 21 cm line intensities assuming an optically
+thin medium, which we formally modeled by setting the spintemperature to 10
+5K.
+The resulting spectra for the GC excess are presented in the
+middle left panel of Figure 4. The largest effect is observed
+from the OB star source distribution model, which leads to anoverall increase in the GC excess ﬂux, while a decrease of the
+CR con ﬁnement height to 4 kpc leads to reduction of the ﬂux at
+energies below a few GeV.
+Figure 3. Residuals after ﬁtting the Sample Model (see Figure 1and the text for details ), where we add back the GC excess modeled by the gNFW annihilation pro ﬁle
+withγ=1.25. Top left: GC excess plus residual counts. Top right: GC excess plus residual counts divided by the square root of the total data counts. Bottom lef t: GC
+excess plus residual counts divided by the total data counts. Bottom right: enlarged scale residual map for the region around the GC. The data in the den ominator of the
+fractional residual and the residual signi ﬁcance are the smoothed data that we used to determine the statistical ﬂuctuations (see discussion after Equation (1)). The
+counts in the maps are summed between 1.1 and 6.5 GeV.
+73We note that the derivation of the Galactic SNR distribution in Case &
+Bhattacharya (1998 )is subject to uncertainties, and the results are discordant
+with some later works (e.g., Green 2015 ). In our study, though, we use it only
+as a way to probe the uncertainties due to the modeling of CR propagation
+relying on the previous work by Ackermann et al. (2012 ), who made extensive
+comparisons to gamma-ray data.
+8The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+4.2. Inverse Compton Emission
+IC emission is subdominant at GeV energies with respect to
+the gas-correlated components, especially near the GP. Itsspatial distribution is expected to be smooth, but it depends onindirect knowledge of the ISRF and the calculated distributionof CR electrons. As a result, the IC emission is very dif ﬁcult tomodel, especially near the GC, which can lead to signi ﬁcant
+uncertainties in the GC excess. In the Sample Model we use
+three IC components corresponding to the three seed ISRF
+components (CMB, starlight, and infrared ), which are ﬁtted to
+the gamma-ray data in independent energy bins. This procedure
+reduces the impact of our imperfect knowledge of the ISRF and
+CR electron spatial /spectral distribution. As an alternativeFigure 4. Comparison of the GC excess spectrum in the Sample Model (Section 2.2 )and different choices for data selection, ROI, and the Galactic interstellar emission
+model. Top left: choice of the data sample (Section 3.1 ). Top right: size of the ROI used for ﬁtting the model components to the data (Section 3.2 ). Middle left: CR source
+tracers and con ﬁnement halo height (Section 4.1 ). Middle right: ﬁtting of the IC template (Section 4.2 ). Bottom left: tracers of interstellar gas and partition of gas column
+densities along the line of sight (Section 4.3 ). Bottom right: additional sources of CRs near the GC and variation of the propagation halo height in models with an
+additional source of CR correlated with the CMZ (Section 4.4 ).T h e ﬂux is obtained by integrating over the circle R<10°from the GC excluding the PS mask.
+9The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+approach, here we use a combined (i.e., summed over the
+three ISRF spectral bands )IC emission template, and we split
+the total IC emission into ﬁve galactocentric rings with the
+same boundaries as the gas templates.74The results are shown
+in the middle right panel of Figure 4.W e ﬁnd that there is a
+signiﬁcant reduction of the GC excess ﬂux between the models
+with combined ISRF components compared to models with
+ISRF components separated in different templates. We con ﬁrm
+that the IC emission can have a strong effect on the GC excess,
+which was previously discussed in, e.g., Ajello et al. (2016 ).
+4.3. Gas Maps Derived with Starlight Extinction Data and
+Planck and GASS Maps
+Uncertainties in the 3D models of the gas distribution in
+the Galaxy are important contributors to the uncertainties in the
+models of diffuse gamma-ray emission. In addition to thedifferent values of the H
+Ispin temperature considered in
+Section 4.1, in this section we explore (1)uncertainties due to
+the method used to partition the gas along the line of sight and(2)uncertainties related to the input interstellar tracer data and
+their angular resolution.
+In the construction of the maps of interstellar gas used in
+Sample Model, Doppler shifts of the H
+Iand CO lines are used
+to partition the gas column densities in annuli along the line of
+sight under the assumption of circular velocity around the GC.
+This method is not applicable toward the GC (and anticenter ).
+For the Sample Model, the gas contents of the ring maps in this
+range are interpolated and renormalized as described in
+Appendix B of Ackermann et al. (2012 ). Also, in the case of
+CO, the line widths toward the GC are stretched by largenoncircular motions (e.g., Dame et al. 2001 ). Therefore, all gas
+traced by CO at high velocities is assigned to the innermost
+ring based on the assumption that it is in the central molecularzone (CMZ ). Furthermore, the H
+Imaps in Ackermann et al.
+(2012 )are augmented to incorporate dark neutral gas, i.e.,
+neutral gas that is not traced by the combination of the H Iand
+CO lines (Grenier et al. 2005 ). At low latitudes, where more
+than one ring map can have substantial column densities of
+interstellar gas, the inferred column densities of dark gas aredistributed proportionally to the relative H
+Icolumn densities in
+the rings. As noted in Ackermann et al. (2012 ), the correction
+for the dark gas component was limited to directions with
+EBV 5-<() mag, and special procedures were applied to
+handle large negative corrections. These considerations make
+the inferred column densities in the inner Galaxy relatively
+uncertain in the Sample Model.
+Although Ackermann et al. (2012 )assessed that this did not
+change the results of their large-scale analysis, we investigate
+here the impact on the properties of low-level residual emissionseen toward the GC. Hence, we developed an alternative
+procedure to partition the gas column densities in the region at
+ℓ 10< ∣∣ (Appendix A)that employs complementary informa-
+tion from starlight (SL)extinction due to interstellar dust. Dust
+grains are thought to be well mixed with gas in the cold and
+warm phases of the interstellar medium, hence to be tracing thetotal (atomic and molecular )column densities (e.g., Bohlin
+et al. 1978 ). Marshall et al. (2006 )proposed a method that
+combined infrared surveys with stellar population synthesismodels to derive the distribution of dust in 3D. For our test we
+use the maps for the region of the Galactic bulge derived using
+this method by Schultheis et al. (2014 )based on the VISTA
+Variables in the Via Lactea survey
+75(Minniti et al. 2010 ).
+To further investigate the uncertainties related to the data sets
+used to build the gas maps, we considered alternative data sets
+that became recently available and, among other advantages,
+provide superior angular resolution. The H Imaps in
+Ackermann et al. (2012 )are based on the LAB survey
+(Kalberla et al. 2005 ), which has an effective angular resolution
+of∼0°.6, which is larger than the LAT angular resolution at
+energies 2 GeV. We produced alternative high-resolution
+maps by using the GASS survey (Kalberla et al. 2010 ). In the
+region of the sky where GASS data are available, including
+around the GC, they provide an angular resolution of ∼0°.25.
+Furthermore, the dark-gas correction in Ackermann et al.
+(2012 )was based on the dust reddening map by Schlegel et al.
+(1998 ). The map by Schlegel et al. (1998 )traces dust reddening
+based on dust thermal emission measured using IRAS and
+corrected for temperature variations using data from COBE /
+DIRBE. The latter has an angular resolution of ∼1°. For the
+alternative high-resolution maps we applied the same correc-
+tion as in Ackermann et al. (2012 ), but based instead on the
+dust extinction map from Planck Collaboration et al. (2014 )
+that is built using IRAS andPlanck data (Planck public data
+release R1.20 ). The limit in reddening of 2 or 5 mag, above
+which no correction is applied in Ackermann et al. (2012 ),i n
+our case was replaced by a comparable limit of 3 ×10−4in
+dust optical depth at 353 GHz.
+T h ee f f e c to ft h ea l t e r n a t i v eg a sm a p so nt h eG Ce x c e s s
+spectrum is shown in the bottom left panel of Figure 4. While the
+high-resolution gas maps only modestly change the excessFigure 5. Radial distribution in the GP of the CR source models employed in
+this work. Distributions from Ackermann et al. (2012 )are shown in black: the
+pulsar (PSR )distribution by Lorimer et al. (2006 )used in the Sample Model,
+the alternative PSR distribution by Yusifov & Küçük (2004 ), the OB star
+distribution from Bronfman et al. (2000 ), and the SNR distribution from Case
+& Bhattacharya (1998 ). The source models in the inner Galaxy introduced in
+our work are shown in red: sources in the bulge (azimuthal average )following
+the distribution of the old stellar population as in model B from Robin et al.(2012 ), and sources in the central molecular zone (CMZ )following the
+distribution of molecular gas from Ferrière et al. (2007 ). The source
+distributions are independently normalized for display.
+74To produce the IC templates split into galactocentric rings, we have used the
+development branch of the GALPROP code available from http://galprop.
+stanford.edu /, as described in Ajello et al. (2016 ).75https://vvvsurvey.org /
+10The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+spectrum, the alternative pro cedure to divide the gas into
+galactocentric rings yields an increase in the excess ﬂux below a
+few GeV. The latter also results in more plausible spectra for the
+gas rings between 1.5 and 3.5 kpc that are set to zero in several
+energy bins in the Sample Model (2.4). The derivation of the gas
+distribution from dust extinction, however, has its own set ofsystematic and modeling uncerta inties, which requires further
+investigation beyond the scope of the current analysis. Therefore,
+here we only use it to estimate the possible effect on the GCexcess.
+4.4. Additional Sources of CRs near the GC
+The large-scale distributions of CR sources that we consider
+peak at a few kiloparsecs from the GC, in correspondence with
+the so-called molecular ring and the main segment of the
+Scutum-Centaurus spiral arm. Some of them, notably thedistribution used for the Sample Model, go to zero at the GC.However, there is evidence that a source of CRs up to PeV
+energies exists at the GC (HESS Collaboration et al. 2016 ;
+Gaggero et al. 2017 ). Gaggero et al. (2015 )and Carlson et al.
+(2016 )argued that taking into account additional sources
+near the GC may substantially change the signi ﬁcance and
+spectrum of the GC excess. We test two additional steadysources of CRs: one associated with the bulge /bar in the
+central kiloparsec of the Milky Way, and one associated with
+the CMZ in the innermost few hundred parsecs.
+The stellar population of the Galactic bulge is older than
+5 Gyr (e.g., Robin et al. 2012 , and references therein ). CRs that
+were accelerated by SNRs associated with the star formationactivity in the bulge have either escaped the Galaxy or lost theirenergy (in the case of electrons ). However, a possible source of
+CRs at the present time in the bulge is a population of MSPs
+that could potentially accelerate electrons and positrons tohundreds of GeV (e.g., Petrovi ćet al. 2015 ). To model a
+possible population of MSPs in the bulge, we assume that their
+distribution is traced by the old stellar population in the bulgethat we take from Robin et al. (2012 ). We parameterize the
+bulge as an ellipsoid with an orientation of 7 °.1 with respect to
+the Sun –GC direction (model B in Robin et al. 2012 ).
+As an alternative, we consider a second possible population of
+CR sources distributed like the dense interstellar gas in the CMZ.
+The CMZ contains very dense molecular clouds that can hostintensive star formation (e.g., Longmore et al. 2013 )and, as a
+result, a signi ﬁcant rate of supernova explosions. The star
+formation rate (SFR )is rather uncertain in the CMZ and can vary
+from a few percent of the total SFR in the Galaxy, if traced by the
+free–free emission (Longmore et al. 2013 ),u pt o1 0 % –13%, if
+traced by young stellar objects (Yusef-Zadeh et al. 2009;I m m e r
+et al. 2012 )or Wolf-Rayet stars (Rosslowe & Crowther 2015 ).
+As a tracer of the CR production in the CMZ we use the
+distribution of molecular gas, which we model by a simpli ﬁed
+axisymmetric version of Equation (18)in Ferrière et al. (2007 ).
+The radial distribution is described as
+fR RL zH exp exp , 3 cc4µ- ´-( ) (( ) ) (∣ ∣ ) ( )
+where Ris the radial distance from the GC and zis the height
+above the GP. The two scaling factors were chosen to beL
+c=137 pc and Hc=18 pc.
+The additional source distributions, illustrated in Figure 5,
+are implemented in the GALPROP code to calculate theresulting gamma-ray emission. Owing to large uncertainty in
+their contributions, we treat these components independentlyfrom the rest of the templates. In the case of the bulge source,
+we add the IC emission from the additional electrons and
+positrons as an extra component, together with the componentsof the Sample Model in the ﬁt to the data. In the case of the
+CMZ source, we add the IC emission template and the gas-
+correlated components associated with H
+Iand H 2in the ﬁrst
+four rings in the Sample Model (Section 2.2 ), omitting the
+outer ring, i.e., we use four out of ﬁve rings in the Sample
+Model (nine additional parameters in each bin relative to the
+Sample Model ).
+Throughout our paper we are using GALPROP to model the
+particle propagation in two dimensions (for cylindrical symmetry
+in the Galaxy )with a 1 kpc resolution in radius and 100 pc
+resolution perpendicular to th e disk. To have a more accurate
+description of the CR distribution in the CMZ case, we perform
+some 3D GALPROP runs for the CMZ source distribution with aresolution of 100 pc in all coordinates (the difference of the GC
+excess spectra for 2D and 3D GALPROP runs is less than about
+2σ–3σstatistical uncertainties around a few GeV ).F o rt h eC M Z
+source, we test different sizes of the propagation halo z=2, 4, and
+8k p c a n d R=10 kpc. The rest of the components are derived
+with a 2D GALPROP calculation with the same halo height and
+R=20 kpc. The results are shown in the bottom right panel of
+Figure 4. The CMZ source of CRs with z=2a n d4 k p c
+propagation halo height has little effect on the GC excess ﬂux.
+The CMZ source of CRs with z=8 kpc has a signi ﬁcant effect
+on the GC excess spectrum at energies below ∼4 GeV, while the
+bulge source of CR takes up a signi ﬁcant part of the GC excess
+around ∼10 GeV.
+5. Spectral Component Analysis of the Fermi Bubbles and
+the GC Excess
+An important source of uncertainty in the derivation of the
+GC excess is the contribution to the emission near the GC from
+theFermi bubbles. The bubbles do not have a clear counterpart
+in other frequencies that can be used as a template. As a result,neither the spectrum nor the shape of the bubbles is known near
+the GC. Above
+b 10= ∣∣ the spectrum of the bubbles is
+approximately uniform as a function of the latitude (Su
+et al. 2010 ; Ackermann et al. 2014 ). Therefore, in this section
+we will assume that the spectrum of the bubbles at low latitudes
+is the same as at high latitudes in a limited energy range,between 1 and 10 GeV. Based on this assumption, we will
+derive an all-sky template for the Fermi bubbles in Section 5.1.
+Then, in Section 5.2, we will derive a template for the GC
+excess itself, using the same technique, and based on different
+assumptions on its spectrum. We will consider an MSP-like
+spectrum, since a population of MSPs is expected to contributeto gamma-ray emission near the GC (Abazajian 2011 ; Gordon
+& Macías 2013 ; Grégoire & Knödlseder 2013 ; Mirabal 2013 ;
+Yuan & Zhang 2014 ; Brandt & Kocsis 2015 ; Petrovi ćet al.
+2015 ; Hooper & Linden 2016 ), as well as estimates of the GC
+excess spectrum from earlier works.
+5.1. Fermi Bubble Template
+We derive the Fermi bubble template using the spectral
+component analysis (SCA )procedure used to extract the Fermi
+bubble component at high latitudes in Ackermann et al. (2014 ).
+In this derivation we will use the ROI
+b 60< ∣∣ ,ℓ 45 .<∣∣
+11The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+5.1.1. Subtraction of Gas-correlated Emission and Point Sources from
+the Data
+Theﬁrst step in modeling the Fermi bubbles is to subtract
+the gas-correlated emission and PSs from the data. We ﬁt the
+data with a combination of gas-correlated emission compo-
+nents, the PS template obtained by adding 3FGL PSs (the
+overall normalization is free in each energy bin ), and a
+combination of smooth templates. The smooth components are
+introduced as a proxy for the other components of emission,
+such as IC, Fermi bubbles, Loop I, extended sources, and GC
+excess. They are required to avoid biasing the determination of
+the contribution from the gas-correlated templates in the ﬁt. As
+a basis of smooth functions we use spherical harmonics(calculated using the HEALPix package; Górski et al. 2005 ).
+The general basis of smooth functions makes it possible to
+model non-gas-related emission without a prede ﬁned template.
+As a basis of smooth templates, we select the 30 spherical
+harmonics that provide the largest improvement in likelihood
+out of the ﬁrst 100, i.e.,
+Y ,lmqj( )with degree l9(angular
+resolution ≈20°). In Section 5.1.3 we will test the consistency
+of the derivation by selecting the 60 most signi ﬁcant harmonics
+out of the ﬁrst 225 (degree l14, angular resolution ≈14°)
+and the 90 most signi ﬁcant harmonics out of 400 (degree
+l19, angular resolution ≈10°). An example of data ﬁtting by
+a combination of gas-correlated emission components, PSs, and
+spherical harmonics is shown in Figure 6.
+To speed up the calculations in this subsection, we use a
+quadratic approximation to the log likelihood in Equation (1),
+d,4
+iii
+i22
+2åcm
+s=-()()
+where diis the photon counts in pixel iandμiis the model
+counts. The statistical uncertainty is calculated by smoothing
+the data count maps in each energy bin, dii2s=˜, to avoid bias
+in using either data or the model as an estimator of standarddeviation (see, e.g., Appendix A in Ackermann et al. 2014 ).
+The smoothing radius Ris chosen in each energy bin
+independently, such that there are at least 100 photons onaverage inside a circle of radius R. The minimum smoothing
+radius is 1 °, while the maximum smoothing radius is 20 °. For
+smoothing, photon counts inside the PS mask are approximated
+by an average of the neighboring pixels outside the mask.
+5.1.2. Decomposition into Spectral Components
+We use the results of the previous subsection to subtract the
+gas-correlated emission and PSs from the data. An example ofthe residual map summed over energy bins between 1.1 and
+6.5 GeV is shown in the left panel of Figure 7. These residuals
+primarily consist of the Fermi bubbles, IC emission, isotropic
+background, and Loop I.
+At latitudes
+b 10> ∣∣ the bubbles have an approximately
+uniform spectrum (e.g., Hooper & Slatyer 2013 ; Ackermann
+et al. 2014 ). We will assume that the spectrum of the bubbles at
+low latitudes is the same as at high latitudes and use the
+difference between the spectrum of the bubbles and that ofother components to determine a template for the bubbles at
+low latitudes. The assumption about the bubble spectrum at low
+latitudes is a limitation of the current method, but, as we willsee below, we will only need to use the spectrum in a relativelysmall energy range between 1 and 10 GeV. In this energy rangetheFermi bubbles have a spectrum markedly different from the
+other gamma-ray emission components (see, e.g., Figure 1),
+and the LAT PSF is relatively good compared to energies
+below 1 GeV.
+We further decompose the residuals, obtained by subtracting
+the gas-correlated emission and PSs from the data, as acombination of components correlated with the spectrum of the
+Fermi bubbles at high latitudes and the spectrum of the sum of
+IC, isotropic, and Loop I components. Between 1 and 10 GeVthe high-latitude bubble spectrum is well ﬁt by a power law
+∝E
+−1.9, while the sum of IC, isotropic, and loop I components
+obtained in the Sample Model (Section 2.2 )is∝E−2.4. In this
+section we do not include a model for the GC excess
+component; we will take it into account as a separate spectral
+component in the next section. The model is determined as acombination of two spectral components
+ME EH E ES ,5 iii 01.902.4=+aa a--() () ( )
+where αis the energy bin index for energies between 1 and
+10 GeV, iis the pixel index, and HandSare de ﬁned as a hard
+and a soft template. The reference energy is taken to beE
+0=1 GeV; in this case the values of the Hand Smaps
+correspond to contributions at 1 GeV. The maps HiandSiare
+found by minimizing the χ2similar to the χ2in Equation (4):
+RM,6
+Eiii
+i2
+1G e V 1 0G e Vpixels 2
+2 åå c
+s=-aa
+a <<a()()
+whereRiaare the residual maps obtained by subtracting gas-
+correlated emission and PSs from the data (Figure 7, left ). The
+statistical uncertaintyi2sais estimated from smoothed count
+maps (Section 2.3 ). We represent the maps HiandSias linear
+combinations of residual maps: HfRi i H=åaa
+aand
+SfRi i S=åaa
+a. The coef ﬁcientsfHaandfSaare found by
+minimizing the χ2in Equation (6). The statistical uncertainties
+ofHandSare calculated by propagating the uncertainties of
+the mapsRia, e.g., fi H2
+H22
+is s =åaaa. The hard (Hi)and the soft
+(Si)component maps are presented in Figure 7. The hard
+component primarily contains the Fermi bubbles and is used
+below to derive an all-sky model of the bubbles; the softcomponent contains isotropic background, IC emission, andLoop I.
+5.1.3. Derivation of the Fermi Bubble Template
+To derive the Fermi bubble template, we take the map of the
+hard spectral component ∝E−1.9in signi ﬁcance units smoothed
+with a 1 °Gaussian kernel (Figure 8, top left )and cut in
+signiﬁcance at the level of 2 σrelative to the statistical
+uncertainty of the Himap discussed after Equation (6).A s
+one can see in Figure 8, the emission from the bubbles has a
+high signi ﬁcance and the cut at the 2 σlevel keeps most of the
+area of the bubbles. To eliminate the ﬂuctuations and residuals
+outside of the Fermi bubbles, we select only the pixels that are
+above the threshold and are continuously connected to each
+other. The resulting Fermi bubble templates are shown in
+Figure 8.
+One of the main assumptions in this derivation of the Fermi
+bubbles is that their spectrum between 1 and 10 GeV below
+b 10= ∣∣ is the same as the spectrum above b 10= ∣∣ .T o
+reduce the dependence on this assumption, we split the derivedFermi bubble template into two templates: high latitude
+12The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+(b 10> ∣∣ )and low latitude (b 10< ∣∣ ). The corresponding
+templates are shown in the bottom panels of Figure 8. The
+spectra of components derived with the new Fermi bubble
+templates in the Sample Model are shown in Figure 9. The
+spectrum of the low-latitude bubbles is similar to the spectrumof the bubbles at high latitudes between ∼100 MeV and
+∼100 GeV, which supports the hypothesis of the homogeneous
+spectrum of the bubbles as a function of latitude. However,
+above 100 GeV the low-latitude bubble spectrum continues tobe hard, while the high-latitude spectrum of the bubblessoftens.
+The effect of the introduction of the low-latitude bubble
+template on the GC excess spectrum is shown in the right panelof Figure 9. Note that the Fermi bubble template in the Sample
+Model is determined only for
+b 10> ∣∣ . The GC excess above10 GeV is taken up by the bubble template, while between 1
+and 10 GeV the GC excess is reduced by a factor of 2 or more.
+To test the robustness of the bubble template derivation and
+the effect on the GC excess ﬂux, we also show the results for
+choosing different bases of smooth functions ℓmax =9, 14, and
+19 (Section 5.1.1 ); different indices for the hard component
+nhard =−1.8 and −2.0; different indices for the soft comp-
+onent nsoft=−2.3 and −2.5 (Section 5.1.2 ); and different
+signiﬁcance thresholds in the derivation of the bubble template
+σcut=1.8 and 2.2. The largest effect comes from the change in
+the soft component index nsoft=−2.3. The reason is that with
+the harder spectrum of the soft component a part of the bubble
+template is now attributed to the soft component. As a result,the bubble template has a smaller area, and it has a lesssigniﬁcant in ﬂuence on the GC excess ﬂux.
+Figure 6. Example of modeling the data by a combination of gas-correlated components, PSs, and spherical harmonics. Top left: data summed in energy bins betwee n
+1.1 and 6.5 GeV. Top right: combination of gas-correlated components and PSs. Bottom left: combination of the 30 most signi ﬁcant spherical components out of the
+ﬁrst 100 (Ylmwith l9)that model the remaining components of gamma-ray emission. Bottom right: residual after subtraction of gas-correlated, PS, and spherical
+harmonics model from the data as a fraction of the data counts.
+13The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+In Figure 10we show the residuals plus the GC excess
+modeled by the gNFW template with index γ=1.25. We also
+show residuals in the model with all-sky bubbles without
+including a template for the GC excess. The excess remains inthe presence of the all-sky bubble template, but it is reducedcompared to the residuals in Figure 3. We note that Ajello et al.
+(2016 )modeled the Fermi bubbles as an isotropic emission
+component within a 15 °×15°region around the GC, which
+led to a limited effect on the GC excess. This differs from our
+analysis, in which the Fermi bubbles have nonuniform intensity
+and become increasingly brighter near the GP, as derived fromthe SCA analysis. In conclusion, we ﬁnd that the Fermi bubbles
+can signi ﬁcantly reduce the GC excess or even explain it
+completely above 10 GeV.
+5.2. GC Excess Template Derivation
+In this section we apply the SCA technique to derive a
+template for the GC excess itself. Decomposition into spectral
+components was used previously by several groups to
+determine the morphology of the excess, in particular, de Boeret al. (2016 )found that the excess emission resembles the
+distribution of molecular clouds near the GC, while Huang
+et al. (2016 )argued that the excess morphology is spherical.
+Motivated by the possibility that the excess comes from apopulation of MSPs (Brandt & Kocsis 2015 ), we add the third
+spectral component with an average spectrum of observed
+MSPs
+EeE 1.6 4 GeVµ--(e.g., Cholis et al. 2014 ; McCann 2015 ).
+Consequently, we ﬁt the residuals obtained after subtracting the
+gas-correlated emission and PSs in Section 5.1.1 between 1 and
+10 GeV with three spectral components, hard EeE 1.6 4 GeVµ--
+(MSP like ), medium ∝E−1.9(bubble like ), and soft ∝E−2.4.
+The derivation of the templates for the components is
+analogous to Equations (5)and (6), except that now there are
+three components instead of two. The maps of the templates are
+shown in Figure 11.
+The templates for the Fermi bubbles are derived by applying
+a cut in signi ﬁcance at 1.5 σto the medium spectral component.
+Owing to the presence of the third spectral component, thebubble component becomes relatively less signi ﬁcant; thus, we
+choose the 1.5 σcut rather than the 2 σcut used in the previous
+subsection. The template for the GC excess is derived by
+applying a 2 σcut in the hard component (Figure 12). The
+statistical uncertainties of the spectral component maps arederived by propagating the statistical uncertainties in the data
+maps (see discussion after Equation (6)). As before, we also
+split the Fermi bubble template into high- and low-latitude
+bubbles.
+The corresponding spectra for the GC excess and high- and
+low-latitude bubbles are shown in Figure 13. The spectra of the
+bubbles at high and low latitudes are consistent with each otherbetween ∼1 and∼100 GeV. At energies <10 GeV, the GC
+excess spectrum derived with the gNFW pro ﬁle and the two-
+component SCA model of the bubbles is similar to the GCexcess spectrum derived in the three-component SCA model(Figure 13, right ).
+As an alternative derivation of the GC excess template, we
+use the spectrum
+EeE 0.5 1.1 GeVµ-derived in Ajello et al.
+(2016 )from the LAT data in the case of diffuse models with
+variable index and CR sources traced by distribution of pulsars.In this case the spectral shape is derived using a phenomen-ological spectral function to ﬁt the LAT data and is not based
+on any speci ﬁc scenario for the origin of the excess. The
+resulting spectrum for the alternative excess template is verysimilar to the spectrum derived with the template for the MSP-like spectrum.
+6. Modeling of Point Sources
+In this section we assess the impact of the modeling of PSs
+on the GC excess, with emphasis on the spectrum. Dif ﬁculties
+in modeling the PSs near the GC include confusion between
+PSs and features of interstellar emission from CR interactions
+with gas or radiation ﬁelds that are not modeled accurately.
+Spurious PSs included in a model may absorb a part of the GCexcess signal, while the ﬂux from nondetected PSs may be
+attributed to the GC excess.
+Figure 7. Decomposition of residuals after subtracting the gas-correlated emission and PSs from the data between 1 and 10 GeV into spectral components. Left:
+residual after subtracting the gas-correlated components and PSs from the data (Figure 6). Middle: hard spectral component correlated with spectrum ∝E−1.9—
+determined from the spectrum of the Fermi bubbles atb 10 .>∣∣ Right: soft spectral component ∝E−2.4—determined from ﬁtting the sum of IC, isotropic, and Loop I
+components in the Sample Model (Section 2.2 ). The hard and soft components are introduced in Equation (5). The maps are smoothed with a 1 °Gaussian kernel.
+14The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+For this purpose we consider the 3FGL catalog (Acero
+et al. 2015 )and the First Fermi LAT Inner Galaxy PS list
+(1FIG ), which was created in a dedicated study of diffuse
+gamma-ray emission and PSs near the GC (Ajello et al. 2016 ).
+The 3FGL catalog is based on 4 yr of Pass 7 reprocessed
+Source class events in the energy range between 100 and300 GeV (Acero et al. 2015 ). The 1FIG list is derived using
+5 yr and 2 months of Pass 7 reprocessed Clean class events in
+the energy range between 1 and 100 GeV (Ajello et al. 2016 ).
+We refer the reader to the respective papers for descriptions of
+the methodology employed to derive the source lists and the
+diffuse emission models. Additionally, we derive two new listsof PSs using the same data set as for our study of the GC excess(details are described in the following section ).
+6.1. Source- ﬁnding Procedures
+In this section we present two PS search methods that were
+applied to the same data sets and diffuse models used in thiswork. The data selection is the same as for the Sample Model:
+6.5 yr of UltraCleanVeto events with zenith angle cut θ<90°.
+The goal is to test how much the selection of a PS detectionalgorithm can affect the inferred properties of the GC excess.Although both algorithms are based on a local likelihoodmethod, there are differences in how the PSs are selected andlocalized. In both cases this is an iterative procedure from
+bright sources to faint ones, but the details are different, and we
+describe them in this subsection.
+Theﬁrst source detection algorithm is the same used in the
+production of the Fermi LAT source catalogs based on the
+pointlike package (Kerr 2010 )and described in Acero et al.
+(2015 ). The data are binned in energy, in 14 bands from
+100 MeV to 316 GeV (or four per decade ), and separated into
+front and back event types. For each band and event type, thephotons are binned using HEALPix, with pixel sizes selected tobe small compared with the PSF. The log likelihood is then
+computed summing over the energy bands and event types. As
+Figure 8. Derivation of the Fermi bubble template at low latitudes. Top left: hard component de ﬁned in Equation (5)in signi ﬁcance units. Top right: connected part of
+the hard components after applying a 2 σcut in signi ﬁcance. Bottom left and right: Fermi bubble templates above and below b 10= ∣∣ derived by splitting the masked
+hard component in the top right plot.
+15The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+described for 3FGL (Section 3.1.2 of Acero et al. 2015 ), the
+contributions to the likelihood function are “unweighted ”for
+the lower energies, to account for systematics of the diffusebackground spectrum. For the diffuse model, we use theSample Model from Section 2.2ﬁtted to the data, but without
+adding the gNFW template.T h ed a t aa r e ﬁtted using a diffuse model template, an
+isotropic template, and PSs in small ROIs covering the whole
+sky. The centers of the ROIs are determined by the centers ofHEALPix pixels with nside =12 (1728 tiles in total; average
+distance between the centers of ROIs is about 5 °),a n dt h e
+radius of the ROIs is 5 °. The pixel size depends on the energy.Figure 9. Components of gamma-ray emission and the GC excess spectrum in the presence of high- and low-latitude Fermi bubbles. Left: spectra of components; the
+templates are the same as in the Sample Model, except for the Fermi bubble templates, which are shown in Figure 8. Right: comparison of the GC excess spectrum in
+the presence of the high- and low-latitude bubble templates with the Sample Model for different parameters in the determination of the bubble templat e. The main
+effect comes from the variation of the index of the soft component nsoft=−2.3; all of the other alternative cases overlap and are hard to distinguish on the plot (see the
+text for the de ﬁnition of parameters ℓmax,nhard,nsoft, and σcut).
+Figure 10. Residuals in the model with an all-sky bubble template. Top: residuals plus GC excess for the model in the left panel of Figure 9. Bottom: residuals in the
+model with all-sky bubbles but without a gNFW template to model the GC excess.
+16The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+At energies below 10 GeV it is about 1 /5o ft h e6 8 %
+containment radius, e.g., for back-entering events around100 MeV the pixel size is about 1 °(nside =52).N o t et h a t
+nside =12 and nside =52 are nonstandard nside values,
+which are typically powers of 2. Above 10 GeV the analysis isunbinned. The likelihood for the data within the radius isoptimized with respect to the spectral parameters of the
+sources located within the tile . Correlations with sources
+outside the tile, but contributing to the likelihood, areaccounted for by iterating until changes of the likelihood foreach tile are small.
+In the search for new PSs, we calculate the likelihood ratio,
+expressed as a Test Statistic (
+TS2 l o g  =D )for an additional
+PS, assuming a power-law spectrum with a ﬁxed spectral index
+of 2.3 but variable ﬂux, at each of the positions de ﬁned bynside =512 [3.2M total ]. This is done for all pixels within each
+ROI. A clustering analysis is applied to the resulting map of thepixels with TS >25. All clusters with more than one pixel are
+used to de ﬁne seeds for inclusion in the model. As for all sources,
+the spectral index is now optimized and the source is localized. Ifthe power-law spectrum does not ﬁt the data well, then the
+spectrum is described by a log parabola (e.g., Acero et al. 2015 ).
+A source candidate is accepted for inclusion if its optimized TS is
+greater than 25 and the localization process converged properly.
+This source- ﬁnding procedure relies on the model being an
+accurate description of the data, given the set of sources anddiffuse components. Thus, the set of sources needs to be fairlycomplete, so that new sources are weak and do not strongly
+affect the current model. We have found that it is necessary to
+rerun the procedure several times after adding new sources.
+Figure 11. Spectral component templates in the three-component SCA model (Section 5.2 ). The templates are derived from the residuals after subtracting the gas-
+correlated emission and PSs between 1 and 10 GeV (Section 5.1.1 )assuming the following correlation of spectra: soft ∝E−2.4, medium ∝E−1.9, and
+hardEe .E 1.6 4 GeVµ--
+Figure 12. Fermi bubbles and GC excess templates derived from the spectral components in Figure 11. The Fermi bubble templates are derived similarly to the
+derivation in Figure 8, but with a cut of 1.5 σon the signi ﬁcance of the medium spectral component in Figure 11. The GC excess template is derived from the hard
+spectral component in Figure 11by applying a cut of 2 σin signi ﬁcance.
+17The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+For the determination of the second new list of PS, we use
+theFermipy package, a set of Python tools built around the
+Fermi LAT Science Tools that automate and enhance their
+functionalities.76In this case we use data between 300 MeV
+and 550 GeV binned with 5 bins per decade. The ROI is
+ℓb,2 2< ∣∣∣∣ , and we bin the data in 0 °.08 pixels (on a square
+grid ). As a preliminary step, we start with the 3FGL PS and
+reoptimize their positions. We then perform a ﬁt to the ROI
+with those sources and delete all 3FGL sources with TS <49.
+Then we build a TS map (map of TS of a PS candidate at each
+position in the spatial grid )and select maxima with TS >64
+and separation from other sources greater than 0 °.5. The best
+positions and location uncertainties of source candidates are
+derived from the likelihood pro ﬁle in the nine pixels around the
+TS map peak by ﬁtting it with a paraboloid. We repeat the
+selection of TS maxima and PS localizations two more times
+for TS >36 and separation greater than 0 °.4, and with
+TS>25 and separation larger than 0 °.3. After this third
+iteration, we have a list of sources with TS >25, and we
+perform a ﬁnalﬁt to the ROI to determine the PS spectra.
+Discussing the properties of the source candidates in the new
+lists is beyond the scope of this article. Instead, we focus in thefollowing section on the effects that the choice of a PS list has
+on the determination of the GC excess spectrum.
+6.2. Re ﬁtting Point Sources near the GC
+We start the analysis of the effect of PS characterization near
+the GC by combining PSs within 10 °from the GC into
+independent templates, using the spectra provided by the 3FGL
+catalog, pointlike orFermipy . We use one of these templates at
+a time together with the GC excess template, the other diffuseemission components, and the PS template determined with
+sources outside of 10 °from the GC. The effect on the GC
+excess spectrum is shown in the left panel of Figure 14.A n
+independent template for sources inside 10 °generally leads to a
+softer GC excess ﬂux at energies below 1 GeV, while above
+1 GeV the GC excess ﬂux is not affected signi ﬁcantly by the
+introduction of the independent PS template for sources within10°. To test the effect of the PS mask, we also include a model
+with 3FGL templates where we do not mask PSs within 10 °
+from the GC. In this case we ﬁnd an overall reduction of the
+ﬂux attributed to the GC excess. The 1FIG list is not considered
+in this step because the spectra are provided only for energies
+larger than 1 GeV. The spectra for the Fermipy sources are
+extrapolated from the energies above 300 MeV used todetermine the source list, which is likely the cause for thedeviations of the GC excess spectrum at lower energies withrespect to the other determinations.
+To allow more freedom in PS modeling, we also re ﬁt the
+spectra of the PSs within 10 °from the GC with a free
+normalization for each source in each energy bin indepen-dently. The 3FGL Catalog has 76 sources within this region,and so our model has 76 additional free parameters in eachenergy bin compared to the Sample Model. The 1FIG cataloghas 48 sources inside
+bℓ,7 . 5 .< ∣∣∣ ∣ Pointlike provides 104 PS
+candidates, and Fermipy has 127 PS candidates inside
+R<10°. Due to limited statistics at high energies, we restrict
+the energy range to 100 MeV –300 GeV (23 energy bins )for
+these ﬁts. Similarly to the Sample Model, PSs more than 10 °
+away from the GC (outside of bℓ,7 . 5< ∣∣∣ ∣ in the case of
+1FIG )are combined in a single template based on the 3FGL
+catalog. Diffuse emission components, extended sources, theLMC, and Cygnus also have independent templates: all thesetemplates have free overall normalization in each energy bin.We mask regions of 1 °radius for the 200 brightest PSs outside
+of 10°from the GC.
+The spectra derived for the GC excess are shown in the right
+panel of Figure 14. The spectrum below a few GeV is clearly
+dependent on the data set, the diffuse emission model, andthe method used to derive the PS source list. In several casestheﬂux attributed to the GC excess is larger than in the Sample
+Model. In the case of the 3FGL Catalog, this could beattributed to an overestimation of the PS ﬂuxes near the GC
+stemming from not having accounted for an excess at the GCexplicitly. The largest effect is observed for re ﬁtting 1FIG
+sources that were derived using data above 1 GeV, without
+accounting in any way for a GC excess, and 1FIG has the
+fewest number of PSs near the GC, due to rather strict selectioncriteria (Ajello et al. 2016 ). On the other hand, re ﬁtting sourcesFigure 13. Fermi bubble and GC excess spectra. The templates of the components are the same as in the Sample Model, but with the bubbles and the GC excess
+templates derived in Figure 12. In the right panel, the GC excess spectrum labeled “SCA bubbles ”is the same as in the right panel of Figure 9. The GC excess labeled
+“3-component SCA ”is the same as the GC excess spectrum in the left panel; it is derived using the template in Figure 12. The “SCA pulsar index scaled ”spectrum is
+determined with the GC excess template assuming one of the spectra for the GC excess derived by Ajello et al. (2016 )(see the text for details ).
+76http://fermipy.readthedocs.io /en/latest/
+18The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+individually above 10 GeV reduces the ﬂux attributed to the
+excess for all PS lists. This is consistent with the analysis ofLinden et al. (2016 ), who ﬁnd that the GC excess above
+∼10 GeV can be explained by a contribution of PSs.
+In the derivation of the new lists of PS, we did not account
+for large-scale residuals, as done, e.g., in Acero et al. (2016 )for
+the derivation of the 3FGL catalog, or speci ﬁcally for an excess
+near the GC. This is likely to result in several spurious sourcesthat absorb positive residuals due to underprediction of diffuseemission. We use them as a conservative starting point in the
+derivation of the GC excess component, since some part of the
+emission from this component will be attributed to spuriousPSs. By allowing free normalizations for both the gNFW
+template and the PSs, we have also tested whether the gNFW
+template is preferred relative to a combination of resolved PSsfrom a statistical point of view. We ﬁnd that in some cases
+reﬁtting PSs results in larger ﬂux attributed to the GC excess at
+energies below a few GeV; however, for the pointlike
+algorithm, re ﬁtting the PSs leads to smaller GC excess ﬂux
+for all energies. The conclusion is that although all PS detection
+algorithms are based on maximizing a local likelihood, thedetails on how the PSs are selected are important and may havea signi ﬁcant in ﬂuence on the GC excess.
+7. Summary of the Spectral Results
+Table 2summarizes the impact on the measured spectrum of
+the excess of the different sources of uncertainties consideredin the previous sections. In Figure 15we show the spectrum of
+the GC excess with the uncertainty band encompassing all the
+variations in analysis setup and modeling of other gamma-rayemission components considered in our study. The GC excess
+peaks at ∼3 GeV as reported in the literature. Large
+uncertainties of various nature affect the determination of theGC excess spectrum. The upper edge of the uncertainty band
+for energies below 2 GeV is due to uncertainties in PS
+modeling, while above 2 GeV the upper band is driven by themodel with CR sources traced by OB stars. The lower edge of
+the uncertainty band below 1 GeV and above ∼6 GeV is
+consistent with zero, which is due to additional CR sourcesnear the GC, the Fermi bubbles, and modeling of PSs. The
+excess remains signi ﬁcant in all cases in the energy range from1 GeV to a few GeV, although its ﬂux is found to vary by a
+factor of 3 owing to uncertainties in the modeling of IC
+emission, additional CR sources near the GC, and a contrib-ution of the low-latitude emission from the Fermi bubbles.
+Figure 15also shows that our determination of the GC
+excess spectrum is generally consistent with previous determi-nations in the literature, but our assessment of systematicuncertainties is generally larger than that reported in other
+studies. We note that the ROIs used to determine the ﬂux and
+theﬂux pro ﬁles assumed are different for different analyses,
+and thus the curves cannot be compared quantitatively. Themain purpose of the ﬁgure is to show that there is a qualitative
+agreement.
+8. Morphology of the GC Excess
+Characterizing the morphology of the GC excess is
+important to understand its nature. In particular, sphericalsymmetry is expected for DM annihilation, as well as, to a
+good approximation, for a population of MSPs in the bulge of
+the Milky Way
+(e.g., Brandt & Kocsis 2015 )or young pulsars
+produced as a result of star formation near the GC (O’Leary
+et al. 2015 ), while a continuation of the Fermi bubbles to the
+GP may have a bi-lobed shape (e.g., Acero et al. 2016 ). There
+are claims of both spherical (e.g., Calore et al. 2015 ; Daylan
+et al. 2016 )and bi-lobed (e.g., Yang & Aharonian 2016 ;
+Macias et al. 2016 )morphology of the excess.
+In Section 5.1, we derived an all-sky template for the Fermi
+bubbles, assuming that the bubble spectrum at low latitudes is
+the same as the spectrum at high latitudes in the energy rangebetween 1 and 10 GeV. We have also shown in Section 5.1that
+there is excess emission near the GC remaining after
+accounting in that way for a low-latitude component of the
+Fermi bubbles. Thus, it is plausible that a separate emission
+component is present near the GC with a spectrum that differsfrom the Fermi bubbles at high latitude. In the rest of this
+section we will discuss the morphological properties of the GC
+excess, in light of the uncertainties in the models of foreground
+emission and with special focus on the differences whenaccounting or not for low-latitude emission from the Fermi
+bubbles.Figure 14. GC excess spectra in models with adjusted spectra for PSs within 10 °of the GC. Left: all sources within 10 °from the GC are combined in a single
+template. Right: PSs within 10 °(bℓ,7 . 5< ∣∣∣ ∣ in the case of 1FIG )from the GC are ﬁtted independently in each energy bin. The curves correspond to 3FGL catalog,
+1FIG list, and the PS lists derived with our data set and diffuse models using pointlike andFermipy .
+19The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+A detailed study of the morphology is complicated by the
+modeling uncertainties in the GP (Appendix B), so we focus on
+integrated quantities, namely, the GC excess spectrum in
+quadrants; longitude, latitude, and radial pro ﬁles; and the
+centroid position and radial index of the gNFW GC excesstemplate.
+8.1. GC Excess Spectrum in Quadrants
+In this section, we derive the spectrum independently in
+sectors along and perpendicular to the GP by dividing the
+gNFW template into four templates centered at the GC with anopening angle of 90 °: top, bottom, left, and right. The ﬁt is all-
+sky, and the only difference from the Sample Model is that now
+we have four independent templates for the excess in the four
+quadrants instead of a single one. The spectra of the quadranttemplates are shown in the left panel of Figure 16. The spectra
+of the top, bottom, and right quadrants are similar to each other,
+while the spectrum in the left quadrant is different from theother three.
+Let us recall that in the Sample Model, the Fermi bubble
+template is de ﬁned only for
+b 10 .>∣∣ The difference in the
+spectra of the quadrant templates may be due to an asymmetry
+in emission from the Fermi bubbles near the GC (see Figure 8).
+To qualitatively investigate this hypothesis, we “correct ”the
+spectrum of the left quadrant by adding a bubble-like spectrum(as derived in the Sample Model in Figure 1)and abackground-like spectrum (∝E−2.4, the same as the soft
+spectral component in the derivation of the all-sky bubbletemplate )with free normalizations adjusted so that differences
+with respect to the bottom quadrant are minimized. We take thebottom quadrant as a reference since it is the least contaminated
+by emission from the GP and local gas to the north of the GC.
+The “corrected ”left quadrant spectrum is compared to the
+others in the right panel of Figure 16. This shows that it is
+plausible to have a spherical excess on top of emission from theFermi bubbles and other foregrounds. Another implication is
+that the bubbles are contributing mostly to the right, top, andbottom quadrants, i.e., the contribution is asymmetric with
+respect to the GC, which is consistent with the description of
+the bubbles by Acero et al. (2016 ).
+Negative values of the GC excess spectrum below 1 GeV in,
+e.g., the right panel of Figure 16are troubling. Throughout the
+paper, we restrict the values of the diffuse emissioncomponents to be non-negative, but since the presence of theGC excess is not known a priori, we treat it as a “residual ”
+component and allow both positive and negative values. If the
+morphology of the foreground components is not modeledperfectly, the ﬁt can try to compensate for imperfections by
+subtracting the GC excess template such that the correction canbe larger than the otherwise positive ﬂux from the excess
+component. Indeed, we notice that the contribution from thebackground-like component in the right panel of Figure 16isTable 2
+Summary of the Effect on the GC Excess Spectrum of Variations of Data Selections and Inputs in the Sample Model
+Variation Parameters Effect on GC excess Energy range
+Choice of the data sample Clean, UltraCleanVeto, Minor All
+UltraCleanVeto PSF 2 and 3 Slightly larger Below 1 GeV
+Choice of the ROI bℓ,1 0< ∣∣∣ ∣ Signi ﬁcantly larger Below 1 GeV
+bℓ,2 0< ∣∣∣ ∣ Slightly smaller All
+bℓ,3 0< ∣∣∣ ∣ Smaller Below a few GeV
+Tracers of CR sources OB stars Larger All, especially below 1 GeV
+Pulsars and SNRs Minor All
+Propagation halo size z=4 kpc Smaller Below a few GeV
+R=30 kpc Minor All
+Spin temperature Optically thin Minor All
+IC models Split in 5 rings Smaller All
+Combine all rings and LL
+ISRF components Smaller All, especially below a few GeV
+Gas distribution Planck , GASS surveys Slightly smaller Below 1 GeV
+SL extinction Larger Below 1 GeV
+GC CR sources Bulge electron source Smaller Between 1 and 10 GeV
+CMZ, z=2, 4 kpc Minor All
+CMZ, z=8 kpc Smaller Below a few GeV
+Fermi bubbles L Excess vanishes Below 1 GeV, above 10 GeV
+Smaller Between 1 and 10 GeV
+PS templates within 10 ° 3FGL, Pointlike Slightly larger Below 1 GeV
+Fermipy Larger Below 1 GeV
+Reﬁt PS within 10 ° 3FGL, Fermipy, 1FIG Larger Below a few GeV
+Pointlike Smaller All, especially below a few GeV
+3FGL, Pointlike, Fermipy, 1FIG Smaller Above 10 GeV
+Note. The effect is relative to the GC excess spectrum in the sample model. More details can be found in Figures 5,9,13, and 14. Sample model GALPROP
+parameters: CR production traced by pulsars (Lorimer et al. 2006 ); propagation halo z=10 kpc, R=20 kpc; spin temperature 150 K (see Section 2.2for details ).
+20The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+negative, i.e., one needs to subtract the background-like
+spectrum from the left quadrant to minimize differences with
+the bottom quadrant, and the GC excess spectrum in the four
+quadrants is mostly positive with respect to this “corrected ”
+zero level.
+Figure 17shows the spectra of the four quadrants once the
+all-sky bubble template derived in Section 5is included in the
+ﬁt. Similarly to Figure 13, the spectrum of the quadrant
+templates changes dramatically, and emission remains sig-
+niﬁcant only below 10 GeV. The spectra in the four quadrants
+are closer to each other, but not yet consistent within thestatistical uncertainties. This inconsistency, however, may be
+due to an imperfect derivation of the Fermi bubble template.
+In summary, we ﬁnd that establishing whether the GC excess
+has spherical morphology is challenging, due to uncertainties in
+the contribution from low-latitude emission from the Fermi
+bubbles. However, at present we cannot exclude that acomponent with spherical morphology is present in addition
+to a continuation of the Fermi bubbles.
+8.2. Longitude, Latitude, and Radial Pro ﬁles
+In Section 5.2, we derived templates for the emission near
+the GC correlated with the Fermi bubble spectrum at high
+latitudes and with an average MSP spectrum. Longitude andlatitude pro ﬁles for the component with a bubble-like spectrum
+(Figure 11middle )are presented in Figure 18. The pro ﬁles are
+shown at a reference energy of 2 GeV. The latitude pro ﬁles are
+relatively ﬂat for
+b 10 50 ,∣∣ but the intensity increases
+by a factor of ∼5 near the GP. One can also see that theemission associated with the Fermi bubbles in this model is
+shifted to the right (negative longitudes )relative to the GC.
+Similarly, longitude and latitude pro ﬁles of the MSP-like
+component (Figure 11, right panel )are shown in Figure 19. The
+latitude and longitude pro ﬁles of this component are symmetric
+with respect to the GC, with a possible enhancement along theGP, which can be expected as a contribution from millisecond
+and regular pulsars in the Galactic disk (e.g., Faucher-Giguère
+& Loeb 2010 ; Grégoire & Knödlseder 2013 ).
+Finally, in Figure 20we compare the pro ﬁle as a function of
+radial distance from the GC at 2 GeV for the MSP-like spectral
+component with the total gamma-ray data and the gNFWproﬁles in the Sample Model, as well as for a standard NFW
+annihilation pro ﬁle. The MSP-like pro ﬁle is similar to the DM
+annihilation pro ﬁles (gNFW with γ=1.25 in the Sample
+Model and the NFW pro ﬁle)within ∼5°of the GC, but it
+ﬂattens at a higher intensity than the gNFW pro ﬁle, which is
+likely related to the positive values of the MSP-like componentalong the disk; cf., the longitude pro ﬁle in the right panel of
+Figure 19.
+We also checked that using alternative PS templates within
+10°from the GC derived for UltraCleanVeto data with
+pointlike andFermipy tools (Section 6.2 )does not signi ﬁcantly
+affect any of the pro ﬁles for the MSP-like component.
+In summary, the pro ﬁles in latitude, longitude, and radial
+distance from the GC corroborate the hypothesis that the excess
+is not obviously consistent with expectations from DM
+annihilation with gNFW /NFW density pro ﬁles, but such a
+component may exist in addition to emission from the Fermi
+bubbles and from sources in the Galactic disk /bulge such
+as MSPs.
+8.3. Position and Index of the Generalized NFW Pro ﬁle
+In this section, we assess the relative likelihoods of models
+in which we vary the centroid position of the gNFW
+annihilation template around the GC, as well as its radial
+index γ. Results from the scan in the position of the center of
+the gNFW template are shown in Figure 21. The spectra of the
+excess for cases with the component centered at b=0°and
+with various longitudes are presented in the left panel of
+Figure 21, while the 2l o g-D values for different locations
+around the GC are shown in the right panel of Figure 21. The
+best-ﬁt position is at l≈−1°. The spectrum of the excess
+depends on the location of the centroid. The spectra for thecenter at positive longitudes look similar to the GC excess in
+the left quadrant in the left panel of Figure 16, while the spectra
+for negative longitudes resemble more the spectrum of theFermi bubbles with a less pronounced bump at a few GeV and
+the spectrum extending to lower energies. These ﬁndings are
+consistent with the possibility that the GC excess to the right
+(negative longitudes )from the GC is mixed with a contribution
+from low-latitude emission of the Fermi bubbles above
+10 GeV. This is also consistent with the observation by Calore
+et al. (2015 )that the best- ﬁt longitude of the gNFW pro ﬁle is at
+l≈−1°below 10 GeV and shifts to l−2°above 10 GeV.
+The
+2l o g-D values for the variations of the gNFW center
+when the model includes the all-sky bubble template (i.e.,
+including the component at low latitudes )are shown in
+Figure 22. In the left panel we show results for all-sky gNFW
+templates, while in the right panel we truncate the gNFWtemplate at 10 °from its center to test whether the difference in
+the best- ﬁt location of the center is due to residuals away fromFigure 15. Spectrum of the GC excess. Points are derived using the Sample
+Model described in Section 2.2. The systematic uncertainty band is derived
+from taking the envelope of the GC excess ﬂuxes for different analysis
+conﬁgurations and different models of diffuse gamma-ray emission and sources
+in Sections 3–6. Our results are compared to previous determinations of the GC
+excess spectrum from the literature. Note that the area of integration varies indifferent cases. In this analysis we mask some bright PSs, which effectivelymasks the GC within about 2 °radius. Gordon & Macías (2013 )have a 7 °×7°
+square around the GC. The ﬂux from Calore et al. (2015 )is obtained by taking
+the intensity in Figure 14 and multiplying by the area of the ROI
+(
+b 2 20 < < ∣∣ andℓ 20< ∣∣ )in their analysis. The ROI in Ajello et al.
+(2016 )is a 15 °×15°square around the GC. The two cases that we consider
+here correspond to the model with the CR sources traced by the distribution ofpulsars (Yusifov & Küçük 2004 ), where either only overall intensity (“ﬁt
+intensity ”)or both intensity and index (“ﬁt index ”)for the diffuse components
+spectra are ﬁt to the data (cf. Figure 13 of Ajello et al. 2016 ).
+21The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+the GC. Both the truncated and the all-sky gNFW templates
+have the best- ﬁt position at b=3°,ℓ=1°. The range of
+2l o g-D values is smaller when the all-sky bubble comp-
+onent is included in the model.
+The spectra of the GC excess and the 2l o g-D for
+different indices of the gNFW pro ﬁle when all other
+components are accounted for as in the Sample Model areshown in Figure 23. The step in the index scan was 0.1. The
+best likelihood is obtained for the standard NFW pro ﬁle with
+radial index γ=1. Scanning the pro ﬁle with other models
+from Section 4and from Section 6(including independent PS
+templates within 10 °from the GC ),w eﬁnd that for most of the
+models the best- ﬁt indices are between 0.9 and 1.2 (the scan
+step is 0.1 in each case ), which overlaps with the range of
+indices found by Calore et al. (2015 )and with the best- ﬁt index
+of 1.2 found by Hooper & Slatyer (2013 ).
+The results of a scan of the all-sky gNFW pro ﬁle in the
+presence of the all-sky bubble template derived in Section 5.1
+are shown in the left panel of Figure 24. The best- ﬁt index is
+equal to 0.4, which is signi ﬁcantly smaller than the best- ﬁtindex γ=1 obtained in the scan with the Sample Model. The
+results of the scan for the truncated gNFW template are shownin the right panel of Figure 24. The best- ﬁt index for the
+truncated template is 0.9.
+The rather large variations of the best- ﬁt index and the
+gNFW centroid in the presence of the all-sky bubble templateshow that the inferred morphology of the excess critically
+depends on the model of the Fermi bubbles near the GC, which
+can bias the derivation of the morphology and, as we haveshown in Section 5, the GC excess spectrum. Because of these
+large uncertainties, at present it is not possible to ﬁrmly
+associate the centroid of the excess with the GC itself orprecisely determine its density pro ﬁle.
+9. Investigation of DM Interpretation of the GeV GC Excess
+The predicted γ-ray signal from DM annihilation is strongest
+in the GC owing to its proximity and the enhanced density ofDM. However, searches for γ-ray emission from DM
+annihilating in the GC are complicated by foreground and
+background emission along the line of sight and also by otherprocesses that can produce γ-rays near the GC. In the previous
+sections we explored several issues related to the uncertainties
+in foreground /background modeling. We also introduced
+several non-DM templates to account for γ-ray emission in
+the inner Galaxy. In all cases, we continued to ﬁnd signi ﬁcant
+γ-ray emission correlated with the gNFW annihilation
+template. However, this type of investigation necessarilyremains incomplete. In this section, to explore the robustness
+of a DM interpretation of the GC excess, we contrast the region
+of the GC with control regions along the GP, where no DMsignal is expected.
+9.1. The GC and Control Regions along the Galactic Plane
+Many groups have shown that the spectral energy distribu-
+tion of the GC excess peaks at energies around a few GeV and
+can be ﬁt with a model of either ∼40 GeV DM annihilating to
+bb¯or∼10 GeV DM annihilating to τ+τ−(Goodenough &
+Hooper 2009 ; Hooper & Goodenough 2011 ; Hooper &Figure 16. Spectra of the GC excess template split into quadrants when all the other components are modeled as in the Sample Model from Section 2.2. Left: ﬂuxes of
+components integrated over the whole sky. Right: ﬂuxes of the quadrant templates where we add bubble-like (dotted line )and background-like (dashed line )spectra to
+the left quadrant spectrum to minimize the difference with the bottom quadrant spectrum (see the text for details ). Note that the y-axis in the right panel has a linear
+scale.
+Figure 17. Same as the left panel of Figure 16, but with the diffuse model
+including the all-sky bubble template (Section 5.1.3 ).
+22The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+Linden 2011 ; Gordon & Macías 2013 ; Hooper & Slatyer 2013 ;
+Abazajian et al. 2014 ; Calore et al. 2015 ; Daylan et al. 2016 ).
+We used DM annihilation spectra for a variety of DM
+masses and two representative DM annihilation channels, bb¯
+andτ+τ−, to model the GC excess spectrum that we found
+using our Sample Model (see Appendix C.1for details ).T o
+estimate the uncertainty level of the DM-like signal, we repeat
+the analysis by placing the gNFW template at differentlocations along the GP instead of the GC. Since we compareﬁts from many regions across the GP with varying levels of
+γ-ray intensity, we quantify the best- ﬁt DM component as a
+fraction of the effective background:
+fN
+b,7sig
+eff= ()
+where Nsigis the number of signal counts integrated over the
+energy bins and beffis the “number of counts ”in the effective
+background. If the signal were localized in a small region onthe sky with expected intensity much smaller than thebackground intensity, then the statistical variance of the signalmeasurement would be proportional to the number of back-
+ground counts in that region. In general, for a signal that coversFigure 18. Latitude and longitude pro ﬁles of the bubble-like component (the medium component in Figure 11). The normalization corresponds to the intensity of this
+component at 2 GeV.
+Figure 19. Latitude and longitude pro ﬁles of the MSP-like component (the hard component in Figure 11). The normalization corresponds to the intensity of this
+component at 2 GeV.
+Figure 20. Solid blue line: radial pro ﬁle as a function of distance from the GC for
+the total gamma-ray data at 2 GeV with bright PSs masked. Squares: radial pro ﬁle
+of the MSP-like spectral component (the hard component in Figure 11).D a s h e d
+red line: GC excess in the Sample Model modeled by the gNFW pro ﬁle
+(γ=1.25 ). Dot-dashed magenta line: GC excess pro ﬁle in the Sample Model with
+the NFW pro ﬁle(γ=1)replacing the gNFW pro ﬁle. Yellow band: expectation
+for a population of MSPs in th e Galactic bulge from disrupted globular clusters
+(Brandt & Kocsis 2015 ). All values correspond to intensity at 2 GeV.
+23The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+a large portion of the sky (or possibly the entire sky )with a
+varying intensity, one can determine a weighted sum of thebackground counts, the effective background, so that thestatistical variance of the signal is still proportional to this
+weighted sum (see Ackermann et al. 2015 ; Buckley et al. 2015 ;
+Caputo et al. 2016 ; Appendix C, for details about theFigure 21. Scan of the position of the gNFW template center near the GC. Left: spectra of the GC excess for the gNFW template center at b=0°. Right: best- ﬁt
+2l o g-D for different positions of the gNFW center around the GC. The minimum is at b=0°,ℓ=−1°, which corresponds to the largest ﬂux associated with the
+gNFW template in the left panel (this is where the GC excess contributions are the most signi ﬁcant ). We also note that the improvement in log likelihood is relatively
+symmetric as a function of latitude.
+Figure 22. Scan of the position of the center of the gNFW template near the GC including the all-sky bubble template. Left: all-sky gNFW template. Right: gNFW
+template truncated at 10 °from the center.
+Figure 23. Spectra and 2l o g-D for different choices of the index of the gNFW DM annihilation pro ﬁle. The best- ﬁt index for the Sample Diffuse Model is γ=1,
+which is the standard NFW pro ﬁle.
+24The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+evaluation of the effective background ):
+bN
+1,8
+iP
+Peff
+,i
+isig 2
+bkg=
+å -aa
+a()
+()()
+()
+where the sum is over energy indices αand pixel indices i,Nis
+the total number of counts, and Pisig
+a()(Pibkg
+a())are the signal
+(background )intensity distributions normalized to 1:
+PP 1ii ii ,sig
+,bkgå =å =aa aa() ( ). In a particular case, if there is
+one energy bin and the background is uniformly distributed
+over the whole sky PN 1ibkg
+pix=(), while the signal is
+uniformly distributed over a small number of pixels kpixso
+thatPk 1isig
+pix=()andNpix/kpix?1, then Equation (8)gives
+bNk N eff pix pix» · , which is the number of background counts
+in the signal region.
+Figure 25 (left )shows the GC excess spectrum in the Sample
+Model (Section 2.2 )in count space. In this ﬁt, the normal-
+ization of the GC excess template is ﬁt to the data, together
+with the other templates in each energy bin. The ﬁrst four
+energy bins had negative best- ﬁt normalizations of (−3.4 ±
+0.3 )×104,(−2.3 ±0.3 )×104,(−1.5 ±0.3 )×104, and
+(−1.3 ±1.8 )×103respectively. The errors given are the
+statistical errors only. Figure 25also shows the best- ﬁtD M
+annihilation spectrum for the bb¯channel for various values ofthe mass of the DM particle, mDM. The DM annihilation count
+spectra were calculated from their corresponding ﬂux spectra
+using the DMFitFunction within the standard Fermi Science
+Tools and the detector exposure for this data set. The signal
+counts Nsigfor each DM model are simply the integral of the
+best-ﬁt count spectrum. Therefore, we can evaluate the strength
+of the best- ﬁtting DM model relative to the effective
+background beff(see Figure 25, right ).
+We note that none of the DM ﬁts to the GC excess spectrum
+are very good (the reduced χ2is>30 for all ﬁts). In particular,
+the sample spectrum has a high-energy (>50 GeV )tail that
+cannot be explained by, e.g., <50 GeV DM annihilating to bb¯.
+However, as we have shown, the high-energy tail may beconsistent with a low-latitude extension of the Fermi bubbles
+(Section 5.1.3 ). Nevertheless, we consider the results of these
+ﬁts as we are interested in quantifying the “DM-like ”
+component of the spectrum for various DM models.
+In addition to the gNFW excess template, we also ﬁt the
+standard NFW (γ=1.0 )DM annihilation template since it is
+the best- ﬁt template for the excess in our analysis (Section 8.3 ).
+Figure 26shows the best- ﬁtN
+sigof various DM models to the
+GC excess spectra both in the Sample Model and in the model
+including the SCA bubbles (Section 5.1.3 )as a fraction of beff.
+The bubble template derived using the SCA method canaccount for a large amount of the GC excess, especially at highFigure 24. 2l o g-D from a scan of the gNFW index in a model with the all-sky bubble template derived in Section 5.1. Left: all-sky gNFW pro ﬁle. Right: gNFW
+proﬁle truncated at 10 °from the GC. The difference in the best- ﬁt index value is interpreted as being due to the in ﬂuence of residuals away from the GC.
+Figure 25. Left: Best- ﬁt DM model for the GC excess energy spectrum in the Sample Model (Section 2.2 )transformed to counts. Different curves correspond to
+different masses of DM particles. Right: size of each best- ﬁt DM model to the GC excess spectrum in the Sample Model as a fraction of beff.
+25The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+energies. Therefore, the reduction of the amplitudes of the best-
+ﬁt DM models (especially at high masses )is expected.
+Because the GC is very bright in γrays, many of the DM
+models we test have very small statistical errors in inferred Nsig
+(δNsig<0.01 ). However, we are not able to model the γ-ray
+sky to a similar level of precision (recall that the fractional
+residuals from our ﬁts are typically in the range of −0.2 to 0.2;
+see Figure 3). Therefore, systematic uncertainties that may
+mimic or mask a DM signal need to be accounted for.
+To assess these systematic uncertainties beyond what was
+already done with model variations, we estimate Nsig,sys td byﬁtting
+for DM-like signals in control regions along the GP, based on twoassumptions: that the expected DM signal is approximately zerofor 30°l330°, and the systematic uncertainty scales with
+beff
+for effects that can induce or mask a DM-like signal. An excess
+may be a fraction of the background if it is caused by a single (or a
+few )errors in the modeling of the gamma-ray intensity, which are
+proportional to the “average ”emission, or when the uncertainty is
+dominated by errors in a single component that also dominates theoverall emission. Fluctuations due to several small effects, such asuncertainties in emission components where each component
+contributes a small fraction of the total emission, would be best
+estimated as a square root of the
+b;effin this case the characteristic
+values would be Nb sig eff . Fluctuations in emission that are
+caused by one or a few components that are not directly correlatedwith the overall gamma-ray emission, such as a local SNR or an
+AGN-like activity, would be best ch aracterized by their absolute
+values. Since the gamma-ray emission toward the GC is the
+largest, taking the fractional excess as a ﬁgure of merit to estimate
+its signi ﬁcance is the most conservative assumption, which we will
+adopt for our analysis.
+Control regions along the GP to estimate the modeling
+uncertainty were used before by Calore et al. (2015 ). They ﬁta
+DM-like spatial pro ﬁle along the GP and represented the results
+as a covariance matrix in energy bins, which is used todetermine the expected level of modeling uncertainty at theGC. Our approach is to ﬁt DM-like excess along the GP
+including both the spatial pro ﬁle and the energy spectrum of a
+DM annihilation channel. We then express the uncertainty as aratio of the signal to the local effective background. Both of
+these differences are likely to increase the estimate of the
+modeling uncertainty, since we get the maximal possible DM-like signal in each location, and then we divide by the localbackground, which is smaller along the plane than at the GC.
+We perform all-sky ﬁts using the same diffuse emission
+components as in the Sample Model, but we shift the gNFWexcess template in steps of 10 °in longitude at b=0f o r
+30°l330°. Figure 27shows the amplitudes of the best- ﬁt
+DM model spectra (as a fraction of
+beff)measured in the control
+regions.Figure 27. Size of best- ﬁt DM models as a fraction of beff(see the text )evaluated for the gNFW template shifted in steps of 10 °for 30°l330°atb=0°. The red
+curve is the value chosen as an estimate of our systematic uncertainty (see the text ). Only positive signals are shown. Small negative amplitudes are found only below
+200 MeV in a few control regions. The four largest excesses are represented by colored lines, and the corresponding longitude is given in the legend.Figure 26. Fraction of best- ﬁt DM model counts relative to befffor various GC excess spectra, as a function of dark matter mass. The curves show DM model ﬁts to
+the GC excess spectral points (see an example of the ﬁts in Figure 25)using the Sample (solid lines )and SCA bubble (dashed lines )background models, and gNFW
+(black lines )and standard NFW (red lines )spatial templates used for the GC excess. Left: ﬁts for DM annihilation to bb¯. Right: ﬁts for DM annihilation to τ+τ−.
+26The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+Though the ﬁts were allowed to be negative, most longitudes
+preferred a positive DM normalization. Also, about half of the
+total ﬁts hadf 0.01<∣∣ .W ed e ﬁneδfGPas the value of ffor
+which we obtain larger values in only 16% of the ﬁts along the
+GP, which corresponds to a one-sided 1 σexclusion in the case
+of a Gaussian distribution. We take δfGPas representative of the
+amplitude of the components of the diffuse γ-ray residuals
+consistent with DM signals, and therefore a measure of the
+systematic uncertainty for our DM search in the GC:
+ff ,9syst GPdd= ()
+Nb f .1 0 sig,syst eff syst dd=´ ()
+See Appendix Cfor more on the motivation of this choice and
+the application of δfGPin our ﬁtting.
+Ac o m p a r i s o no ft h e ﬁts in the GC to the characteristic
+Nsig,sys td in Equation (10)is shown in Figure 28. The largest DM
+signal as a fraction of beffin the GC in the Sample Model is
+similar to the characteristic uncertainty level from the GP scans.Consequently, we cannot claim that the DM interpretation of thesignal in the GC is robust when we compare it with the DM-like
+signals in the control regions along the GP. We note that the
+same conclusion holds when an NFW pro ﬁle is adopted for the
+spatial distribution of the DM, and for the model that includes
+all-sky SCA bubbles. In the latter case, the GC signal is much
+smaller than those seen in the GP scan. Furthermore, the sameconclusions are reached if we adopt higher energy thresholds of
+300 MeV and 1 GeV for the analysis.
+As a corollary from these results, we conclude that the model
+variations discussed earlier in the paper may not capture the
+complete range of systematic uncertainties that can mimic a
+DM signal. Either the variations considered do not cover thefull range of the associated model uncertainties, or there areother sources of gamma rays that play a signi ﬁcant role. A
+noteworthy candidate for the latter is a population of
+unresolved sources, such as MSPs, that other analyses (Bartels
+et al. 2016 ; Lee et al. 2016 ; Brandt & Kocsis 2015 )are
+indicating as a likely cause of the GC excess.
+9.2. Limits on DM Annihilation
+In the previous subsection we have found that, although the
+GC excess is statistically signi ﬁcant and it is present in all
+models that we have considered, a similar level of fractionalexcesses is found at other locations along the GP, where noDM annihilation is expected. As a consequence, a DMinterpretation of the GC excess is not robust. Since we cannot
+claim a detection of DM annihilation at the GC, we derive
+upper limits on the DM annihilation cross-section. In previousstudies, e.g., Ackermann et al. (2015 )and Buckley et al.
+(2015 ), the systematic uncertainty inferred from control regions
+was used also to set upper limits on the DM cross-section. InAppendix C.1we use the modeling uncertainty derived from
+the scan along the GP in a derivation of upper limits on DM
+annihilation. This derivation assumes that the probability ofhaving negative ﬂuctuations (i.e., masking a real DM signal )is
+as large as the positive ﬂuctuations seen in the GP scan.
+However, this is likely to be too conservative since in almost all
+ﬁts in control regions along the GP we found positive DM-like
+excesses (Figure 27).
+Therefore, here we proceed to set limits on
+vsáñby requiring
+a tentative DM signal to not exceed the largest GC excess ﬂux
+value in each energy bin for all the background models
+considered in this work (i.e., the upper edge of the blue band in
+Figure 15)at the 95% statistical con ﬁdence level. Results are
+shown in Figure 29and compared with other relevant DM
+limits from the literature.
+Our limits are similar to the DM parameters found in works
+where the GC excess has been interpreted as DM. This is notsurprising since all the independent GC excess analyses use
+similar data sets and interstellar emission models. We also see
+that the gNFW limits are stronger than the NFW limits sincethe gNFW pro ﬁle has a steeper inner slope of the DM density
+toward the GC. Both gNFW pro ﬁles provide stronger limits
+than the dSph analysis at masses above a few TeV (few
+hundred GeV )for the
+bb¯(τ+τ−)channel. Although for the
+Sample Model the GC analysis also provides stronger than
+dSph DM limits below few tens of GeV for the bb¯channel,
+these limits are subject to larger modeling uncertainties. This isthe regime where the analyses become statistics limited. Since
+the expected signal in our GC analysis is much larger than that
+of the dSph analysis, the statistical uncertainties are smaller,resulting in more constraining limits.
+10. Conclusions
+We have characterized the so-called “Fermi GC GeV
+excess ”using 6.5 yr of Pass 8 Fermi LAT data. We
+investigated the uncertainties in the spectrum and morph-ology of the excess due to the analysis procedure and themodeling of other components of emission near the GC,Figure 28. Comparison of the size of best- ﬁt DM models as a fraction of beff(see the text )evaluated for the gNFW template in the GC compared to the systematic
+uncertainty determined from the GP scan (see the text ).
+27The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+including interstellar emission and resolved PSs. Speci ﬁ-
+cally, we have
+1. examined different choices for the event selection and
+analysis region (Section 3.1 );
+2. varied assumptions on CR production and propagation in
+the Galaxy (Section 4.1 )and allowed more degrees of
+freedom in the ﬁt of IC emission (Section 4.2 );
+3. considered alternative distributions of interstellar gas
+along the LOS to the GC (Section 4.3 );
+4. included sources of CRs near the GC (Section 4.4 );
+5. derived a model for the Fermi bubbles extending to low
+latitudes (Section 5); and
+6. tested different lists of PSs near the GC based on different
+background models and analyses (Section 6).
+Some of these tests had already been discussed in the literature, and
+we repeat them here with different parameter choices and a different
+data set for completeness. Several tests are presented in this work
+for the ﬁrst time. In particular, we exploit a decomposition of the
+gas along the line of sight based on SL extinction, we self-
+consistently determine PS lists fr om our analysis with Pass 8 data in
+the energy range from 100 MeV to 500 GeV, and we determine atemplate for the Fermi bubbles at low latitudes and for the excess
+itself using the SCA method. In addition, to test the robustness of a
+DM interpretation of the GC excess, we perform a systematicsearch for excesses with (generalized )the NFW annihilation pro ﬁle
+and with DM annihilation spectra fr om different channels in control
+regions along the GP, where we do not expect a DM signal.
+The main conclusions are as follows:
+1. an excess at the GC around a few GeV is statistically
+signiﬁcant in all the cases considered;
+2. the spectrum of the excess varies signi ﬁcantly depending
+on the analysis method /assumptions: the ﬂux changes by
+a factor of ∼3 at a few GeV, and even more dramatically
+at energies <1 GeV and >10 GeV (Figure
+15);
+3. emission from the Fermi bubbles is one of the major
+sources of uncertainty: in the presence of low-latitudeemission from the bubbles the excess can vanish above
+10 GeV, and below 10 GeV the ﬂux is reduced by a factor
+2(Figure 13);
+4. characterization of resolved PSs may signi ﬁcantly affect
+the spectrum of the GC excess, especially below 1 GeV
+(Figure 14);5. the excess has a complex morphology, and the simplest
+interpretation is that it is com posed of two contributions: bi-
+lobed emission from the Fermi bubbles that is displaced
+from the GC to negative longitudes, and residual emission,
+azimuthally symmetric around the GC with a spectrum thatpeaks around 3 GeV (Section 8);a n d
+6. excesses with fractional amplitude similar to the one in
+the GC are found to be fairly common in control regionsalong the GP (Figure 27).
+The range of explored uncertainties, albeit larger than in any
+other study to date, is yet not a full representation of theuncertainties in the modeling, because residuals persist in all
+cases considered. The spectrum and morphology of the excess
+are not obviously consistent with the expectations for DMannihilation, or at least suggest an underlying astrophysicalcomponent on top of a potential DM component. This is also
+consistent with the presence of similar fractional excesses along
+the GP where no DM signal is expected.
+Therefore, we derive stringent limits on the annihilation
+cross-section of DM particle candidates by requiring that theDM annihilation signal does not exceed the upper bound on theGC excess spectrum from the variations of conventional
+emission component models plus 95% statistical con ﬁdence.
+Weﬁnd that the limit on the annihilation cross-section is
+sensitive to the pro ﬁle of the DM distribution in the Galaxy.
+For the
+bb¯(tt+-)channel the thermal cross-section can be
+excluded for M<50 GeV (M<100 GeV )in the case of the
+gNFW pro ﬁle with γ=1.25, while for the standard NFW
+annihilation pro ﬁle the thermal cross-section is excluded for
+M<25 GeV (M<20 GeV ). Owing to larger expected signal
+and better statistics near the GC, the limits are moreconstraining than those from dwarf galaxies for M>1 TeV
+(M>100 GeV )in the case of the gNFW pro ﬁle with
+γ=1.25, and for M>8 TeV (M>600 GeV )for the standard
+NFW annihilation pro ﬁle.
+In summary, we ﬁnd that the GC excess is present in all
+models that we have tested, but its origin remains elusive: partof it may be attributed to the Fermi bubbles, but there may also
+be a contribution from interactions of CRs from sources in the
+proximity of the GC, from a population of yet unresolved PSs
+such as MSPs, or from annihilation of DM particles. Thefractional size of DM-like excesses relative to background inother locations along the GP is comparable to that in the GC.
+Therefore, a DM interpretation of the GC excess cannot beFigure 29. DM upper limits obtained by requiring that a DM signal not exceed the largest GC excess found in each energy bin in all background model scenarios
+considered in this work at the 95% con ﬁdence level assuming the gNFW (black )and NFW (red )DM pro ﬁles. Shown in blue are the upper limits from the recent
+analysis of 15 dwarf spheroidal galaxies using 6 yr of Fermi LAT data (Ackermann et al. 2015 ). The contours show the signal regions from recent analyses of the GC
+region (Abazajian et al. 2014 ; Calore et al. 2015 ; Daylan et al. 2016 ). The dotted line represents the thermal relic cross-section (Steigman et al. 2012 ).
+28The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+robustly claimed. We consequently derive limits on the DM
+particle properties. Future gamma-ray studies and multi-wavelength observations will be essential in searches for newPSs and for the characterization of the CR distribution and thestructure of the Fermi bubbles near the GC.
+The Fermi LAT Collaboration acknowledges generous
+ongoing support from a number of agencies and institutes thathave supported both the development and the operation of theLAT, as well as scienti ﬁc data analysis. These include the
+National Aeronautics and Space Administration and theDepartment of Energy in the United States; the Commissariat
+àl’Energie Atomique and the Centre National de la Recherche
+Scienti ﬁque/Institut National de Physique Nucléaire et de
+Physique des Particules in France; the Agenzia SpazialeItaliana and the Istituto Nazionale di Fisica Nucleare in Italy;the Ministry of Education, Culture, Sports, Science andTechnology (MEXT ), the High Energy Accelerator Research
+Organization (KEK ), and the Japan Aerospace Exploration
+Agency (JAXA )in Japan; and the K. A.Wallenberg Founda-
+tion, the Swedish Research Council, and the Swedish NationalSpace Board in Sweden.
+Additional support for science analysis during the operations
+phase is gratefully acknowledged from the Istituto Nazionale diAstro ﬁsica in Italy and the Centre National d ’Études Spatiales
+in France.
+We made use of data products based on observations
+obtained with Planck (http://www.esa.int /Planck ), an ESA
+science mission with instruments and contributions directly
+funded by ESA Member States, NASA, and Canada.
+This work was partially funded by NASA grants
+NNX14AQ37G and NNH13ZDA001N.
+Facilities: Fermi ,Planck .
+Software: Astropy (http://www.astropy.org ,A s t r o p yC o l l a -
+boration et al. 2013 ),F e r m i p y (http://fermipy.readthedocs.io /),
+GALPROP (http://galprop.stanford.edu /, Vladimirov et al. 2011 ),
+HEALPix (http://healpix.jpl.nasa.gov /,G ó r s k ie ta l .
+2005 ),
+ROOT (http://root.cern.ch /,B r u n&R a d e m a k e r s 1997 ),
+matplotlib (Hunter 2007 ).
+Appendix A
+Derivation of Gas Distribution with Starlight
+Extinction Data
+One of the most important uncertainties in the derivation of
+the GC excess ﬂux is the distribution of the gas along the line
+of sight to the GC. Since the rotation of the Galactic disk isperpendicular to this line of sight, the usual derivation of the
+Figure 30. Maps of the innermost galactocentric annulus (0–1.5 kpc )obtained from partitioning the gas column densities along the line of sight within the area
+spanned by the magenta box using the starlight extinction method (left )and the interpolation method (right ). Top: H Icolumn density in 1020cm−2; bottom: integrated
+CO line intensity WCOin K km s−1.
+29The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+gas distribution based on the redshifts and blueshifts of the
+atomic and molecular lines is not applicable. In this appendix
+we use the starlight extinction data to derive a distribution of
+dust along the line of sight to the GC, which can be used as a
+tracer of the total gas density distribution. We modi ﬁed the
+original maps from Ackermann et al. (2012 )using the
+extinction maps from Schultheis et al. (2014 )in the region at
+l 10< ∣∣ andb 5< ∣∣ through the following procedure:
+1. For each line of sight on the grid of Schultheis et al.
+(2014 )we determined the fraction of the total extinction
+belonging to each heliocentric distance bin and thenaveraged over the angular bins subtended by each angular
+bin in the gas maps. The heliocentric bin fractions were
+converted into galactocentric annuli fractions using the
+annuli de ﬁnition of the gas maps.
+2. The fractional extinctions in galactocentric annuli are
+partitioned into extinction associated with atomic and
+molecular gas based on the atomic /molecular fractions
+from the gas maps in Ackermann et al. (2012 )through
+interpolation from two adjacent regions outside of
+l 10< ∣∣ withΔl=3°at the same latitude. For thispurpose the CO intensities were converted into H 2
+column densities using the values of the XCOratio in
+Ackermann et al. (2012 )corresponding to our Sample
+Model. For the innermost ring (enclosed in the region
+l 10< ∣∣ )the fractions are assumed to be the same as in
+the closest ring.
+3. The maps in Schultheis et al. (2014 )cover only
+heliocentric distances 10 kpc. Therefore, we corrected
+the fractional atomic and molecular extinctions to take
+into account gas missing in the extinction maps atdistances >10 kpc from the Earth. For galactocentric
+radii<8.5 kpc we upscaled the content of each H
+Ior
+CO annulus to account for material on the other side of
+the GC assuming that the distribution of matter in the
+Galaxy is axisymmetric. We took into account the
+different physical distances from the plane on the two
+sides of the Galaxy by assuming that the density of H I
+as a function of distance from the plane is described by aGaussian with FWHM deri ved from Kalberla & Kerp
+(2009 )and plateauing at 210 pc for galactocentric radii
+<5 kpc, and the density of H
+2as a function of distance
+from the plane is described as a Gaussian with an
+Figure 31. Maps of the local annulus (8–10 kpc )obtained from partitioning the gas column densities along the line of sight within the area spanned by the magenta
+box using the starlight extinction method (left )and the interpolation method (right ). Top: H Icolumn density in 1020cm−2; bottom: integrated CO line intensity WCO
+in K km s−1.
+30The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+FWHM of 146 pc (Ferrière 2001 ). For galactocentric
+radii>8.5 kpc the fraction of extinction associated with
+either atomic or molecular gas was extrapolated from theclosest neighbor annulus based on the fractions in thetwo adjacent bands outside of
+l 10< ∣∣ withΔl=3°at
+the same latitude. The extrapolation was performediteratively to determine the content in each annulus at
+radius >8.5 kpc from the closest to the farthest from
+the Sun.
+4. The resulting fractional extinctions associated with
+atomic and molecular gas in the annuli are multiplied
+by the total along each line of sight derived from theoriginal maps in Ackermann et al. (2012 ), producing the
+modi ﬁed maps.
+This alternative scheme to partition the material along the line of
+sight in the region where the Doppler shift of gas lines is not
+available is not necessarily providing a more precise estimate of
+the real distribution of the gas in the galaxy, due to the manyuncertain assumptions. However, it provides an alternative toexplore whether this aspect has a signi ﬁcant impact on the results
+of our analysis. Some examples of the alternative gas distributionare shown in Figures 30and31.Appendix B
+Amplitude of the GC GeV Excess Relative to Statistical and
+Systematic Uncertainties
+In this appendix, we compare the GC excess signal with
+the statistical uncertainties, as well as uncertainties in the
+models of foreground emissi on. The level of statistical
+uncertainty and the ratio of the signal in the Sample Modelto the statistical uncertainty are shown in the left panels of
+Figure 32. We combine ﬁve energy bins between 1.1 and
+6.5 GeV, where the excess is most signi ﬁcant. The statistical
+uncertainty is calculated as t h es q u a r er o o to ft h ep h o t o n
+counts in pixels. The map is smoothed with a 1 °Gaussian
+kernel for presentation purpose s to highlight the large-scale
+features.
+To estimate the modeling uncertainties, we consider two
+approaches: (1)comparing the residuals left after subtracting
+t h eS a m p l eM o d e lf r o mt h ed a t aa sam e a s u r eo fh o w
+incomplete /inadequate the model is, and (2)evaluating the
+envelope of the diffuse models considered in the previous
+sections as an estimate of mod eling uncertainties. The
+absolute value of the residuals (smoothed with a 1 °Gaussian
+kernel )and the ratio of the signal to the smoothed residuals
+a r es h o w ni nt h em i d d l ep a n e l so fF i g u r e 32. The envelope of
+Figure 32. Top: statistical and modeling uncertainties; bottom: ratio of the GC excess in the Sample Model to the uncertainty maps. The units for the top row are
+intensity integrated over the energy range between 1.1 and 6.5 GeV. All uncertainty maps are smoothed with a 1 °Gaussian kernel for better presentation of large-scale
+features. Left: statistical uncertainty (square root of the data ); middle: absolute value of the residual; right: half of the envelope of the diffuse models. The gray circles
+indicate the masked locations of the bright PSs (200 sources from the 3FGL catalog over the whole sky ).
+31The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+the diffuse models divided by two and the ratio of the signal
+to the envelope half width are shown in the right panels ofFigure 32.
+The statistical uncertainties are smaller than the modeling
+uncertainties in the GP (notice the scale on the color bars ). The
+GC GeV excess is also smaller than the modeling uncertaintiesin the GP, while above and below the GC the ratio of the signal
+to the modeling uncertainties is larger than 1.
+Appendix C
+Effective Background
+In this appendix we give an abbreviated summary of the
+effective background method used to quantify systematicuncertainties in setting limits on DM annihilation (see
+Ackermann et al. 2015 ; Caputo et al. 2016 ; and especially
+Section VB of Buckley et al. 2015 , for more details ).
+Suppose that the data are represented as a combination of
+two components: background
+Pbkg()and signalPsig(). Then the
+overall normalizations NbkgandNsigfor the components can be
+found by minimizing the χ2,
+dN P
+,1 1
+iim mim
+i2
+,bkg,sig2
+2 åc
+s=-å
+aa a
+a= ()()()
+where the summation is over pixel indices iand energy bin
+indices α,dis the data, and σis the statistical uncertainty. It is
+convenient to introduce the scalar product with the metric
+1i2sa:ab ab,iiii2s áñ=ås aaa a. Then the Hessian (the matrix
+of the second derivatives of χ2with respect to Nm)is
+HPP,. nmnm=á ñ s() ( )The best- ﬁt solutions and the covariance
+matrix of coef ﬁcients Nmare
+NH P d ,, 1 2 m
+nmnn 1å=á ñ s-()()
+NN H Cov , . 13mn m n1=-() ( )
+If the signal is expected to be small, then we can approximate
+dNP . i i i bkgbkg 2s ==a a a()We choose the normalization of
+templatesPim
+a()such that P 1iim
+,å =aa(), and then Nbkg≈N,
+where Nis the total number of counts. In this case, the Hessian
+takes the form
+HNP
+P111
+114
+ii
+i,sig 2
+bkgå=
+aa
+a⎛
+⎝⎜
+⎜⎜⎞
+⎠⎟
+⎟⎟() ()()
+()
+and the statistical uncertainty of Nsigis
+NN NNCov ,
+1.1 5
+iP
+Psig2sig sig
+,i
+isig 2
+bkgdº=
+å -aa
+a() ( ) ( )
+()()
+()
+Using an analogy with the Poisson distribution, we de ﬁne the
+“background under the signal region ”or the “effective
+background ”asbN eff sig2d=() , where the statistical uncertainty
+is determined in Equation (15). Thus,
+bN
+1.1 6
+iP
+Peff
+,i
+isig 2
+bkgå=
+-aa
+a()
+()()
+()
+It is interesting to note that the square roots of the terms in the
+sum,PPiisig bkg
+aa() ( ), are approximately equal to the statisticalsigniﬁcance of the signal plotted in the left panels of Figure 32.
+We use the ratio of the signal counts to beffas aﬁgure of merit
+in estimating the modeling uncertainties. Note that the actual
+statistical uncertainty of the GC excess ﬂux is different from
+beffbecause we have more than one background component.
+The derivation presented here is a motivation for beffin
+Equation (16), which we use as an estimate of the number of
+background counts under the signal.
+Note that the greater the correlation between the signal and the
+background model, the closer to 1 the summation term in
+Equation (16)is. For perfect correlation beffw o u l di nf a c td i v e r g e .
+If the two models are not very correlated, then the summationterm becomes much larger than 1, and the resulting
+beffis less
+than N. When the background and the signal models are
+essentially uncorrelated, i.e. , more easily distinguished, beff
+becomes smaller, resulting in a smaller statistical error on Nsig.
+Also, for larger values of N, the relative statistical error on Nsig
+decreases.
+In Figure 33we showbeffcalculated using the Sample
+Model as Pbkgand our standard gNFW template centered at
+b=0 and various longitudes as Psig. The value of beffis largest
+when it is computed for the gNFW template centered at the GC.Also,
+beffdecreases as mDMis increased in the signal model,
+because the resulting model γ-ray spectra are harder than the
+typical non-DM astrophysical emission, making Pbkgless
+correlated with Psig.
+We quantify systematic uncertainties that mask or induce
+DM signals as a fraction of beff(Section 9.1 ). Therefore, we can
+now also de ﬁne a systematic uncertainty on Nsigas
+Nf b .1 7 sig,syst syst eff dd=´ ()
+The total uncertainty on NsigisNN N . sig sig,stat2
+sig,syst2d dd=+
+C.1. Fitting Procedure and Upper Limits on DM Annihilation
+Models
+In Section 9,w eﬁt a variety of DM models to the GC excess
+spectrum that we found using our sample background model.The differential γ-rayﬂux expected from DM annihilation in a
+given ROI (ΔΩ )is
+d
+dEvdN
+dEmdd ℓ ℓ81,1 82l.o.s.2òòfs
+pr =áñW
+gg
+gccDW⎜⎟⎛
+⎝⎜⎜⎞
+⎠⎟⎟⎛
+⎝⎞
+⎠() ( )
+where dNγ/dEγis the differential count spectrum of gamma
+rays from annihilation of a pair of DM particles, mχis the mass
+of each DM particle, vsáñis the velocity-averaged annihilation
+cross-section, and2rcis the density distribution of the DM.
+dNγ/dEγdepends on the relative strength of each annihilation
+channel for a speci ﬁc DM model. In this work, we calculate
+limits on DM annihilation for two representative annihilation
+channels:bb¯andτ+τ−. The value in the ﬁrst set of parentheses
+in Equation (18)depends on the particle nature of the DM,
+speciﬁcally on the particle mass, annihilation channel, and
+annihilation cross-section. The value in the second set ofparentheses is the so-called “Jfactor, ”which depends on the
+distribution of DM. We consider both a standard NFW pro ﬁle
+(γ=1)and a slightly contracted generalized NFW pro ﬁle
+(γ=1.25 ). The Jfactors integrated over the whole sky
+(including the PS masking )assuming a local DM
+32The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+density of 0.4 GeV cm−3are 2.15 ×1022GeV2cm−5and
+1.53 ×1022GeV2cm−5for the gNFW and NFW pro ﬁles,
+respectively.
+Weﬁt using the χ2method to the GC excess spectrum
+obtained by ﬁtting the excess spatial template (gNFW )in each
+energy bin independently (Section 2.3 ). The differential
+number of counts assuming a set of DM parameters is simply
+Equation (18)convolved with the PSF and multiplied by the
+instrument exposure. If we assume a speci ﬁc mass, annihilation
+channel, and Jfactor, then the normalization of the DM
+component will be proportional to vsáñ, which is left free in the
+ﬁt. The χ2of each DM ﬁti s
+p sv v
+v,,1 9
+jjj
+j22
+22
+åcls s
+ds=-á ñ+áñ
+áñ⎛
+⎝⎜⎞
+⎠⎟(() )()
+where sjis the GC excess counts in energy bin j,λjis the
+expected photon counts for a given DM model, pare the
+assumed DM model parameters md Nd EJ, , factorcgg[ ‐ ], and òj
+is the statistical uncertainty on sjfrom the spatial ﬁt. The
+second term is the log likelihood of the prior probability on theannihilation cross-section. We conservatively assume that theprior
+v 0sáñ= . The uncertainty vdsáñ is derived by scanning
+the cusp pro ﬁle along the GP; see Equations (17)and (18).I f
+the value of the cross-section necessary to minimize the ﬁrstterm were large compared to the uncertainty in the denominator
+of the second term, then the χ2in Equation (19)would be
+large, which could have been interpreted as an exclusion of
+v 0sáñ= prior. However, due to relatively large uncertainty on
+vsáñ, theﬁrst term in Equation (19)can be minimized without a
+large increase in the second term, i.e., the value of vsáñthat
+minimizes the ﬁrst term is consistent with the uncertainty.
+Based on this χ2, accounting for systematic uncertainties from
+the GP in Section 9, we concluded that a DM interpretation of
+the GC excess at present is not robust.
+We note that vdsáñ in Equation (19)equally accounts for
+systematic uncertainties that mask or induce DM-like signals.However, this was not what was seen in the control region ﬁts,
+which were more like a one-sided Gaussian distribution with
+about half the normalizations being zero. Therefore, we chose
+vdsáñ byﬁnding the 84th percentile of the ﬁt proﬁles, i.e., the
+fractionalbefffor which only 16% of the ﬁt results are larger. In
+the case of a Gaussian distribution this corresponds to a one-sided 1 σexclusion. The use of a nuisance parameter of this
+form is valid when calculating the TS since systematic
+uncertainties that would induce a DM-like signal, and so
+would reduce the TS of a DM annihilation component, areproperly represented.
+Then, in Section 9we derive upper limits by requiring the
+DM signal to not exceed the largest value of the excessFigure 34. Comparison of limits derived incorporating different systematic uncertainty estimates using the gNFW for the bb¯(left )andτ+τ−(right )channels. The
+symmetric limits are based on the assumption that systematic uncertainties that could mask DM signal are as large as those that could mimic a DM signal d erived from
+the GP scan. The band limits are based on requiring that a DM signal does not exceed the upper bound on the GC ﬂux from the model variation approach (see the text
+for details ). The dotted line represents the thermal relic cross-section (Steigman et al. 2012 ).Figure 33. Effective background beffvs. DM mass mDMfor DM annihilating to bb¯(left )andτ+τ−(right )using the Sample Model (without the gNFW template )as the
+background model. The spatial DM template is centered at b=0 and at longitudes along the GP.
+33The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.
+spectrum found in each energy bin under all the modeling
+scenarios considered. Alternatively, we can use Equation (19)
+to derive 95% con ﬁdence level limits based on the results of the
+GP scan by calculating when Δχ2=3.84. We assume that
+δfsystequally represents the amplitude of systematic uncertain-
+ties that mask or induce DM-like signals. Both versions oflimits are shown in Figure 34. The limits based on the
+symmetric nuisance parameter from the GP scan are less
+constraining. However, the symmetric assumption results inlimits that are likely too conservative, since a positive excess
+was found in the GC in every modeling scenario considered,
+and the vast majority of the ﬁts in control regions along the GP
+found positive DM-like excesses.
+References
+Abazajian, K. N. 2011, JCAP ,3, 010
+Abazajian, K. N., Canac, N., Horiuchi, S., & Kaplinghat, M. 2014, PhRvD ,90,
+023526
+Abazajian, K. N., & Kaplinghat, M. 2012, PhRvD ,86, 083511
+Abergel, A., Ade, P. A. R., Aghanim, N., et al. 2014, A&A ,571, A11
+Abramowski, A., Aharonian, F., Benkhali, F. A., et al. 2016, Natur ,531, 476
+Acero, F., Ackermann, M., Ajello, M., et al. 2015, ApJS ,218, 23
+Acero, F., Ackermann, M., Ajello, M., et al. 2016, ApJS ,223, 26
+Ackermann, M., Ajello, M., Atwood, W. B., et al. 2012, ApJ,750, 3
+Ackermann, M., Ajello, M., Albert, A., et al. 2015, PhRvD ,91, 122002
+Ackermann, M., Albert, A., Anderson, B., et al. 2015, PhRvL ,115, 231301
+Ackermann, M., Albert, A., Atwood, W. B., et al. 2014, ApJ,793, 64
+Ajello, M., Albert, A., Atwood, W. B., et al. 2016, ApJ,819, 44
+Atwood, W., Albert, A., Baldini, L., et al. 2013, arXiv: 1303.3514
+Atwood, W. B., Abdo, A. A., Ackermann, M., et al. 2009, ApJ,697, 1071
+Bartels, R., Krishnamurthy, S., & Weniger, C. 2016, PhRvL ,116, 051102
+Bergström, L. 2012, AnP,524, 479
+Bertone, G., Hooper, D., & Silk, J. 2005, PhR,405, 279
+Bohlin, R. C., Savage, B. D., & Drake, J. F. 1978, ApJ,224, 132
+Boyarsky, A., Malyshev, D., & Ruchayskiy, O. 2011, PhLB ,705, 165
+Brandt, T. D., & Kocsis, B. 2015, ApJ,812, 15
+Bronfman, L., Casassus, S., May, J., & Nyman, L.- Å. 2000, A&A, 358, 521
+Brun, R., & Rademakers, F. 1997, NIMPA ,389, 81
+Buckley, M. R., Charles, E., Gaskins, J. M., et al. 2015, PhRvD ,91, 102001
+Calore, F., Cholis, I., & Weniger, C. 2015, JCAP ,3, 038
+Caputo, R., Buckley, M. R., Martin, P., et al. 2016, PhRvD ,93, 062004
+Carlson, E., Linden, T., & Profumo, S. 2016, PhRvL ,117, 111101
+Casandjian, J.-M., & Grenier, I. 2009, arXiv: 0912.3478
+Case, G. L., & Bhattacharya, D. 1998, ApJ,504, 761
+Cholis, I., Evoli, C., Calore, F., et al. 2015, JCAP ,12, 005
+Cholis, I., Hooper, D., & Linden, T. 2014, arXiv: 1407.5583
+Dame, T. M., Hartmann, D., & Thaddeus, P. 2001, ApJ,547, 792
+Daylan, T., Finkbeiner, D. P., Hooper, D., et al. 2016, PDU ,12, 1
+de Boer, W., Gebauer, I., Neumann, A., & Biermann, P. L. 2016, arXiv: 1610.
+08926
+Faucher-Giguère, C.-A., & Loeb, A. 2010, JCAP ,1, 005
+Ferrière, K., Gillard, W., & Jean, P. 2007, A&A ,467, 611
+Ferrière, K. M. 2001, RvMP ,73, 1031
+Gaggero, D., Grasso, D., Marinelli, A., Taoso, M., & Urbano, A. 2017,
+arXiv: 1702.01124
+Gaggero, D., Taoso, M., Urbano, A., Valli, M., & Ullio, P. 2015, JCAP ,
+12, 056
+Goodenough, L., & Hooper, D. 2009, arXiv: 0910.2998
+Gordon, C., & Macías, O. 2013, PhRvD ,88, 083521
+Górski, K. M., Hivon, E., Banday, A. J., et al. 2005, ApJ,622, 759
+Green, D. A. 2015, MNRAS ,454, 24
+Grégoire, T., & Knödlseder, J. 2013, A&A ,554, A62
+Grenier, I. A., Casandjian, J.-M., & Terrier, R. 2005, Sci,307, 1292Guedes, J., Callegari, S., Madau, P., & Mayer, L. 2011, ApJ,742, 76
+Hooper, D., & Goodenough, L. 2011, Phys. Lett. B ,697, 412
+Hooper, D., & Linden, T. 2011, Phys. Rev. D ,84, 123005
+Hooper, D., & Linden, T. 2016, JCAP ,8, 018
+Hooper, D., & Slatyer, T. R. 2013, PDU ,2, 118
+Huang, X., Enßlin, T., & Selig, M. 2016, JCAP ,4, 030
+Hunter, J. D. 2007, CSE,9, 90
+Immer, K., Schuller, F., Omont, A., & Menten, K. M. 2012, A&A ,537, A121
+Johannesson, G., Orlando, E. & for the Fermi-LAT collaboration 2013,
+arXiv: 1307.0197
+Kalberla, P. M. W., Burton, W. B., Hartmann, D., et al. 2005, A&A ,440, 775
+Kalberla, P. M. W., & Kerp, J. 2009, ARA&A ,47, 27
+Kalberla, P. M. W., McClure-Grif ﬁths, N. M., Pisano, D. J., et al. 2010, A&A ,
+521, A17
+Kataoka, J., Tahara, M., Totani, T., et al. 2013, ApJ,779, 57
+Kerr, M. 2010, PhD thesis, Univ. WashingtonKuhlen, M., Madau, P., & Silk, J. 2009, Sci,325, 970
+Large, M. I., Quigley, M. J. S., & Haslam, C. G. T. 1962, MNRAS ,124
+405
+Lee, S. K., Lisanti, M., Safdi, B. R., Slatyer, T. R., & Xue, W. 2016, PhRvL ,
+116, 051103
+Linden, T., Rodd, N. L., Safdi, B. R., & Slatyer, T. R. 2016, PhRvD ,94,
+103013
+Longmore, S. N., Bally, J., Testi, L., et al. 2013, MNRAS ,429, 987
+Lorimer, D., Faulkner, A., Lyne, A., et al. 2006, MNRAS ,372
+777
+Macias, O., Gordon, C., Crocker, R. M., et al. 2016, arXiv: 1611.06644
+Malyshev, D. 2012, arXiv: 1202.1034
+Marshall, D. J., Robin, A. C., Reylé, C., Schultheis, M., & Picaud, S. 2006,
+A&A ,453, 635
+McCann, A. 2015, ApJ,804, 86
+Minniti, D., Lucas, P. W., Emerson, J. P., et al. 2010, NewA ,15, 433
+Mirabal, N. 2013, MNRAS ,436, 2461
+Moskalenko, I., & Strong, A. 1998, ApJ,493, 694
+Moskalenko, I. V., Porter, T. A., & Digel, S. W. 2006, ApJL ,652, L65
+Navarro, J. F., Frenk, C. S., & White, S. D. M. 1997, ApJ,490, 493
+O’Leary, R. M., Kistler, M. D., Kerr, M., & Dexter, J. 2015
+arXiv: 1504.02477
+Orlando, E., & Strong, A. W. 2007, Ap&SS ,309, 359
+Orlando, E., & Strong, A. W. 2008, A&A ,480, 847
+Petrovi ć, J., Serpico, P. D., & Zaharijas, G. 2015, JCAP ,2, 023
+Porter, T. A., Moskalenko, I. V., Strong, A. W., et al. 2008, ApJ,682, 400
+Ptuskin, V., Moskalenko, I. V., Jones, F., et al. 2006,
+ApJ,642, 902
+Robin, A. C., Marshall, D. J., Schultheis, M., & Reylé, C. 2012, A&A ,
+538, A106
+Robitaille, T. P., Tollerud, E. J., Green ﬁeld, P., et al. 2013, A&A ,558, A33
+Rosslowe, C. K., & Crowther, P. A. 2015, MNRAS ,447, 2322
+Schlegel, D. J., Finkbeiner, D. P., & Davis, M. 1998, ApJ,500, 525
+Schultheis, M., Chen, B. Q., Jiang, B. W., et al. 2014, A&A ,566, A120
+Springel, V., White, S. D. M., Frenk, C. S., et al. 2008, Natur ,456, 73
+Steigman, G., Dasgupta, B., & Beacom, J. F. 2012, PhRvD ,86, 023506
+Strong, A. W., Moskalenko, I. V., & Ptuskin, V. S. 2007, ARNPS ,57
+285
+Strong, A. W., Moskalenko, I. V., & Reimer, O. 2000, ApJ,537, 763
+Strong, A. W., Moskalenko, I. V., & Reimer, O. 2004, ApJ,613, 962
+Su, M., Slatyer, T. R., & Finkbeiner, D. P. 2010, ApJ,724, 1044
+Sun, X. H., Landecker, T. L., Gaensler, B. M., et al. 2015, ApJ,811, 40
+Vitale, V., Morselli, A. & for the Fermi /LAT Collaboration 2009,
+arXiv: 0912.3828
+Vladimirov, A. E., Digel, S. W., Johannesson, G., et al. 2011, CoPhC ,
+182, 1156
+Wolleben, M. 2007, ApJ,664, 349
+Yang, R.-z., & Aharonian, F. 2016, A&A ,589, A117
+Yuan, Q., & Zhang, B. 2014, JHEAp ,3, 1
+Yusef-Zadeh, F., Hewitt, J. W., Arendt, R. G., et al. 2009, ApJ,702, 178
+Yusifov, I., & Küçük, I. 2004, A&A ,422, 545
+Zhou, B., Liang, Y.-F., Huang, X., et al. 2015, PhRvD ,91, 123010
+34The Astrophysical Journal, 840:43 (34pp ), 2017 May 1 Ackermann et al.

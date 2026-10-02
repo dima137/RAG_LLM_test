@@ -1,0 +1,15 @@
+# should be easy - the answers are in the text:
+What are possible origin scenarios for the Fermi bubbles?
+# should be medium - the answer is in the text but hidden:
+What is the distance to the Fermi bubbles in kpc, assuming that they are above the Galactic center?
+# may be hard as the answer is in the text but requires some reasoning
+What is the size of the Fermi bubbles in kpc, assuming that they are above the Galactic center?
+# more questions
+What is the size of the Fermi bubbles in degrees?
+What is the size of the Fermi bubbles in kpc?
+What is the distance to the FBs in kpc?
+What is the estimated age of the FBs in years based on expansion velocity comparable to gas outflow from the Galactic center?
+What is the energy in CR electrons of the FBs?
+What is the energy in CR protons of the FBs?
+What is the origin of the FBs?
+What is a possible connection of FBs and Loop I?
