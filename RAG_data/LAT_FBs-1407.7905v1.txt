@@ -1,0 +1,2420 @@
+The Spectrum and Morphology of the Fermi Bubbles
+M. Ackermann1, A. Albert2, W. B. Atwood3, L. Baldini4, J. Ballet5, G. Barbiellini6,7, D. Bastieri8,9,
+R. Bellazzini4, E. Bissaldi10, R. D. Blandford2, E. D. Bloom2, E. Bottacini2, T. J. Brandt11,
+J. Bregeon12, P. Bruel13, R. Buehler1, S. Buson8,9, G. A. Caliandro2,14, R. A. Cameron2,
+M. Caragiulo15, P. A. Caraveo16, E. Cavazzuti17, C. Cecchi18,19, E. Charles2, A. Chekhtman20,
+J. Chiang2, G. Chiaro9, S. Ciprini17,21, R. Claus2, J. Cohen-Tanugi12, J. Conrad22,23,24,25, S. Cutini17,21,
+F. D’Ammando26,27, A. de Angelis28, F. de Palma15, C. D. Dermer29, S. W. Digel2, L. Di Venere30,
+E. do Couto e Silva2, P. S. Drell2, C. Favuzzi30,15, E. C. Ferrara11, W. B. Focke2, A. Franckowiak2,31,
+Y. Fukazawa32, S. Funk2, P. Fusco30,15, F. Gargano15, D. Gasparrini17,21, S. Germani18,19,
+N. Giglietto30,15, F. Giordano30,15, M. Giroletti26, G. Godfrey2, G. A. Gomez-Vargas33,34,
+I. A. Grenier5, S. Guiriec11,35, D. Hadasch36, A. K. Harding11, E. Hays11, J.W. Hewitt37,38, X. Hou39,
+T. Jogler2, G. J´ ohannesson40, A. S. Johnson2, W. N. Johnson29, T. Kamae2, J. Kataoka41,
+J. Kn¨ odlseder42,43, D. Kocevski11, M. Kuss4, S. Larsson22,23,44, L. Latronico45, F. Longo6,7,
+F. Loparco30,15, M. N. Lovellette29, P. Lubrano18,19, D. Malyshev2,46, A. Manfreda4, F. Massaro47,
+M. Mayer1, M. N. Mazziotta15, J. E. McEnery11,48, P. F. Michelson2, W. Mitthumsiri49, T. Mizuno50,
+M. E. Monzani2, A. Morselli33, I. V. Moskalenko2, S. Murgia51, R. Nemmen11,38,37, E. Nuss12,
+T. Ohsugi50, N. Omodei2, M. Orienti26, E. Orlando2, J. F. Ormes52, D. Paneque53,2, J. H. Panetta2,
+J. S. Perkins11, M. Pesce-Rollins4, V. Petrosian2,54, F. Piron12, G. Pivato9, S. Rain` o30,15, R. Rando8,9,
+M. Razzano4,55, S. Razzaque56, A. Reimer36,2, O. Reimer36,2, M. S´ anchez-Conde2, M. Schaal57,
+A. Schulz1, C. Sgr` o4, E. J. Siskind58, G. Spandre4, P. Spinelli30,15,  Lukasz Stawarz59,60, A. W. Strong61,
+D. J. Suson62, M. Tahara41, H. Takahashi32, J. B. Thayer2, L. Tibaldo2, M. Tinivella4,
+D. F. Torres63,64, G. Tosti18,19, E. Troja11,48, Y. Uchiyama65, G. Vianello2, M. Werner36, B. L. Winer66,
+K. S. Wood29, M. Wood2, G. Zaharijas10,67
+– 2 –
+1Deutsches Elektronen Synchrotron DESY, D-15738 Zeuthen, Germany
+2W. W. Hansen Experimental Physics Laboratory, Kavli Institute for Particle Astrophysics and Cosmology, Department
+of Physics and SLAC National Accelerator Laboratory, Stanford University, Stanford, CA 94305, USA
+3Santa Cruz Institute for Particle Physics, Department of Physics and Department of Astronomy and Astrophysics,
+University of California at Santa Cruz, Santa Cruz, CA 95064, USA
+4Istituto Nazionale di Fisica Nucleare, Sezione di Pisa, I-56127 Pisa, Italy
+5Laboratoire AIM, CEA-IRFU/CNRS/Universit´ e Paris Diderot, Service d’Astrophysique, CEA Saclay, 91191 Gif sur
+Yvette, France
+6Istituto Nazionale di Fisica Nucleare, Sezione di Trieste, I-34127 Trieste, Italy
+7Dipartimento di Fisica, Universit` a di Trieste, I-34127 Trieste, Italy
+8Istituto Nazionale di Fisica Nucleare, Sezione di Padova, I-35131 Padova, Italy
+9Dipartimento di Fisica e Astronomia “G. Galilei”, Universit` a di Padova, I-35131 Padova, Italy
+10Istituto Nazionale di Fisica Nucleare, Sezione di Trieste, and Universit` a di Trieste, I-34127 Trieste, Italy
+11NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA
+12Laboratoire Univers et Particules de Montpellier, Universit´ e Montpellier 2, CNRS/IN2P3, Montpellier, France
+13Laboratoire Leprince-Ringuet, ´Ecole polytechnique, CNRS/IN2P3, Palaiseau, France
+14Consorzio Interuniversitario per la Fisica Spaziale (CIFS), I-10133 Torino, Italy
+15Istituto Nazionale di Fisica Nucleare, Sezione di Bari, 70126 Bari, Italy
+16INAF-Istituto di Astrofisica Spaziale e Fisica Cosmica, I-20133 Milano, Italy
+17Agenzia Spaziale Italiana (ASI) Science Data Center, I-00133 Roma, Italy
+18Istituto Nazionale di Fisica Nucleare, Sezione di Perugia, I-06123 Perugia, Italy
+19Dipartimento di Fisica, Universit` a degli Studi di Perugia, I-06123 Perugia, Italy
+20Center for Earth Observing and Space Research, College of Science, George Mason University, Fairfax, VA 22030,
+resident at Naval Research Laboratory, Washington, DC 20375, USA
+21Istituto Nazionale di Astrofisica - Osservatorio Astronomico di Roma, I-00040 Monte Porzio Catone (Roma), Italy
+22Department of Physics, Stockholm University, AlbaNova, SE-106 91 Stockholm, Sweden
+23The Oskar Klein Centre for Cosmoparticle Physics, AlbaNova, SE-106 91 Stockholm, Sweden
+24Royal Swedish Academy of Sciences Research Fellow, funded by a grant from the K. A. Wallenberg Foundation
+25The Royal Swedish Academy of Sciences, Box 50005, SE-104 05 Stockholm, Sweden
+26INAF Istituto di Radioastronomia, 40129 Bologna, Italy
+27Dipartimento di Astronomia, Universit` a di Bologna, I-40127 Bologna, Italy
+28Dipartimento di Fisica, Universit` a di Udine and Istituto Nazionale di Fisica Nucleare, Sezione di Trieste, Gruppo
+Collegato di Udine, I-33100 Udine
+29Space Science Division, Naval Research Laboratory, Washington, DC 20375-5352, USA
+– 3 –
+30Dipartimento di Fisica “M. Merlin” dell’Universit` a e del Politecnico di Bari, I-70126 Bari, Italy
+31email: afrancko@slac.stanford.edu
+32Department of Physical Sciences, Hiroshima University, Higashi-Hiroshima, Hiroshima 739-8526, Japan
+33Istituto Nazionale di Fisica Nucleare, Sezione di Roma “Tor Vergata”, I-00133 Roma, Italy
+34Departamento de Fis´ ıca, Pontificia Universidad Cat´ olica de Chile, Avenida Vicu˜ na Mackenna 4860, Santiago, Chile
+35NASA Postdoctoral Program Fellow, USA
+36Institut f¨ ur Astro- und Teilchenphysik and Institut f¨ ur Theoretische Physik, Leopold-Franzens-Universit¨ at Innsbruck,
+A-6020 Innsbruck, Austria
+37Department of Physics and Center for Space Sciences and Technology, University of Maryland Baltimore County,
+Baltimore, MD 21250, USA
+38Center for Research and Exploration in Space Science and Technology (CRESST) and NASA Goddard Space Flight
+Center, Greenbelt, MD 20771, USA
+39Centre d’ ´Etudes Nucl´ eaires de Bordeaux Gradignan, IN2P3/CNRS, Universit´ e Bordeaux 1, BP120, F-33175 Gradignan
+Cedex, France
+40Science Institute, University of Iceland, IS-107 Reykjavik, Iceland
+41Research Institute for Science and Engineering, Waseda University, 3-4-1, Okubo, Shinjuku, Tokyo 169-8555, Japan
+42CNRS, IRAP, F-31028 Toulouse cedex 4, France
+43GAHEC, Universit´ e de Toulouse, UPS-OMP, IRAP, Toulouse, France
+44Department of Astronomy, Stockholm University, SE-106 91 Stockholm, Sweden
+45Istituto Nazionale di Fisica Nucleare, Sezione di Torino, I-10125 Torino, Italy
+46email: malyshev@stanford.edu
+47Department of Astronomy, Department of Physics and Yale Center for Astronomy and Astrophysics, Yale University,
+New Haven, CT 06520-8120, USA
+48Department of Physics and Department of Astronomy, University of Maryland, College Park, MD 20742, USA
+49Department of Physics, Faculty of Science, Mahidol University, Bangkok 10400, Thailand
+50Hiroshima Astrophysical Science Center, Hiroshima University, Higashi-Hiroshima, Hiroshima 739-8526, Japan
+51Center for Cosmology, Physics and Astronomy Department, University of California, Irvine, CA 92697-2575, USA
+52Department of Physics and Astronomy, University of Denver, Denver, CO 80208, USA
+53Max-Planck-Institut f¨ ur Physik, D-80805 M¨ unchen, Germany
+54email: vahep@stanford.edu
+55Funded by contract FIRB-2012-RBFR12PM1F from the Italian Ministry of Education, University and Research (MIUR)
+56Department of Physics, University of Johannesburg, PO Box 524, Auckland Park 2006, South Africa
+57National Research Council Research Associate, National Academy of Sciences, Washington, DC 20001, resident at Naval
+– 4 –
+ABSTRACT
+TheFermi bubbles are two large structures in the gamma-ray sky extending to 55◦above
+and below the Galactic center. We analyze 50 months of Fermi Large Area Telescope data
+between 100 MeV and 500 GeV above 10◦in Galactic latitude to derive the spectrum and
+morphology of the Fermi bubbles. We thoroughly explore the systematic uncertainties that
+arise when modeling the Galactic diffuse emission through two separate approaches. The
+gamma-ray spectrum is well described by either a log parabola or a power law with an
+exponential cutoff. We exclude a simple power law with more than 7 σsignificance. The power
+law with an exponential cutoff has an index of 1 .9±0.2 and a cutoff energy of 110 ±50 GeV.
+We find that the gamma-ray luminosity of the bubbles is 4 .4+2.4
+−0.9×1037erg s−1. We confirm a
+significant enhancement of gamma-ray emission in the south-eastern part of the bubbles, but
+we do not find significant evidence for a jet. No significant variation of the spectrum across
+the bubbles is detected. The width of the boundary of the bubbles is estimated to be 3 .4+3.7
+−2.6
+deg. Both inverse Compton (IC) models and hadronic models including IC emission from
+secondary leptons fit the gamma-ray data well. In the IC scenario, the synchrotron emission
+from the same population of electrons can also explain the WMAP andPlanck microwave
+haze with a magnetic field between 5 and 20 µG.
+Subject headings: astroparticle physics — cosmic rays — Galaxy: general — Galaxy: halo
+— gamma rays: diffuse background — methods: data analysis
+1. Introduction
+Radio and X-ray lobes are often observed in galaxies with significant accretion onto the central
+supermassive black hole or with starburst activity in the vicinity of the galactic nucleus. Similar features
+might therefore be expected in our own Galaxy.
+Research Laboratory, Washington, DC 20375, USA
+58NYCB Real-Time Computing Inc., Lattingtown, NY 11560-1025, USA
+59Institute of Space and Astronautical Science, Japan Aerospace Exploration Agency, 3-1-1 Yoshinodai, Chuo-ku, Sagami-
+hara, Kanagawa 252-5210, Japan
+60Astronomical Observatory, Jagiellonian University, 30-244 Krak´ ow, Poland
+61Max-Planck Institut f¨ ur extraterrestrische Physik, 85748 Garching, Germany
+62Department of Chemistry and Physics, Purdue University Calumet, Hammond, IN 46323-2094, USA
+63Institut de Ci` encies de l’Espai (IEEE-CSIC), Campus UAB, 08193 Barcelona, Spain
+64Instituci´ o Catalana de Recerca i Estudis Avan¸ cats (ICREA), Barcelona, Spain
+653-34-1 Nishi-Ikebukuro,Toshima-ku, , Tokyo Japan 171-8501
+66Department of Physics, Center for Cosmology and Astro-Particle Physics, The Ohio State University, Columbus, OH
+43210, USA
+67The Abdus Salam International Center for Theoretical Physics, Strada Costiera 11, Trieste 34151 - Italy
+– 5 –
+Gamma-ray lobes, called the Fermi bubbles, were discovered (Dobler et al. 2010; Su et al. 2010; Su
+& Finkbeiner 2012) in a search for a gamma-ray counterpart to the Wilkinson Microwave Anisotropy
+Probe ( WMAP ) haze (Finkbeiner 2004), which is residual microwave emission around the Galactic center
+that remains after subtracting synchrotron, free-free, thermal dust, and cosmic microwave background
+components from the WMAP data. The Fermi bubbles are two large structures that extend to 55◦
+above and below the Galactic center. They were reported to have an approximately E−2gamma-ray
+spectrum between 1 GeV and 100 GeV and well defined edges (Su et al. 2010). Further analysis revealed
+an enhanced gamma-ray emission in the south-east side of the bubbles with a cocoon-like shape and a
+tentative identification of jet-like structures (Su & Finkbeiner 2012).
+Soon after the discovery of the Fermi bubbles, several models of their formation as well as the
+acceleration of particles and gamma-ray production were proposed. The formation of the bubbles can be
+modeled by emission of a jet from the black hole (Guo & Mathews 2012; Guo et al. 2012; Yang et al. 2012),
+a spherical outflow from the black hole (Zubovas et al. 2011), a wind from supernova explosions (Crocker
+& Aharonian 2011), or a sequence of shocks from several accretion events onto the black hole (Cheng
+et al. 2011). Observations of anomalously high ionization in the Magellanic Stream can be interpreted
+as due to active galactic nucleus (AGN) activity in the Milky Way a few million years ago, which may
+have caused the formation of the bubbles (Bland-Hawthorn et al. 2013). The gamma-ray emission could
+be explained by hadronic production through collisions of cosmic-ray (CR) protons with diffuse gas in
+the bubbles (Crocker & Aharonian 2011) or through inverse Compton (IC) scattering of high-energy
+electrons on radiation fields (Su et al. 2010; Mertsch & Sarkar 2011).
+Significant effort has gone into searching for counterparts of the bubbles in X-rays, radio emission,
+and very high energy gamma rays. Radio and microwave emission is expected in leptonic models of the
+Fermi bubbles due to synchrotron radiation. The presence of the microwave haze was confirmed with 7
+years of the WMAP data (Pietrobon et al. 2012; Dobler 2012) and by the Planck collaboration (Ade et al.
+2013). There is a tentative association of the Fermi bubbles with some features in the S-band Polarization
+All Sky Survey (S-PASS) radio data (Carretti et al. 2013) and in WMAP polarization maps (Jones et al.
+2012). In X-rays, one expects to see lower-density hot gas inside the bubbles and higher-density colder
+gas outside. There are features possibly associated with the Fermi bubbles in R¨ ontgensatellit (ROSAT )
+data (Su et al. 2010) and in Suzaku data (Kataoka et al. 2013).
+Although the Fermi bubbles appear to be aligned transverse to the plane of the Galaxy and emanating
+from the region near the GC, it is not certain that they are associated with the GC region rather than
+from a region closer to the Earth. There are nevertheless several indirect arguments that the Fermi
+bubbles were created by a phenomenon in or around the Galactic center. First, a symmetry argument:
+the bubbles appear to be directly above and below the GC. Second, the hard energy spectrum and the
+sharp edges favor a transient nature for the bubbles. Locally the bubbles can be produced by a SN
+explosion, but in this case one expects to find strong synchrotron emission, while the bubbles, assuming
+that the association with the WMAP andPlanck haze is correct, have very weak synchrotron emission
+at high latitudes and relatively strong synchrotron emission at lower latitudes, which can be naturally
+explained by a decreasing magnetic field at larger distances from the Galactic plane. Third, a series
+ofSuzaku X-ray observations across the edge of the bubbles (Kataoka et al. 2013) reveal a spectral
+– 6 –
+component that has a drop in emission measure across the edge and a characteristic absorption at lower
+X-ray energies that favors a large distance to the X-ray emitting region.
+TheFermi -LAT gamma-ray data are crucial for understanding the physics of the bubbles and to guide
+future multiwavelength observations. We use 50 months of Fermi -LAT data to study the details of the
+energy spectrum and the morphology of the bubbles. One of the main challenges is the spatial overlap of
+theFermi bubbles with the other components of Galactic gamma-ray emission. We pay special attention
+to systematic uncertainties associated with the modeling of the Galactic diffuse gamma-ray emission and
+the definition of the spatial extent of the bubbles.
+In Section 2, we describe the gamma-ray data and our general analysis strategy. In this paper, we
+use the method of template fitting, where the emission components are modeled by their distributions on
+the sky. In Section 3, we model the Galactic foreground emission components by using maps generated
+with the GALPROP1(Moskalenko & Strong 1998; Strong et al. 2000, 2004; Ptuskin et al. 2006; Strong
+et al. 2007; Porter et al. 2008; Vladimirov et al. 2011) CR propagation and interactions code as templates.
+In Section 4 we present an alternative approach to model the Galactic foreground emission that does not
+rely on the GALPROP calculation of the CR distribution in the Milky Way. In both Sections 3 and 4,
+we define the template of the Fermi bubbles by applying a significance cut in the residual maps obtained
+after subtraction of the other components of gamma-ray emission from the data. The energy spectra of
+the components are found by simultaneous fits of all the spatial templates to the data. In Section 5, we
+fit different functions to the energy spectrum of the bubbles and estimate the statistical and systematic
+uncertainties in the fit parameters. In Section 6, we address several questions on the morphology and
+spectral variation across the projected area of the bubbles. In Section 7, we fit the spectrum of the Fermi
+bubbles using hadronic and IC models of gamma-ray production. We compare the synchrotron radiation
+from the electrons in the IC scenario and from the secondary electrons and positrons in the hadronic
+scenario with the WMAP andPlanck haze data. We present our conclusions in Section 8. Appendix A
+has technical details on the fitting procedure, and Appendix B contains details on the IC and hadronic
+models of the bubbles.
+2. Data set and analysis strategy
+In this analysis we use 50 months of Fermi LAT (Atwood et al. 2009) data recorded between 2008
+August 4 and 2012 October 7 ( Fermi Mission Elapsed Time 239557448 s - 371262668 s), restricted to the
+Pass 7 reprocessed UltraClean class. We select the standard good-time intervals, e.g., when the satellite
+is not passing through the South Atlantic Anomaly. The UltraClean class provides the cleanest standard
+gamma-ray sample with respect to the contamination from misclassified charged particle interactions
+in the Fermi LAT (Ackermann et al. 2012). The Pass 7 reprocessed data2benefits from an updated
+calibration that improves the energy measurement and event-direction reconstruction accuracy at energies
+above 1 GeV. To minimize the contamination from the Earth-limb emission, we select events with a zenith
+1http://galprop.stanford.edu
+2http://fermi.gsfc.nasa.gov/ssc/data/analysis/documentation/Pass7REP_usage.html
+– 7 –
+Integrated intensity, E= 0.1−1.0 GeV
+0.150.300.450.600.750.901.051.201.351.50
+log10[105F/parenleftbig
+cm−2s−1sr−1/parenrightbig
+]
+Integrated intensity, E= 1.0−10.0 GeV
+−0.20.00.20.40.60.81.01.21.4
+log10[106F/parenleftbig
+cm−2s−1sr−1/parenrightbig
+]
+Integrated intensity, E= 10.0−500.0 GeV
+−0.50−0.250.000.250.500.751.001.251.50
+log10[107F/parenleftbig
+cm−2s−1sr−1/parenrightbig
+]
+Fig. 1.— Gamma-ray intensity maps integrated in three large energy bins for the data set used in this paper.
+Throughout this paper we show skymaps in Galactic coordinates centered on the Galactic center using the Mollweide
+projection. The pixel size is 0 .9◦. The map on the right is smoothed with a σ= 1◦Gaussian kernel. The smoothing
+is for presentation only; we do not smooth the data maps when fitting the models.
+angle <90◦. In addition we require that the angle of the event with respect to the instrument axis is
+<72◦, because there is increased CR background leakage for highly inclined events (Atwood et al.
+2009). The exposure and the effective point-spread function (PSF), which are functions of the position
+in the sky and measured energy as well as the pointing history of the observations, were generated
+using the standard Fermi LAT ScienceTools package version 9-28-00 available from the Fermi Science
+Support Center3using the P7REP ULTRACLEAN V15 instrument response functions. We mask the
+Galactic plane within |b|<10◦, use events with energies between 100 MeV and 500 GeV separated in
+25 logarithmic energy bins, and combine front and back-converting events. Spatial binning is performed
+using HEALPix4(Gorski et al. 2005) with a pixelization of order 6 ( ∼0.9◦pixel size). The gamma-ray
+intensity integrated in three broad energy bins is shown in Figure 1. The Fermi bubbles are visible
+at energies >10 GeV without any detailed analysis. To calculate the spectrum of the bubbles, the
+subtraction of the foreground emission components is required.
+The observed gamma-ray emission can be divided into resolved point sources (PS) and diffuse emis-
+sion. Most of the diffuse gamma-ray emission comes from interactions of CR nuclei with interstellar gas.
+Another important component of diffuse emission at high energies is due to IC emission from leptonic
+CRs interacting with the low-energy interstellar radiation field (ISRF). At energies below approximately
+10 GeV, bremsstrahlung emission from electrons and positrons interacting with interstellar gas is impor-
+tant as well. These three components have a characteristic distribution on the sky that peaks near the
+Galactic plane. An additional isotropic gamma-ray component is made of several contributions, including
+residual CR contamination, unresolved extragalactic point sources, and extragalactic diffuse background.
+Another diffuse emission component is represented by Loop I, a giant radio loop spanning 100◦on
+the sky (Large et al. 1962), which is also visible in the gamma-ray sky (Casandjian & Grenier 2009).
+The origin of Loop I is an open question. It could be of local origin, produced either by a nearby
+supernova explosion or by the wind activity of the Scorpio-Centaurus OB association at a distance of
+170 pc (Wolleben 2007). Alternatively, it could be interpreted as a large-scale outflow from the Galactic
+3http://fermi.gsfc.nasa.gov/ssc/data/analysis/
+4http://sourceforge.net/projects/healpix/
+– 8 –
+center (Kataoka et al. 2013). In this paper we consider Loop I only as a foreground for the bubbles. A
+dedicated study of this feature is beyond the scope of this paper and left for future work.
+The hadronic, IC, bremsstrahlung, isotropic and Loop I components comprise the most important
+emission components for an analysis of additional large scale gamma-ray structures, such as the Fermi
+bubbles. The general analysis strategy in the evaluation of the gamma-ray emission from the Fermi
+bubbles in this paper can be divided into the following steps:
+1. Construct a foreground emission model that includes known components5, namely point sources,
+hadronic emission from interactions of CR nuclei and ions with interstellar gas, IC emission and
+bremsstrahlung from CR electrons, isotropic emission and emission from Loop I (Section 3).
+2. Use the residual maps obtained by fitting and subtracting the known components from the data to
+find a template for the Fermi bubbles (Section 3.2).
+3. Find the spectrum of the Fermi bubbles using the template derived in the previous step together
+with the templates for the other components (Section 3.3).
+3. Characterization of the Fermi bubbles using GALPROP templates
+In this section we use the GALPROP package v54.1 to generate templates for the Galactic IC
+emission component and for the hadronic and the bremsstrahlung gamma-ray components. The latter
+ones are correlated with the distribution of interstellar gas. In the following, these components will be
+referred to as “gas-correlated”. GALPROP calculates the propagation and interaction of CRs in the
+Galaxy by numerically solving the diffusion equation for a specified model of the CR source distribution,
+a CR injection spectrum, and a model of the transport in the Galaxy. Parameters of the model are
+constrained by reproducing CR observables, including CR secondary abundances and spectra obtained
+from direct measurements in the solar system, and diffuse gamma-ray and synchrotron emission. We
+assume diffusive reacceleration with a Kolmogorov spectrum of interstellar turbulence and no convection.
+The diffusion coefficient is assumed to be isotropic. In the current version of GALPROP, all calculations
+assume azimuthal symmetry of the CR density with respect to the GC. Surveys of the 21-cm line of H I
+and the 2.6-mm line of CO (a tracer of H 2) are used to evaluate the distribution of the target gas. The
+model of the ionized gas is based on observations of the pulsar dispersion measures and H αemission
+(Gaensler et al. 2008). Dust maps are used to correct for the dark gas distribution that refers to neutral
+interstellar gas unaccounted for by the H I and CO surveys (Grenier et al. 2005; Ackermann et al. 2012).
+From the GALPROP calculation, we obtain gamma-ray emissivities corresponding to bremsstrahlung,
+and hadronic interactions with neutral (H I), ionized (H II), and molecular (H 2) hydrogen in different
+Galactocentric rings, and IC emission. Since the bremsstrahlung is correlated with the distribution of
+gas, it is combined with the template of gamma rays from hadronic interactions. In the following, we
+5Note that the diffuse model provided by the Fermi-LAT collaboration through the Fermi Science Support Center cannot
+be used in this analysis, because it was developed for studies of point-like and small objects and, in particular, it already
+includes a simple model for the Fermi bubbles.
+– 9 –
+also combine H I and H II rings, while we keep H 2rings independent. The gamma-ray intensity is
+proportional to a product of the gas and CR densities. The integral CR density is not well constrained
+a priori. To reduce the uncertainty related to the CR density, we use the gas-correlated templates in
+Galactocentric rings. The local ring template (r=8–10 kpc from the Galactic center) for H I accounts for
+the vast majority of the gamma rays at latitudes |b|>10◦, and therefore its normalization is kept free in
+the fit while we fix the other rings. The molecular hydrogen gas is mainly concentrated in isolated clouds
+at low latitudes. Since this contribution is small at high latitudes compared to the atomic hydrogen
+contribution, it is fixed in the fit. An IC template is created that takes into account the anisotropy of
+the ISRF due to an anisotropic flux of photons from the Galactic plane6. Examples of hadronic and IC
+templates are shown in Figure 2. A detailed study of different GALPROP models and comparisons with
+Fermi LAT data is presented in Ackermann et al. (2012). For this paper, we consider a subset of models
+used in Ackermann et al. (2012) with updated H I gas maps. Compared to the gas maps used in Acker-
+mann et al. (2012), the maps used here exclude the large and small Magellanic clouds, M31, and M33 as
+well as the Magellanic Stream and other high velocity clouds. The choice of a specific GALPROP model
+is a possible source of systematic uncertainties in our results. We address the question of systematic
+uncertainties in Section 3.3.
+The following parameters describe our baseline GALPROP model7: the CR population is traced by
+the measured pulsar distribution (Lorimer et al. 2006), the CR confinement volume has a height of 10
+kpc and a radius of 20 kpc, and H I column densities are derived from the 21-cm line intensities in the
+approximation of an optically thin medium, which is formally modeled by setting the spin temperature
+to 100,000 K.
+The emission of Loop I is not modeled by GALPROP. It is a very important contribution because
+it overlaps the bubbles, especially in the Northern Galactic hemisphere (see Figure 1). Here we use two
+different approaches to model the emission of Loop I. In the first approach (used for the baseline model),
+we take a large elliptical region from the Haslam et al. (1982) map at 408 MHz around the Galactic
+center as a template of Loop I (Figure 2, bottom right). This approach is based on the assumption that
+the features in the Haslam map are produced by the synchrotron radiation from the same population
+of electrons that emit IC gamma rays. As an alternative way to model Loop I we use a geometric
+template based on a polarization survey at 1.4 GHz (Wolleben 2007). The geometric Loop I model
+assumes synchrotron emission from two shells. Each shell is described by 5 parameters: the center
+coordinates ℓ,b; the distance to the center d; and the inner ( rin) and outer ( rout) radius of the shell. The
+parameters are set to: ℓ1= 341◦,b1= 3◦,d1= 78 pc, rin,1= 62 pc, rout,1= 81 pc, ℓ2= 332◦,b2= 37◦,
+d2= 95 pc, rin,2= 58 pc, rout,2= 82 pc (Figure 2, bottom left). Due to line of sight integration, the two
+uniform intensity spherical shells appear non-uniform with diffuse edges. The geometric Loop I template
+is included in the derivation of the systematic uncertainties (see Section 3.3). An isotropic template
+accounts for the extragalactic diffuse emission and the residual CR contamination.
+6We correct for the anisotropy of the cross-section by multiplying the generated IC maps with a map of the ratio
+between the predicted IC emission from a full anisotropic calculation, and the prediction assuming an isotropic cross-
+section (Ackermann et al. 2014).
+7GALDEF file: galdef 54Lorimer z10kpc R20kpc Ts100000K EBV5mag
+– 10 –
+A template for the bubbles is defined from the residual maps in Section 3.2. In the definition of the
+templates of the bubbles, point sources from the 2FGL catalog (Nolan et al. 2012) with a test statistic
+>25 are masked with a radius of 1 .48◦, which corresponds to the 95% containment region of the PSF at 1
+GeV. The test statistic is defined as TS = 2 ∆ log L, where Lis the likelihood. TS = 25 corresponds to a
+significance of just over 4 σ. The twelve extended sources in the 2FGL catalog are masked conservatively
+within a circle of radius equal to the sum of the major semiaxis of the source template and the 95% PSF
+containment radius. The source mask is displayed in Figure 3 on the right. Since the definition of the
+bubbles relies only on an analysis at high energies ( >6 GeV), where the PSF core is narrow ( <0.2◦),
+the masked point sources cover about 18% of the area of the bubbles at |b|>10◦. The spectrum of
+the bubbles is calculated over a broad energy range extending from 100 MeV to 500 GeV. The broad
+PSF at low energies does not allow sufficient masking of the sources without masking much of the area
+of the bubbles, and therefore requires a more accurate modeling. Since the 2FGL catalog was obtained
+with only 2 years of data and this analysis uses more than 4 years, we fit 472 bright point sources in the
+2FGL catalog with TS >200 using the full 50 months data set in order to account for flares happening
+outside of the time window of the 2FGL analysis. For each source, we fit the normalization in each energy
+bin. The remaining less significant sources are merged into a single template with fluxes from the 2FGL
+catalog. The overall normalization of this template is free in the fit. Individual sources fainter than the
+2FGL limit are effectively part of the isotropic background. Their effect on the overall fit would be in
+the isotropic component and they would not impact the results for the bubbles.
+The templates listed above are fit to the data (see Table 1 for a summary of the templates used in
+the derivation of the spectra). The fit is performed in each energy bin individually, i.e., if a template is
+kept free in the fit, its normalization in each energy bin is a free parameter in the fit.
+– 11 –
+Hadronic Intensity, E= 6.4−9.1GeV
+0.00.51.01.52.02.53.03.54.04.55.0
+106E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbig
+IC, Intensity, E= 6.4−9.1GeV
+0.00.51.01.52.02.53.03.54.04.55.0
+106E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbig
+LoopI (geometric), Intensity, E= 6.4−9.1GeV
+0.000.030.060.090.120.150.180.210.240.270.30
+106E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbig
+LoopI (Haslam), Intensity, E= 6.4−9.1GeV
+0.000.030.060.090.120.150.180.210.240.270.30
+106E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbig
+Fig. 2.— Template intensities in the energy bin E= 6.4−9.1 GeV. Top left: gas-correlated template (sum of
+hadronic and bremsstrahlung for neutral and ionized atomic and molecular hydrogen) obtained from GALPROP.
+Top right: IC map obtained from GALPROP. Bottom: Loop I template based on geometrical model (Wolleben
+2007) (left) and on the Haslam map (right). The Loop I template normalizations are obtained by fitting to the
+Fermi LAT data.
+– 12 –
+3.1. Fitting algorithm
+In order to extract the Fermi bubbles’ morphology and spectrum from the Fermi LAT data we
+use the all-sky fitting tool GaDGET (Ackermann et al. 2008), which simultaneously fits the different
+components of the diffuse Galactic emission to the Fermi LAT data in a maximum likelihood procedure
+based on Poisson statistics. MINUIT (James & Roos 1975) was used as the optimizer with a tolerance
+of 1.0×10−4.
+The model is a linear combination of templates
+µij(f) =X
+mfimtm
+ij, (1)
+where tm
+ijis the template of the component min energy bin iand in pixel j. Coefficients fimare the fitting
+parameters. The model maps, which are in flux units, are multiplied with the exposure and convolved
+with the instrument PSF to obtain the corresponding count maps for comparison with the data count
+maps.
+3.2. Defining a template for the Fermi Bubbles
+In order to define a template for the Fermi bubbles, we perform an all-sky fit with the templates
+listed above except, of course, a template of the bubbles. We define the template of the bubbles based
+on the residuals at energies above 6 .4 GeV where the flux of the bubbles becomes readily apparent8.
+Since no template accounts for the bubbles’ flux, the coefficients of the fit will partially compensate for
+it, introducing a bias. To avoid this bias we mask an elliptical region that approximately covers the
+Fermi bubbles (Figure 3 on the left). Point sources are also masked (see above for details). The PS mask
+is shown in Figure 3 on the right. In the resulting residual map, the masked pixels are filled with the
+average of the neighboring not-masked pixels.
+Signal/Background region
+0.00.20.40.60.81.01.21.41.61.82.0
+Point source mask
+0.00.10.20.30.40.50.60.70.80.91.0
+Fig. 3.— Left: elliptical region that covers the bubbles (orange) and background region (black). The Galactic
+plane is masked at |b|<10◦. Right: mask for point sources (TS >25) and extended sources from the 2FGL catalog
+(Nolan et al. 2012).
+8Between 5 and 10 GeV the bubbles become clearly visible in the residuals and the exact choice of the threshold does
+not affect the results.
+– 13 –
+The significance map of the residuals (defined as (data −model)/√
+model) for the baseline model
+defined in Section 3 integrated over energies 6 .4 GeV < E < 290 GeV is shown in Figure 4 (left). The
+template of the bubbles is determined by applying a threshold in the smoothed significance map. To find
+the threshold, we create a histogram (Figure 4, right) with the smoothed significance in each pixel in the
+region of interest and outside the region of interest (orange and black respectively in Figure 3, left). We
+consider the outside region as the background region and fit a Gaussian to the histogram. The width
+of the Gaussian is denoted as σBG. The threshold in the definition of the template of the bubbles is set
+to 3σBG. The results for a different threshold of 4 σBGare included in the systematic uncertainties (see
+Section 3.3). Figure 5 shows the resulting templates of the bubbles. We distinguish between flatand
+structured templates. In the flat template the value is 1 if the significance of the residual is more than the
+threshold and 0 otherwise, while the structured template is equal to the residual flux if the significance
+of the residual is greater than the threshold and 0 otherwise. In the baseline model, the bubbles are
+modeled with a structured template created with a significance threshold of 3 σBG.
+Signiﬁcance of integrated residuals for E= 6.4−289.6GeV
+−5.0−2.50.02.55.07.510.012.515.017.520.0
+(data-model) / sqrt(model)
+−5 0 5 10 15
+(data-model)/sqrt(model)10−1100101102103104number of pixelsAll sky
+Ellipse region
+Outside region
+Normal distribution, σBG=1.5
+Cut at 3σBG
+Fig. 4.— Left: significance of integrated residual map at energies 6 .4 GeV < E < 290 GeV, defined as
+(data−model) /√
+model, smoothed with a 2◦Gaussian kernel. The large-scale residuals outside of the bubbles
+are due to imperfect modeling of Loop I and the local gas. Right: histogram of values in the smoothed residual
+significance map. Dashed (red): background region (Figure 3). Dash-dotted (green): the region of interest. Solid
+(blue): all sky. Dotted (cyan): Gaussian fit to the background distribution, the width is σBG= 1.5. The threshold
+in the definition of the bubbles’ template is set to 3 σBGand is shown as a vertical dashed black line. All pixels
+inside the elliptical masking region and above |b|= 10◦with the level of residual flux larger than the threshold are
+included in the template of the bubbles (Figure 5).
+In the next step the template of the bubbles is included in the all-sky fit. This time, since no PS
+mask is applied, the point sources are included in the fit and not masked as in the derivation of the Fermi
+bubbles’ template. The integrated residual map after including the structured template of the bubbles in
+the fit and fitting the point sources is shown in Figure 6 (left). The spectra for the different components
+are presented in Figure 6 (right).
+In the rest of the paper, the model of the foreground emission components and the Fermi bubbles
+– 14 –
+Table 1. Template maps used in all-sky fit for derivation of the spectra.
+Template Description
+Neutral and ionized atomic hydrogen GALPROP: bremsstrahlung and hadronic production
+(sum of H I and H II) local ring: 8 - 10 kpc (free)
+non-local component: 0 - 8 kpc and 10 - 50 kpc (fixed)
+Molecular hydrogen (H 2) GALPROP: bremsstrahlung and hadronic production
+all Galactocentric rings combined (fixed)
+Inverse Compton radiation GALPROP (free)
+Bright 2FGL sources TS >200, 472 sources: each fitted individually
+Weak 2FGL sources one template obtained by adding 2FGL fluxes (free)
+Isotropic extragalactic diffuse and
+residual CR contamination (free)
+Loop I Haslam map or geometric template (free)
+Bubble template obtained from residuals (Section 3.2) (free)
+Bubbles Template Flat (residual map, 3.0 σBGcut)
+0.00.10.20.30.40.50.60.70.80.91.0
+Bubbles Template Structured (residual map, 3.0 σBGcut)
+0.000.250.500.751.001.251.501.752.002.252.50
+107F/parenleftbig
+cm−2s−1sr−1/parenrightbig
+Fig. 5.— Templates of the bubbles defined from the residual significance map using a threshold of 3 σBG, where
+σBGis defined in Figure 4. Left: flat 0-1 template (the value is 1 if the significance of the residual is more than
+3σBGand 0 otherwise). Right: structured template proportional to the residual flux.
+– 15 –
+presented in this section will be referred to as the baseline model.
+Signiﬁcance of integrated residuals for E= 6.4−289.6GeV
+−5−4−3−2−10 1 2 3 4 5
+(data-model) / sqrt(model)
+10−1100101102
+E (GeV)10−910−810−710−610−510−4E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbigdata
+bubbles
+Loop IIC
+isotropic
+local gas
+Fig. 6.— Left: residual map after including the structured template of the bubbles in the fit integrated over
+energies 6 .4 GeV < E < 290 GeV smoothed with a 2◦Gaussian kernel. Remaining residuals to the northeast of
+the bubbles indicate an imperfect modeling of Loop I. Right: spectra of the bubbles and the other components
+obtained from the fit. The arrows correspond to 2 σupper limits. The spectrum of the bubbles is computed as the
+mean over the points inside the bubbles template. The lines show the spectra predicted by GALPROP. The drop
+in the extracted IC spectrum is due to a correlation between the IC template and Haslam map. The Haslam map
+contains synchrotron radiation emitted by the same population of electrons that is emitting the IC emission.
+– 16 –
+3.3. Systematic uncertainties
+To estimate the systematic uncertainties in the spectrum of the Fermi bubbles due to uncertainty
+in the modeling of the diffuse foregrounds and the bubbles, we study the variation of our results when
+using different GALPROP configurations and definitions of the templates of Loop I and the bubbles.
+We tested two different tracers of the CR source distributions: the measured distribution of supernova
+remnants (SNR) (Case & Bhattacharya 1998) and the measured pulsar distribution (Lorimer et al. 2006).
+In addition, we varied the size of the CR confinement volume. In GALPROP, the diffusion zone is a
+cylinder with radius Rhand height zhabove the Galactic plane. Rh= 20 kpc and 30 kpc and zh= 4 and
+10 kpc have been tested. Furthermore, two different spin temperature values ( TS= 150 K and 105K)
+are used to correct for the H I opacity in order to derive the H I column density. TS= 105K corresponds
+to the optically thin approximation. Loop I is either modeled by the Haslam map or by the geometric
+template. We also use a flat template of the bubbles instead of the structured template and vary the
+significance threshold used to define the bubbles (3 σBGand 4 σBG). Figure 7 shows some examples of the
+bubbles’ spectra for different parameters of the model. Each case represents the change of one parameter
+relative to the baseline model configuration.
+10−1100101102
+E (GeV)10−710−6E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbig
+pulsar, 3σBG, Haslam
+pulsar, 3σBG, Haslam, ﬂat
+pulsar, 4σBG, Haslam
+SNR, 3σBG, Haslam
+pulsar, 3σBG, geom.
+Fig. 7.— Spectra of the bubbles for different model configurations. The cases differ by significance threshold used
+to define the template of the bubbles (3 σBGor 4σBG), whether the CR source distribution is traced by pulsar or
+SNR distributions, and the use of the geometric Loop I template or the Haslam map.
+The all-sky fit and the extraction of the bubble spectrum was repeated with the different GALPROP
+configurations, Loop I models, and templates for the bubbles. The envelope of all tested models defines
+the systematic error band. The final result is shown in Section 5 where it is also compared to the spectrum
+obtained from the local template analysis (Section 4).
+– 17 –
+4. Characterization of the bubbles using local templates analysis
+In this section we present an alternative approach for modeling the Galactic foreground emission
+which does not rely on the GALPROP modeling of CR propagation and interactions in the Milky Way.
+For example, one of the assumptions in the analysis presented in Section 3 is that the CR spectrum is
+independent of the azimuthal direction from the Galactic center. In general, this assumption may be
+violated, e.g., in the spiral arms. In this section, we relax this assumption by fitting templates in small
+regions on the sky (in the following called patches). Instead of using the gamma-ray emission maps
+provided by GALPROP, we directly use gas maps to trace the intensities of gamma-ray emission: H I
+and CO surveys uncorrected for absorption and dark gas (for a description see Ackermann et al. 2012)
+together with the Schlegel, Finkbeiner and Davis (SFD) dust map (Schlegel et al. 1998) to account for
+gas not traced by the H I or CO lines. The IC component is modeled by a bivariate Gaussian; the
+parameters of the Gaussians are found from fitting the model to the data (more details in Section 4.2).
+Models for the gamma-ray emission components are derived one at a time. We start with the
+component with the brightest integrated flux, namely the gas-correlated emission. After that we subtract
+the gas-correlated emission from the data and define a template for the IC emission together with the
+isotropic component. Then we additionally subtract the IC and the isotropic components and determine
+the Loop I and the bubbles’ templates from the residuals. At each step the components that have not yet
+been determined are represented by proxy templates in order to avoid a bias in the fluxes. In the end,
+all templates are fit to the data simultaneously to determine the spectrum of the emission components.
+In this analysis, we subtract the 2FGL point sources from the data using the 2FGL fluxes. In addition
+we mask the cores of the bright point sources with fluxes above 1 GeV greater than 2 ×10−9ph cm−2s−1
+(556 sources) within 1◦, which corresponds to the 68% radius of the PSF at approximately 700 MeV. We
+test the influence of point sources on the determination of the spectrum of the Fermi bubbles by refitting
+the point sources with TS >200 to take into account flaring outside the 2FGL time window in Section
+4.4.
+4.1. Gas-correlated components via local template fitting
+Gamma-ray intensities from a given direction that arise from hadronic interactions and bremsstrahlung
+are proportional to the column density of gas. The normalization coefficient is the emissivity, which can
+be given in terms of the gamma-ray emission rate per atom. In this section, we assume that in a limited
+region of the high-latitude sky (dubbed hereafter a patch), the CR density is approximately constant. In
+this case, we can determine the emissivity directly as the proportionality constant between gas column
+densities and gamma-ray intensities from a fit to the data in each patch of the sky.
+The other emission components, i.e., IC, isotropic, Loop I, and the Fermi -bubbles, have to be
+modeled simultaneously with the gas-correlated component. Otherwise the gas-correlated contribution
+may be overestimated. We assume that the other components either are sufficiently smooth, or have
+features uncorrelated with the gas distribution, so that they can be modeled by a combination of some
+smooth functions in each patch. We choose two-dimensional polynomials defined locally on each patch
+– 18 –
+as a linear basis for the smooth functions (determined below).
+In order to avoid sharp edges for the patches, which may lead to artificial features in the residuals,
+we use a hyperbolic tangent function to obtain patches with smooth boundaries. The all-sky data and
+model maps are restricted to the patch by multiplication with the following weight function:
+w(θj) =1 + tanh λ(θ0−θj)
+2, (2)
+where θjis the angle from the center of the patch to the center of pixel j, the radius of the patch is θ0
+and the width of the boundary is ∆ θ= 2/λ. This function smoothly interpolates between w(θ)≈1 for
+θ≪θ0andw(θ)≈0 for θ≫θ0, where the width of the edge is assumed to be much smaller than the
+patch radius, i.e., λθ0≫1. In Figure 8 we show an example of a patch with a gas template and a local
+polynomial template multiplied with the weight function.
+H I,R> 8kpc
+0.01.53.04.56.07.59.010.512.013.515.0
+P(x, y) = 3 x y
+−1.0−0.8−0.6−0.4−0.20.00.20.40.60.81.0
+Fig. 8.— An example of the gas map (left) and a quadratic polynomial (right) in a local patch on the sky. The
+center of the patch is at b=−30◦, ℓ= 22.5◦, the radius is 50◦and the width of the boundary is 2 /λ= 10◦. The
+left map is proportional to the H I column density integrated for R >8 kpc, where Ris the Galactocentric radius.
+The data are fitted with a linear combination of gas maps and polynomials of different degrees.
+In the analysis, we separate the sky into 24 patches. Each patch has a 50◦radius and a 10◦edge
+width. There are 16 patches centered at b=±30◦and at ℓ= 22 .5◦+ 45◦n, where n= 0,1,2, . . . , 7.
+There are 8 patches centered at b=±60◦and at ℓ= 45◦+ 90◦n, where n= 0,1,2,3. The radius of the
+patches is chosen to be rather large so that the template fitting procedure converges well. The centers
+of the patches are chosen to cover the sky approximately uniformly with a significant overlap among the
+patches.
+The data in each patch are modeled by a combination of gas templates and a combination of local
+polynomials up to a maximal degree kmaxwhich is determined in each patch from the convergence of the
+fit (more details below). The model in the patch αis
+µα
+ij=X
+mfα
+imTm
+j+X
+nkα
+inPn(xj, yj), (3)
+where ilabels the energy bins, jlabels the pixels in the patch, nlabels the polynomials, and mlabels the
+gas templates, Tm
+j. In this analysis, we use four gas templates: H I summed over Galactocentric rings
+with R < 8 kpc, H I summed over rings with R > 8 kpc, H 2summed over all rings, and the SFD dust
+template (Schlegel et al. 1998). We neglect the contribution from ionized hydrogen (H II) in this analysis.
+(If the corresponding contribution is smooth, it becomes a part of the local polynomial term). The scaling
+– 19 –
+coefficient fα
+mis proportional to the emissivity, corresponding to template mas fitted in patch α. Some of
+the patches at high latitudes may have little contribution from some gas templates, such as H I in the inner
+Galaxy rings or H 2. The template is included in the fit if the “scalar product” between the template and
+the weight function that determines the patch is sufficiently large:PNpix
+jTm
+jwα
+j>0.01|Tm||wα|where
+the norm is defined as the square root of the sum of the map values squared. The total number of gas
+templates in each patch is ≤4.
+The second term in the model describes components that are not correlated with the gas distribution
+(isotropic, IC, Loop I, bubbles). These components are modeled by a combination of polynomials in local
+coordinates on the patch. We define the local polynomials on the sphere by taking a polynomial function
+on the plane tangent to the center of the patch and projecting the values of the function from the plane
+to the sphere using a stereographic projection. In terms of local coordinates xandyon the tangent
+plane, the polynomials are Pn= 1, x, y, x2, xy, y2, . . .. Ifkis the maximal degree, then the total number
+of polynomials is nmax= 1 + 2 + 3 + . . .+ (k+ 1) =(k+1)(k+2)
+2. The maximal degree of the polynomials
+kmaxdepends on the position of the patch and on the energy range. We specify kmaxat the end of this
+section in the discussion of the stability of the fit.
+In order to speed up the calculation, we use the quadratic approximation to the log likelihood, which
+for all-sky fits takes the form
+−2 logL ≈E binsX
+ipixelsX
+j(dij−µij)2
+σ2
+ij, (4)
+where dijandµijare the number of gamma rays in the data and the model prediction for energy bin i
+in pixel j. We use the smoothed counts map ˜dijas an estimator for the standard deviation σ2
+ij, where
+the smoothing radius Ridepends on energy bin i. For each energy bin, the radius is chosen such that
+there are on average at least 100 photons inside the circle of radius Ri. The minimal value of the radius
+is 2◦, which corresponds to an average over about 15 pixels. As we discuss in Appendix A, the choices
+σ2
+ij=dijorσ2
+ij=µijresult in biased χ2fitting, while σ2
+ij=˜dijreduces the bias.
+The data fitting in a local patch αis performed with the following weighted χ2
+χ2=E binsX
+ipixelsX
+jwα
+j2(dij−µα
+ij)2
+σ2
+ij. (5)
+Notice that the weighted χ2is equivalent to a multiplication of the data dijand the model µα
+ijwith the
+weight wα
+j(without changing σij). The best-fit parameters and, hence, the model µα
+ijdepend on the
+patch. In this part of the analysis we mask |b|<5◦which is different from the Galactic plane mask
+|b|<10◦adopted in the rest of the paper. The reason is that the regions closer to the Galactic plane
+have more features in the gas maps, especially for the inner Galaxy H I template and the H 2template.
+Including these regions improves the convergence of the fits.
+We use different fitting strategies at low and high energies. At low energies (0.1 - 10 GeV), the statis-
+tics are high and the normalization of the templates can be determined in every energy bin independently.
+At high energies the statistics are low. In order to avoid high statistical fluctuations among the energy
+bins, we assume that a single power law is a good approximation for the gas-correlated emission and
+find the best-fit power-law index for the energy bins between 3 and 500 GeV. In the intermediate region,
+– 20 –
+i.e., between 3 and 10 GeV, we take the mean of the spectra. The best-fit combinations of polynomial
+templates are determined independently in each patch and in each energy bin both at low and at high
+energies.
+The resulting contribution of the gas-correlated components depends on the degree of the polynomials
+used to model the other components. If the degree of the polynomial is too small, then the contribution of
+gas-correlated components will be overestimated due to absorption of the flux from the other components.
+For imperfect gas templates, a large degree of the polynomials leads to more of the gas-correlated gamma-
+ray emission being attributed to the polynomial templates. For a sufficiently high degree, the polynomial
+templates will start to respond to the noise, thus, over-fitting the data. Different portions of the sky
+require a different maximal degree of the polynomials. Near the Galactic plane and close to local features,
+such as the Fermi bubbles, the degree should be larger than at high latitudes, where the isotropic and
+the local IC emission can be described by smoother templates.
+In the following we describe the determination of the maximal degree of the polynomials for a
+particular patch. The convergence of χ2is not a good indicator: the χ2value decreases with larger
+degree polynomials as more and more features are included in the model, but it does not reach the
+level of statistical noise up until a very high degree, where we are already likely to include some of
+the gas-correlated emission into the local polynomials. One of the characteristics of a good model of
+gas-correlated emission is the stability of the corresponding spectrum as the degree increases: we stop
+increasing the degree of the polynomials kwhen the differences between the photon spectra of the gas-
+correlated component become smaller than a certain threshold. In particular, we calculate the difference
+of the spectra between kandk′=k−1, k−2, i.e., we compare the last spectrum with the previous two
+spectra
+t(k′)=1
+NbinsE binsX
+i(F(k)
+i−F(k′)
+i)2
+σ(k)
+i2, (6)
+where F(k)
+iis the gas-correlated intensity for |b|>5◦in an energy bin iderived with the maximal
+degree of polynomials k,σ(k)
+iis the statistical uncertainty of F(k)
+i. At energies below 10 GeV, we use the
+threshold t(k′)<20. This is much larger than the expected random fluctuations, but at low energies the
+differences are dominated by the systematic uncertainties and this level gives a good fit in Monte Carlo
+simulations. At energies above 3 GeV, the stability condition is t(k′)<1.5, which is comparable to the
+statistical noise. In each case, if the stability condition is not satisfied, we stop at a maximal degree of
+12, which corresponds to an angular scale of about 9◦.
+In each energy bin, all-sky models are obtained as a weighted average of the models in the patches
+µij=P
+αwα
+jµα
+ijP
+αwα
+j. (7)
+An example of gamma-ray counts, template maps and residuals is presented in Figure 9. Sharp features
+uncorrelated with the gas templates remain in the residual map in Figure 9, e.g., the left edge of the
+southern bubble. In the following, we use the weighted sum of the gas-correlated components as an
+all-sky template to determine the templates and the spectrum of the other components.
+– 21 –
+Intensity,E= 6.4−9.1 GeV
+0.00.51.01.52.02.53.03.54.04.55.0
+106E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbig
+Residual/std, E = 6.4 - 9.1 GeV
+−5−4−3−2−10 1 2 3 4 5
+σ
+Gas-correlated components, E = 6.4 - 9.1 GeV
+0.00.40.81.21.62.02.42.83.23.64.0
+106E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbig
+Local polynomial components, E = 6.4 - 9.1 GeV
+0.00.40.81.21.62.02.42.83.23.64.0
+106E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbig
+Fig. 9.— An example of fitting a combination of gas-correlated templates and a local polynomial model to the
+data. Top left: gamma-ray intensity in the 6.4 - 9.1 GeV energy bin. Bottom left: gas-correlated gamma-ray
+emission determined from the fit to the gamma-ray data. Bottom right: emission components not correlated with
+the gas templates modeled by a combination of local polynomials. Top right: the residual map. The details of the
+fitting procedure are described in Section 4.1.
+4.2. IC and isotropic components
+The next step is to model the IC and isotropic components. First, we subtract the point sources
+and the gas-correlated component found in the previous subsection from the data. Examples of the
+polynomial models and the residuals after subtraction of the gas-correlated components are shown in
+Figures 9 and 10. One can notice the presence of two distinct components: a component along the
+Galactic disk (mostly IC) and a halo component (mostly Loop I and the Fermi bubbles).
+We model both the disk and the halo components by bivariate Gaussians with parameters σdisk
+band
+σdisk
+ℓandσhalo
+bandσhalo
+ℓrespectively. The centers of the Gaussians are fixed at the GC. We fit the two
+Gaussians together with the isotropic template to the residuals obtained by subtracting the gas-correlated
+emission components and the point sources from the data. The Gaussian for the halo is a proxy template
+for the bubbles and Loop I, and is necessary to avoid a bias in the determination of the disk template.
+The parameters of the Gaussians are fitted independently in each energy bin below 30 GeV. At higher
+energies, the parameters of the Gaussians are determined from a fit to the flux integrated above 30 GeV.
+The Gaussian model in the energy bin (6 .4−9.1) GeV is shown in Figure 10. In this section and below,
+we use the global χ2fitting procedure described in Equation (4) without the additional weight factors
+introduced for the local templates analysis in Equation (5), i.e., we perform an all-sky fit instead of the
+local fit in patches.
+– 22 –
+Data minus gas-correlated emission, E= 6.4−9.1 GeV
+0.00.40.81.21.62.02.42.83.23.64.0
+106E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbig
+Gaussian model, E= 6.4−9.1 GeV
+0.00.40.81.21.62.02.42.83.23.64.0
+106E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbig
+Fig. 10.— Left: data minus gas-correlated emission residuals in the energy bin E= 6.4−9.1 GeV (smoothed with
+a 2◦Gaussian kernel). Right: a model of the residual with two Gaussians templates and an isotropic template.
+The Gaussian along the Galactic plane models the IC emission. The Gaussian that is more extended perpendicular
+to the plane is a proxy template for Loop I and the bubbles.
+4.3. Bubbles and Loop I
+We define the template of the bubbles from the residual flux after subtracting the gas-correlated,
+isotropic, and disk components from the data. We do not subtract the halo component, which only served
+as a proxy for bubbles and Loop I in the previous step. The template for the bubbles is derived from
+the residual flux integrated above 10 GeV (Figure 11). Compared to the derivation of the template of
+the bubbles in Section 3.2, here we use the energy range above 10 GeV to test the uncertainty related
+to the choice of the lower energy bound (compared to 6.4 GeV in Section 3.2). The histogram of pixel
+counts inside and outside of the bubbles’ region and the template of the bubbles are shown in Figure 12.
+For the energy range above 10 GeV the pixel counts in the background region intersect the distribution
+of pixel counts in the ellipse region around 2 .5σBG, which we use in the definition of the template of the
+bubbles.
+Signiﬁcance of integrated residual, E = 10.0 - 500.0 GeV
+−5.0−2.50.0 2.5 5.0 7.510.012.515.0
+(data - model) / sigma
+Fig. 11.— Residuals after subtracting the gas-correlated, disk, and isotropic components. The map shows the
+residuals integrated above 10 GeV in significance units (data minus model over the standard deviation of the data).
+Dashed ellipse: the region that includes the bubbles.
+In order to separate Loop I from the Fermi bubbles, we determine these templates from a correlation
+with the spectra of the two components between 0.7 GeV and 10 GeV, where the contribution from both
+Loop I and the bubbles is significant. The energy range is chosen to be relatively small so that the spectra
+are well approximated by a simple power-law function.
+– 23 –
+−10−5 0 5 10 15
+(data - model) / sigma10−1100101102103104105106number of pixelsBubbles
+All sky
+Ellipse region
+Outside region
+Normal distribution, σBG= 1.6
+Cut at 2.5σBG
+Bubbles template (residual map)
+0 1 2 3 4 5 6 7 8 9 10
+107F/parenleftbig
+cm−2s−1sr−1/parenrightbig
+Fig. 12.— Left: histogram of pixel counts. Solid blue line: total counts for the residual map in Figure 11. Green
+dash-dotted line: counts inside the elliptical region including the bubbles. Red dashed line: counts outside of the
+elliptical region. Cyan dotted line: Gaussian fit to the background counts in the outside region. The width of the
+distribution is σBG= 1.6, which is larger than the Gaussian noise due to unresolved residual features on the map,
+such as faint point sources and structures in the Galactic diffuse emission not included in the model. Black dashed
+vertical line: the threshold level of 2 .5σBGused to determine the template of the bubbles. Right: the template of
+the bubbles, determined by applying the threshold to the residual significance map.
+The derivation of templates correlated with the known spectra is similar to the derivation of the
+spectra for known templates. If we represent the residuals after subtracting the gas-correlated, IC, and
+isotropic components in kenergy bins and in Npixels as a k×Nmatrix D, then, assuming that we can
+neglect the statistical uncertainty, the problem of separating this residual into mcomponents is equivalent
+to the following matrix separation problem (e.g., Malyshev 2012)
+D=F·T, (8)
+where Fis ak×mmatrix of the spectra and Tis an m×Nmatrix of templates. If the spectra Fare
+known, then the corresponding templates are determined as
+T= (FT·F)−1·(FT·D). (9)
+This solution also works in the case of uniform statistical uncertainties. In the case of a non-uniform
+uncertainties, one has to minimize the χ2
+χ2=E binsX
+ipixelsX
+j(Dij−P
+mFimTmj)2
+σij2. (10)
+The only effect of this more general derivation is an inclusion of a factor1
+σij2in all sums over energy bins
+and over pixels in Equation (9).
+We assume that the residuals between 0.7 GeV and 10 GeV are dominated by two components: hard
+and soft components corresponding to the bubbles and Loop I respectively. We estimate the spectrum
+of the soft component from residuals outside of the region of the Fermi bubbles: 45◦< b < 60◦and
+– 24 –
+285◦< ℓ < 330◦. A power-law fit in this region has a photon index 2 .4. The spectrum of the hard
+component is determined from the residuals near the southern edge of the Fermi bubbles: −55◦< b <
+−40◦and−15◦< ℓ < 15◦. A power-law fit in this region has a photon index 1 .9. Thus, to determine the
+Loop I template we use Fsoft∝E−2.4, while for the template of the bubbles we use Fhard∝E−1.9. The
+corresponding hard and soft components are shown in Figure 13. To check the systematic uncertainty,
+we vary the indices in the definitions of the templates in Section 4.4.
+Soft spectral component (Loop I)
+−5.0−2.50.0 2.5 5.0 7.510.012.515.0
+(data - model) / sigma
+Hard spectral component (bubbles)
+−5.0−2.50.0 2.5 5.0 7.510.012.515.0
+(data - model) / sigma
+Fig. 13.— Soft and hard spectral components of the residuals between 700 MeV and 10 GeV. Left: soft component
+∼E−2.4. Right: hard component ∼E−1.9. The maps are in significance units. Dashed ellipses: regions that include
+Loop I and the bubbles.
+The templates in Equation 9 can be written as a linear combination of the residual maps
+Tmj=X
+ikmiDij, (11)
+where ilabels the energy bins, jlabels the pixels, and mlabels the emission components (Loop I and the
+bubbles). kmiare linear decomposition coefficients. The cuts are relative to the standard deviation outside
+of the regions containing the bubbles and Loop I. The standard deviation of the linear combinations of
+maps in Equation (11) is the root mean square of the standard deviations of the terms in the linear
+combination
+σmj(T) =sX
+ik2
+miσ2
+ij, (12)
+where σijis the statistical uncertainty of the data in energy bin iin pixel j(derived from the square
+root of the observed photon counts). The templates of the bubbles and Loop I are derived by applying
+threshold cuts of 2 σBGandσBGto the spectral components maps, which are chosen from the comparison
+of the background pixel counts to the pixel counts in the Loop I and the bubbles regions (Figure 14). We
+note that both methods considered in this work give comparable results for the template of the Fermi
+bubbles (Figures 5, 12, 14).
+The spectra obtained by fitting the five templates (gas-correlated, isotropic, IC, bubbles, and Loop I)
+to the gamma-ray data for |b|>10◦are shown in Figure 15. Let us summarize the characteristics of
+this model as it will be used as a reference model in the study of the systematic uncertainties in the
+next subsection. We use the 2FGL spectra for point sources, the local patches have a radius of 50◦, gas-
+correlated components are modeled by a combination of H I gas templates in two rings, the H 2template,
+and the SFD dust template, the spectrum of the gas-correlated components at high energies is a power
+– 25 –
+−20−15−10−5 0 5 10 15 20
+(data - model) / sigma10−1100101102103104105106number of pixelsLoop I
+All sky
+Halo region
+Outside region
+Normal distribution, σBG= 2.2
+Cut at 1.0σBG
+−10−5 0 5 10 15
+(data - model) / sigma10−1100101102103104105106number of pixelsBubbles
+All sky
+Ellipse region
+Outside region
+Normal distribution, σBG= 1.5
+Cut at 2.0σBG
+Loop I template (spectral component)
+0 2 4 6 8 10 12 14 16 18 20
+107E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbig
+Bubbles template (spectral component)
+0 1 2 3 4 5 6 7 8 9 10
+107E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbig
+Fig. 14.— The histograms of the pixels counts and the templates for the Loop I and the bubbles derived from
+the maps in Figure 13 analogously to the derivation of the histogram and the template for the bubbles from the
+integrated residual flux in Figures 11 and 12. The threshold for the Loop I template is 1 σBG. The threshold for
+the bubbles is 2 σBG.
+10−1100101102103
+E (GeV)10−810−710−610−5E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbigModel
+Data
+Gas
+ICS+ISO
+LoopI (SCA)
+Bubbles (cut)
+Fig. 15.— Spectra of the gas-correlated, IC, isotropic, Loop I, and bubbles components obtained by fitting the
+corresponding templates to the data. The template of the bubbles is derived from the residuals integrated above
+10 GeV (Figure 12). The Loop I template is derived in the SCA, see Figure 14.
+– 26 –
+law, the template of the bubbles is obtained from the residual above 10 GeV, while the Loop I template
+is obtained with the spectral components analysis method. We use structured flux templates for the
+bubbles and Loop I. The significance of the residuals for this fit is presented in Figure 16.
+E= 0.3−0.4 GeV
+−10−8−6−4−20 2 4 6 8 10
+(data - model) / sigma
+E= 1.6−2.3 GeV
+−10−8−6−4−20 2 4 6 8 10
+(data - model) / sigma
+E= 6.4−9.1 GeV
+−5−4−3−2−10 1 2 3 4 5
+(data - model) / sigma
+E= 36.2−51.2 GeV
+−5−4−3−2−10 1 2 3 4 5
+(data - model) / sigma
+Fig. 16.— Residual significance maps for the analysis in Section 4.3. The units are data minus model over the
+standard deviation of the data. The maps are smoothed with a 2◦Gaussian kernel for display.
+4.4. Systematic uncertainties
+In order to estimate the systematic uncertainties in the local templates analysis, we take the model
+presented in the previous subsection and vary some aspects of the fitting procedure. At first, we vary
+the parameters relevant to the derivation of the Galactic emission components (Figure 17 on the left):
+1. We try different patch radii in the determination of the gas-correlated components: 45◦and 60◦.
+2. To test the dependence on the assumption of a power-law spectrum for the gas-correlated emission
+at high energy, we use a log parabola function to model the gas-correlated spectra at high energies9.
+3. We also try to use three H I rings (R <8 kpc, 8 kpc <R<10 kpc, and 10 kpc <R, see Table 1)
+as opposed to 2 rings (R <8 kpc and 8 kpc <R).
+4. To test the dependence on the model of the point sources, we refit bright point sources with
+TS>200 (472 sources). We keep the positions given in the 2FGL catalog and refit the spectra of
+the point sources assuming the same spectral function (e.g., power law, power law with a cutoff,
+9This test is motivated by possible deviations from a simple power law in the gamma-ray spectrum due to features in
+the hadronic CR spectra (Adriani et al. 2011b). The log parabola function is the simplest generalization of a power law.
+– 27 –
+10−1100101102103
+E (GeV)10−710−6E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbig
+Reference model
+Patch radius 60 deg
+Patch radius 45 deg
+High energy log parabola ﬁt
+Fit PS spectra
+Three HI rings
+10−1100101102103
+E (GeV)10−710−6E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbig
+2.5σBG, resid>10GeV, ﬂux
+2.5σBG, resid>10GeV, ﬂat
+2.0σBG, SCA,nB= 1.9,nL= 2.4, ﬂux
+3.0σBG, resid>10GeV, ﬂux
+2.5σBG, SCA,nB= 1.8,nL= 2.5, ﬂux
+2.5σBG, geom LoopI, resid >10GeV, ﬂux
+Fig. 17.— Determination of the spectrum of the bubbles for different choices of analysis parameters described in
+Section 4.4. Left: determination of the bubble spectrum for different choices of point source subtraction method
+and the local template fitting strategy. Right: systematic uncertainty related to the definition of templates of Loop
+I and the Fermi bubbles. The template of the bubbles is determined either from the residuals integrated above 10
+GeV, or from the SCA, where the bubbles and Loop I spectra are described by power-law functions with indices
+nBandnL. For Loop I, we use either the template determined from the SCA or the geometric template described
+in Section 3. The “reference model” (Figure 15) is shown by green circles in both plots.
+or log parabola). The fit is performed in a small patch around each point source: the radius is
+either 2◦or the 95% containment angle, whichever is larger. This choice of the radius is motivated
+by the requirement that there are sufficiently many pixels to perform the fit, but not too many
+pixels, so that a low order polynomial model of the background is appropriate: the background is
+modeled by a combination of local polynomials of degree 4 (the degree was found from Monte Carlo
+tests). During a fit for a particular point source, all other 2FGL point sources with TS <200 are
+subtracted from the data with the 2FGL fluxes.
+5. We also mask the cores of the point sources without subtracting them. This has a relatively
+important effect at low energies, where the PSF is large. But even in this case, the difference in the
+spectrum of the bubbles is not significant compared to the effect from modifying the definitions of
+the bubbles’ and Loop I templates considered below.
+In order to test the systematic uncertainty related to the definition of the Fermi bubbles and the
+Loop I templates, we consider the following definitions of the templates (Figure 17 on the right):
+1. Bubbles’ template from residual maps above 10 GeV (we tested two threshold levels: 2.5 σBGand
+3σBG).
+2. Bubbles’ template from spectral components with indices 1.9, 1.8 (2 σBGand 2.5 σBG).
+3. Loop I template from spectral components with indices 2.4, 2.5 (1 σBGand 1.2 σBG).
+– 28 –
+4. Geometric Loop I template (Section 3).
+5. We use structured (proportional to flux) and flat (0 - 1) templates both for the bubbles and for
+Loop I.
+The largest effect at low energies comes from the assumptions on the spectrum of the components in the
+spectral components analysis (SCA) derivation of the templates for the bubbles and for the Loop I.
+5. The overall spectrum of the bubbles
+The spectra of the bubbles derived with the two methods presented in Sections 3 and 4 are shown in
+Figure 18, left. In the following, we take the results from the GALPROP template analysis as a baseline
+for the spectral energy distribution (SED) and combine all the spectra obtained with the two methods
+to get an envelope of the systematic uncertainties. The envelope includes uncertainties introduced by
+the diffuse modeling and uncertainties related to the analysis strategy, e.g., the threshold to define the
+template of the bubbles, or the size of the local patches. We add the systematic error of the LAT
+effective area (Ackermann et al. 2012) in quadrature to the envelope obtained for different models. The
+systematic errors of the LAT PSF and the effect of energy dispersion are negligible given the spatial and
+energy binning chosen for this analysis. The uncertainties due to the modeling of Galactic foregrounds
+and analysis strategy (see Table 2) dominate the uncertainty compared to the effective area, which has
+a relative flux error of ≤10%. The baseline model with its statistical and systematic uncertainties is
+presented in Figure 18 on the right and in Table 2. We also compare our results with the Fermi bubbles’
+SED derived by Su & Finkbeiner (2012). Our intensity is significantly higher than the spectrum of Su
+& Finkbeiner (2012), especially at low energies. The difference is due to a combination of several effects,
+namely a smaller Galactic plane mask (10◦in this work compared to 20◦in Su & Finkbeiner (2012)),
+a smaller area of the bubbles’ template in this analysis resulting in larger intensities, the inclusion of
+a separate template for the cocoon in Su & Finkbeiner (2012), and different modeling of the Galactic
+foregrounds. Our results agree with the spectrum in latitude strips at |b|>20◦reported by Hooper &
+Slatyer (2013).
+We fit the baseline SED with a log parabola function, a power law with an exponential cutoff and a
+simple power law (Figure 18, right). The log parabola and the power law with an exponential cutoff are
+defined, respectively, as
+dN
+dE=IE
+10GeV−α−βlog(E/1GeV)
+; (13)
+dN
+dE=IE
+1GeV−γ
+e−E/E cut. (14)
+We repeat the fits for the bubbles’ spectrum for different Galactic models and different definitions
+of the bubbles and Loop I templates. We obtain the following parameters for the log-parabola function
+in the fit range 100 MeV to 500 GeV: α= 1.77±0.01[stat]+0.10
+−0.22[syst], β= 0.063±0.004[stat]+0.047
+−0.018[syst].
+The values are given for the baseline model and the systematic uncertainties are estimated from the SEDs
+– 29 –
+obtained for different Galactic foreground models and choices in the analysis strategy. The systematic
+errors include the uncertainties of the LAT effective area Ackermann et al. (2012). The distributions of
+the fit parameters αandβfor the log parabola fits are shown in Figure 19 on the left.
+The power law with a cutoff fit above 100 MeV is dominated by low and intermediate energies. In
+order to find a value of the high-energy cutoff unbiased by low energies, we fit the power law with a
+cutoff in the range 1 GeV to 500 GeV. We obtain Ecut= 113 ±19[stat]+45
+−53[syst] GeV and γ= 1.87±
+0.02[stat]+0.14
+−0.17[syst]. The distribution of indices and cutoff energies of the power law with exponential
+cutoff fits are shown in Figure 19 on the right. The corresponding distributions of χ2per number of
+degrees of freedom (NDF) are presented in Figure 20. The log parabola gives a good description of the
+data over the whole energy range. The simple power law does not describe the data well even above 1
+GeV. The power law with a cutoff is preferred over a power law with at least 7 σsignificance.
+We calculate the total luminosity of the bubbles for |b|>10◦for each determination of the spectrum
+in the energy range from 100 MeV to 500 GeV. The bubbles are found to have a luminosity of (4 .4±
+0.1[stat]+2.4
+−0.9[syst]) ×1037erg s−1. The distribution of the solid angle subtended by the bubbles, and the
+luminosity for the models considered are shown in Figure 21.
+10−1100101102103
+E (GeV)10−710−6E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbig
+GALPROP
+local template
+10−1100101102103
+E (GeV)10−710−6E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbigstat. errors
+sys. errors
+Su et al. 2012 (stat. err.)
+log parabola (0.1-500 GeV)
+power law (1-500 GeV)
+power law cutoff (1-500 GeV)
+Fig. 18.— Left: SED of the bubbles for |b|>10◦obtained using the GALPROP template analysis (red squares)
+and local template analysis (green triangles). The points with error bars represent the spectra obtained with the
+two methods (Figures 6 and 15). The shaded bands are the systematic uncertainties due to the analysis procedure
+and Galactic foreground modeling as described in 3.3 and 4.4. Right: combined bubble SED compared to the
+earlier result from Su & Finkbeiner (2012) for |b|>20◦. The baseline model is the same as the GALPROP curve in
+the left plot. The systematic uncertainties are the envelope of all possible spectra obtained from the two methods.
+In the combined spectrum we include the uncertainties in the LAT effective area (Ackermann et al. 2012) by adding
+them in quadrature to the envelope of the other systematic uncertainties. The curves show the functional forms
+fitted to the SED points. Solid blue line: log parabola. Dotted red line: simple power law. Dash-dotted green line:
+power law with an exponential cutoff.
+– 30 –
+Table 2. Differential energy spectrum per unit solid angle for the Fermi bubbles. EminandEmaxare
+the boundaries of the energy bins, and Eis the geometric mean of the bin. FminandFmaxdefine the
+systematic error band, ∆ Fstatis the statistical error. The last entry is zero, which is the lowest value
+allowed in the fit (we do not allow negative values).
+E E min Emax E2F E2Fmin E2Fmax E2∆Fstat
+[GeV] 10−7[GeV
+cm2s sr]
+0.12 0.10 0.14 1.85 0.83 3.61 0.11
+0.17 0.14 0.20 2.57 1.37 4.44 0.15
+0.24 0.20 0.28 2.91 1.70 5.35 0.13
+0.34 0.28 0.40 3.51 2.27 6.11 0.13
+0.48 0.40 0.57 3.85 2.51 6.29 0.14
+0.67 0.57 0.80 4.35 2.67 6.69 0.15
+0.95 0.80 1.13 4.26 2.90 6.47 0.16
+1.35 1.13 1.60 4.53 3.99 7.49 0.17
+1.90 1.60 2.26 4.91 4.52 7.80 0.18
+2.69 2.26 3.20 5.40 4.98 7.88 0.20
+3.81 3.20 4.53 4.83 4.48 7.73 0.20
+5.38 4.53 6.40 4.96 4.58 7.56 0.23
+7.61 6.40 9.05 6.05 5.42 8.01 0.26
+10.76 9.05 12.80 6.04 5.42 7.91 0.28
+15.22 12.80 18.10 5.58 4.73 7.17 0.31
+21.53 18.10 25.60 5.52 4.23 6.82 0.35
+30.44 25.60 36.20 4.47 3.80 5.71 0.37
+43.05 36.20 51.20 4.84 3.73 5.80 0.42
+60.89 51.20 72.41 4.45 3.76 5.41 0.46
+86.11 72.41 102.40 3.49 2.95 4.06 0.48
+121.77 102.40 144.82 3.51 3.07 4.23 0.57
+172.22 144.82 204.80 2.07 1.71 2.77 0.56
+243.55 204.80 289.63 1.07 0.88 1.79 0.57
+344.43 289.63 409.60 1.23 0.81 2.06 0.63
+487.10 409.60 579.26 0.00 0.00 1.28 1.46
+2.02 2.04 2.06 2.08 2.10 2.12 2.14 2.16α0.040.050.060.070.080.090.10β
+40 60 80 100 120 140 160 180
+Ecut[GeV]1.801.851.901.952.00γ
+Fig. 19.— Left: distribution of log parabola fit parameters (energy range of the fit: 100 MeV to 500 GeV). Right:
+distribution of power law with exponential cutoff fit parameters (energy range of the fit: 1 GeV to 500 GeV) . Red
+crosses represent the baseline model values with their statistical uncertainties.
+– 31 –
+/NDF2χ051015202530354045ModelsN
+020406080100120
+power-law
+power-law cutoff
+log parabola
+/NDF2χ02468101214161820ModelsN
+01020304050607080
+power-law
+power-law cutoff
+log parabola
+Fig. 20.— Distribution of χ2per degree of freedom for all models fitted with a simple power law (green), a power
+law with exponential cutoff (red), and a log parabola function (blue). All fits are performed in the energy range
+from 100 MeV to 500 GeV (left) and from 1 GeV to 500 GeV (right)
+0.45 0.50 0.55 0.60 0.65 0.70 0.75 0.80 0.85 0.90
+Solid Angle [sr]3.03.54.04.55.05.56.06.57.0Luminosity [erg /s]×1037
+Fig. 21.— The 100 MeV - 500 GeV bubble luminosity vs. solid angle subtended by the bubbles at |b|>10◦for
+different models of foreground emission and definitions of bubble templates.
+– 32 –
+6. Morphology and spectral variations
+The average spectrum of the bubbles is an important characteristic, but it may be insufficient
+for distinguishing among the models of the bubbles’ formation and the mechanisms of the gamma-ray
+emission. In this section, we calculate the spectrum of the bubbles in latitude strips, and estimate
+the significance and the spectrum of the enhanced gamma-ray emission in the south-eastern part of
+the bubbles, called the “cocoon” (Su & Finkbeiner 2012). We search for a jet inside the bubbles and
+determine the location and the width of the boundary of the bubbles.
+6.1. Longitude Profiles
+Residual intensity, E= 1−3 GeV
+−4−2 0 2 4 6 8 10
+107E0×F/parenleftbigGeV
+cm2s sr/parenrightbig
+Residual intensity, E= 3−10 GeV
+−4−2 0 2 4 6 8 10
+107E0×F/parenleftbigGeV
+cm2s sr/parenrightbig
+Residual intensity, E= 10−500 GeV
+−4−2 0 2 4 6 8 10
+107E0×F/parenleftbigGeV
+cm2s sr/parenrightbig
+Residual intensity, E= 1−3 GeV
+−4−2 0 2 4 6 8 10
+107E0×F/parenleftbigGeV
+cm2s sr/parenrightbig
+Residual intensity, E= 3−10 GeV
+−4−2 0 2 4 6 8 10
+107E0×F/parenleftbigGeV
+cm2s sr/parenrightbig
+Residual intensity, E= 10−500 GeV
+−4−2 0 2 4 6 8 10
+107E0×F/parenleftbigGeV
+cm2s sr/parenrightbig
+Fig. 22.— Residual intensity integrated in different energy bands for the baseline model derived with GALPROP
+templates in Section 3.2 (top) and for the example model derived with the local templates analysis in Section 4.3
+(bottom).
+To give a general idea about the morphology of the bubbles, we present the profile plots of the
+residual intensity corresponding to the Fermi bubbles at different latitudes integrated in three energy
+bands: 1 - 3 GeV, 3 - 10 GeV, 10 - 500 GeV. The residual intensity is shown in Figure 22. There is
+an L-shaped over-subtraction at low energies in the GALPROP residuals in the low latitude part of the
+northern bubble. This residual is spatially correlated with the star forming region ρOphiuchi, which
+might have a different CR spectrum compared to the average. Notice that this feature is not present in
+the residuals obtained from the local template analysis, which allows the adjustment of the normalization
+of the CR density in local patches. The profile plots in 10◦latitude strips are shown in Figure 23.
+An excess of emission in the southern bubble for latitudes −40◦< b < −20◦and longitudes 0◦<
+ℓ <15◦corresponds to the cocoon proposed by Su & Finkbeiner (2012). There is also a slight excess of
+emission for 20◦< b < 40◦around ℓ= 10◦. At some latitudes, the width of the boundary of the bubbles
+is approximately or smaller than 5◦. We study the width of the edge in more detail in Section 6.3.
+– 33 –
+−60−40−20 0 20 40 60
+Lon (deg)−0.50.00.51.01.5E0×F/parenleftbigGeV
+cm2s sr/parenrightbig×10−6
+10◦<b< 20◦10◦<b< 20◦10◦<b< 20◦ E= 1−3 GeV
+E= 3−10 GeV
+E= 10−500 GeV
+−60−40−20 0 20 40 60
+Lon (deg)−0.50.00.51.01.5E0×F/parenleftbigGeV
+cm2s sr/parenrightbig×10−6
+−10◦<b<−20◦−10◦<b<−20◦−10◦<b<−20◦ E= 1−3 GeV
+E= 3−10 GeV
+E= 10−500 GeV
+−60−40−20 0 20 40 60
+Lon (deg)−0.50.00.51.01.5E0×F/parenleftbigGeV
+cm2s sr/parenrightbig×10−6
+20◦<b< 30◦20◦<b< 30◦20◦<b< 30◦ E= 1−3 GeV
+E= 3−10 GeV
+E= 10−500 GeV
+−60−40−20 0 20 40 60
+Lon (deg)−0.50.00.51.01.5E0×F/parenleftbigGeV
+cm2s sr/parenrightbig×10−6
+−20◦<b<−30◦−20◦<b<−30◦−20◦<b<−30◦ E= 1−3 GeV
+E= 3−10 GeV
+E= 10−500 GeV
+−60−40−20 0 20 40 60
+Lon (deg)−0.50.00.51.01.5E0×F/parenleftbigGeV
+cm2s sr/parenrightbig×10−6
+30◦<b< 40◦30◦<b< 40◦30◦<b< 40◦ E= 1−3 GeV
+E= 3−10 GeV
+E= 10−500 GeV
+−60−40−20 0 20 40 60
+Lon (deg)−0.50.00.51.01.5E0×F/parenleftbigGeV
+cm2s sr/parenrightbig×10−6
+−30◦<b<−40◦−30◦<b<−40◦−30◦<b<−40◦ E= 1−3 GeV
+E= 3−10 GeV
+E= 10−500 GeV
+−60−40−20 0 20 40 60
+Lon (deg)−0.50.00.51.01.5E0×F/parenleftbigGeV
+cm2s sr/parenrightbig×10−6
+40◦<b< 50◦40◦<b< 50◦40◦<b< 50◦ E= 1−3 GeV
+E= 3−10 GeV
+E= 10−500 GeV
+−60−40−20 0 20 40 60
+Lon (deg)−0.50.00.51.01.5E0×F/parenleftbigGeV
+cm2s sr/parenrightbig×10−6
+−40◦<b<−50◦−40◦<b<−50◦−40◦<b<−50◦ E= 1−3 GeV
+E= 3−10 GeV
+E= 10−500 GeV
+Fig. 23.— Longitude profiles of the residual intensity including the bubbles integrated over different energy bands.
+The profile plots are obtained by dividing the sky into 10◦strips in latitude. Points correspond to the GALPROP
+residuals (baseline model defined in Section 3) in Figure 22. Shaded bands are computed as an envelope of the
+residuals for different models of the foregrounds and different definitions of the templates for the bubbles and Loop I
+(Section 3.3 and 4.4). The width of the longitude bins is 5◦.
+– 34 –
+6.2. Substructures
+In this section, we present an analysis of substructures within the bubbles. In the residual maps we
+find an enhanced gamma-ray emission mostly in the south east side of the Fermi bubbles. Following Su &
+Finkbeiner (2012), we will denote the region of enhanced gamma-ray emission as the “cocoon”, although
+the physical origin of this emission is not known. In order to study the significance and the spectrum of
+the cocoon, we separate the cocoon template from the bubbles and fit both the cocoon and the bubbles
+templates together with the other diffuse foreground templates to the data.
+Cocoon Template, 6.0 σBGcut
+0.00.10.20.30.40.50.60.70.80.91.0
+10−1100101102103
+E (GeV)10−810−710−6E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbig
+bubbles
+cocoon
+Fig. 24.— Left: Cocoon template derived analogously to the template of the bubbles in Section 3.2. Right: The
+spectrum of the cocoon compared to the spectrum of the bubbles. The points correspond to the baseline model
+from Section 3. The bands are the envelope resulting from different derivations of foreground models and different
+definitions of the bubbles’ and Loop I templates.
+We derive the cocoon template from the same residual maps that we use for the derivation of the
+Fermi bubbles by applying a higher cut in significance. We take 6 σBGin the GALPROP templates
+analysis and 5 σBGin the local templates analysis. The difference is due to the difference in the energy
+ranges used to define the templates in the two methods (see Section 4.3). The cocoon template for the
+baseline model (defined in Section 3) is shown in Figure 24 (left). Notice that in contrast to the cocoon
+template in Su & Finkbeiner (2012) this template is not restricted to the southern hemisphere and
+includes also excess emission in the North. In the fits we use the flat template for the bubbles; otherwise
+the structures in the template of the bubbles can absorb a significant part of the cocoon emission. We
+also use a flat cocoon template to get a conservative estimate of the significance of the cocoon. Note
+that the cocoon template is inside the template of the bubbles, i.e., the cocoon emission is on top of the
+emission from the bubbles modeled by a flat template. Using both the cocoon and the bubbles’ templates
+improves the likelihood of the fit relative to the flat template for the bubbles alone. We find that TS is
+between 95 and 975, depending on the foreground emission model, while the number of additional free
+parameters in the fit is 25 (one for each energy bin). Figure 25 shows the distribution of TS for different
+foreground emission models. The probability that the cocoon is a statistical fluctuation is <10−9. This
+– 35 –
+probability does not include the trials factor.
+TS01002003004005006007008009001000ModelsN
+012345678
+Fig. 25.— TS of the cocoon template for different derivations of the foreground emission models and different
+definitions of the templates of the bubbles and Loop I.
+The intensity spectrum of the cocoon is compared to the spectrum of the bubbles in Figure 24
+(right). We find that the spectrum of the cocoon is consistent with the spectrum of the rest of the
+bubbles. However, due to large statistical uncertainties in the cocoon spectrum we cannot rule out a
+simple power-law spectrum of the cocoon emission. The absolute value of intensity of the gamma-ray
+emission from the cocoon detected on top of the flat bubbles template is, by coincidence, very similar to
+the gamma-ray intensity of the bubbles. In other words, the intensity in the cocoon region is about two
+times larger than the intensity inside the bubbles but outside of the cocoon.
+In a second step we apply an even higher significance threshold of 9 σBGto the residual map. We
+call the resulting structure the “sub-cocoon”. The sub-cocoon template is displayed in Figure 26 (left).
+We include this template in the all-sky fit together with a flat bubbles and a flat cocoon template. The
+resulting spectra are shown in Figure 26 (right). The improvement of the fit obtained by including the
+additional template is displayed in Figure 27. We find that TS for different foreground models is between
+30 and 360 (for 25 additional free parameters). The probability that the sub-cocoon is a statistical
+fluctuation is about 20% considering the smallest TS value among all models.
+In the following we investigate the existence of jet-like emission as proposed by Su & Finkbeiner
+(2012), who tentatively observed a pair of jets along the cocoon’s axis of symmetry with a harder spectral
+index compared to the spectrum of the bubbles. The existence of a jet within the bubbles would be an
+important indication of an AGN-like activity of the black hole in the Galactic center.
+To test this hypothesis we use a generic jet template, which is a strip of width 2 .5◦and length 40◦
+originating in the Galactic center. We rotate this template in 5◦steps. Note, that the physical distance
+corresponding to 5◦at 40◦is 5◦sin(40◦)≈3.2◦, i.e., the jets cover practically all pixels within 40◦from
+the GC. Figure 28 (left) shows an illustration of all jet templates. Note that we include only one jet
+template at a time in each fit. Because the emission of the sun could mimic a jet as the Sun moves along
+the ecliptic, which passes near the Galactic center, we also add a template for the gamma-ray emission
+– 36 –
+Sub-cocoon Template, 9.0 σBGcut
+0.00.10.20.30.40.50.60.70.80.91.0
+10−1100101102103
+E (GeV)10−810−710−610−5E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbigbubbles
+cocoon
+sub-cocoon
+Fig. 26.— Left: A template for a high significance residual, the sub-cocoon, created from the residual map with
+threshold 9 σBG. Right: The spectrum of the sub-cocoon compared to the spectrum of the cocoon and the bubbles.
+TS050100150200250300350400ModelsN
+012345678
+Fig. 27.— TS of the sub-cocoon template for different foreground models.
+– 37 –
+Jet templates
+0.00.61.21.82.43.03.64.24.85.46.0
+0 50 100 150 200 250 300 350ϕ050100150200250300350400 TS
+Fig. 28.— Left: jet templates and solar emission template. Each template has a width of 2 .5◦and a length of
+40◦. Every second template is multiplied by 2 for better visibility. We only include one template at a time in the
+all-sky fit. The yellow shaded region corresponds to the flat bubble template. Right: TS of the jet template as a
+function of the counterclockwise jet angle φdefined with respect to the positive longitude direction, so that the 90◦
+jet points to the South. Different points at the same angle correspond to different foreground models and analysis
+strategy.
+from cosmic-ray interactions in the outer atmosphere and radiation field of the Sun10(Johannesson et al.
+2013). For each position of the jet we calculate the improvement of the fit (compared to a fit with
+only flat bubbles and flat cocoon template). Figure 28 (right) shows the distribution of TS for the jet
+template in different orientations for different diffuse models. There is a broad enhancement towards
+several directions centered at φ∼=75◦, which cover the cocoon. In those cases, the jet templates account
+for some remaining excess emission on top of the cocoon, that is not modeled by the flat cocoon template.
+In summary, we do not find significant residuals aligned along a specific direction that could be interpreted
+as a jet.
+6.3. Width of the boundary of the bubbles
+The sharpness of the edge is one of the main arguments for a transient process of bubble formation
+(Su et al. 2010). The main difficulties in estimating the width of the edge are the statistical error and the
+systematic uncertainty due to modeling of the diffuse foreground gamma-ray emission. In order to get
+maximal information from the available data, we have chosen to perform a parametric fit of a smoothed
+step function (modeled by a hyperbolic tangent) across the edge of the bubbles. The algorithm has the
+following steps:
+10A description of the solar template can be found at the Fermi Science Support Center:
+http://fermi.gsfc.nasa.gov/ssc/data/analysis/scitools/solar_template.html
+– 38 –
+1. Choose a reference point approximately on the bubble edge (by visual inspection of residuals above
+10 GeV).
+2. Find the gradient of the residual by fitting a plane to the residual intensity in pixels within 10◦
+from the reference point. The gradient is along the direction of maximal change in the residual
+flux. We use it to define the direction perpendicular to the edge.
+3. In order to find the position of the edge and its width, we choose a strip along the gradient and
+project the data onto the gradient direction. This allows us to reduce the fitting to a one-dimensional
+fitting problem. We take the length of the strip to be 40◦(±20◦from the reference point), and
+the width to be 20◦(±10◦from the reference point). The size of the bins in the projection is 1 .3◦,
+which is larger than the pixel size but small enough that resolving the sharp transitions is possible.
+4. Fit the data along the strip with a smoothed step function modeled by the hyperbolic tangent plus
+a constant:
+f(φ) = A tanh λ(φ−φ0) + C . (15)
+In total we have the four parameters A, λ,φ0, and C. Two of them are non-linear ( λandφ0). The
+best-fit position of the edge is determined by φ0, the width of the edge is defined as ∆ φ= 2/λ, and
+the constant Cmodels the residual background emission. During the fit to the data, the model is
+convolved with the PSF for each energy range.
+5. Test the systematic uncertainty by changing the length and the width of the strip and the size of
+the bins. The lengths are 40◦, 50◦, 60◦, the widths are 10◦, 20◦, 30◦, and the bins are 1 .3◦and 1 .5◦
+wide.
+6. Test the systematic uncertainty related to the derivation of the foreground models and the templates
+of the bubbles and Loop I.
+We derive the width of the bubbles’ edge in three energy ranges: 1 - 3 GeV, 3 - 10 GeV, 10 - 500
+GeV. The average PSF is dominated by the events at the lower boundaries of the energy ranges. The
+68% PSF containment angles at 1 GeV, 3 GeV, and 10 GeV are 0 .5◦, 0.25◦, and 0 .12◦respectively.
+Examples of fitting the hyperbolic tangent function across the bubble edge for the residual maps above
+10 GeV are shown in Figure 29. In Figure 30 we show the location of the edge and the width overplotted
+on the residual map. A summary of the edge widths, including statistical and systematic uncertainties,
+is presented in Figure 31. The values are reported in Table 3. Sometimes the fit of the width does
+not converge, either due to oversubtractions in the foreground modeling or due to lack of statistical
+significance. In this table, we do not report values of the width larger than 20◦, which is comparable to
+the size of the bubbles themselves, or less than 0 .5◦, which is smaller than the resolution of the pixelation.
+We find that in most locations along the bubbles edge, the width of the boundary varies between 1◦and
+6◦. The value of 13 .3◦in one location in the southern bubble is because the edge lies on top of a local
+excess (see Figure 30). This high value is likely due to poor convergence of the fit rather than the actual
+width of the boundary.
+We do not detect a significant difference in the width of the bubbles’ boundary for the three energy
+ranges. The median width of the bubbles’ boundary among all locations along the boundary and among
+– 39 –
+−20−15−10−5 0 5 10 15 20
+ϕ(deg)−0.50.00.51.01.5F/parenleftbig1
+cm2s sr/parenrightbig×10−7
+Edgeb, /lscript= (17.4◦,345.1◦)
+∆ϕ= 2.4◦±2.0◦
+E= 10.0−500.0 GeV
+−20−15−10−5 0 5 10 15 20
+ϕ(deg)−0.50.00.51.01.5F/parenleftbig1
+cm2s sr/parenrightbig×10−7
+Edgeb, /lscript= (25.5◦,342.0◦)
+∆ϕ= 1.7◦±1.3◦
+E= 10.0−500.0 GeV
+−20−15−10−5 0 5 10 15 20
+ϕ(deg)−0.50.00.51.01.5F/parenleftbig1
+cm2s sr/parenrightbig×10−7
+Edgeb, /lscript= (−17.1◦,11.7◦)
+∆ϕ= 1.4◦±2.3◦
+E= 10.0−500.0 GeV
+−20−15−10−5 0 5 10 15 20
+ϕ(deg)−0.50.00.51.01.5F/parenleftbig1
+cm2s sr/parenrightbig×10−7
+Edgeb, /lscript= (−25.0◦,13.4◦)
+∆ϕ= 3.0◦±1.2◦
+E= 10.0−500.0 GeV
+Fig. 29.— Examples of fitting the edges of the bubbles in the GALPROP residual map, integrated above 10 GeV
+(Figure 22).
+– 40 –
+Residual intensity, E= 10−500 GeV
+−4−2 0 2 4 6 8 10
+107E0×F/parenleftbigGeV
+cm2s sr/parenrightbig
+Fig. 30.— Residual map (Figure 22, top right) overplotted with the edge of the bubbles. The direction of the bars
+perpendicular to the edge corresponds to the local gradient in the residual map; the length of the bars represents
+the width of the edge. The location of the curve along the edge corresponds to the locus of the best fit values of
+φ0(Equation 15).
+all models of foreground emission and templates of the bubbles is ∆ φ= 3.4±2.0[stat]+3.1
+−1.7[syst] deg.
+The systematic uncertainty boundaries are estimated as values which enclose ±34% of the values above
+and below the median value. We take the median instead of the mean in order to avoid bias due to
+outliers with large values of the width either due to oversubtractions in the foreground modeling or poor
+convergence of the width estimation.
+6.4. Spectrum in latitude strips
+The spectra for northern and southern bubbles are shown in Figure 32. These spectra are derived
+similarly to the overall spectrum of the bubbles, but instead of one template of the bubbles, we fit two
+independent templates: for the northern and southern bubbles. We find that the spectra in the North
+and in the South agree with each other within the uncertainties. The southern bubbles has a region of
+enhanced emission, the cocoon, while the brightness in the northern bubbles is more uniform. The overall
+intensities of the two bubbles are consistent with each other.
+The spectra in latitude strips are shown in Figure 33. For the derivation of the spectra in strips we
+separated the template of the bubbles into 6 independent templates according to latitude. The latitude
+boundaries of the stripes are −60◦to−40◦,−40◦to−20◦and−20◦to−10◦in the South and 10◦to 20◦,
+20◦to 40◦and 40◦to 60◦in the North. With the current level of statistical and systematic uncertainties,
+we cannot detect a variation of the spectrum with latitude. Our results agree with Hooper & Slatyer
+(2013) at latitudes |b|>20◦, but we do not find a significant variation of the spectrum of the bubbles
+– 41 –
+Table 3. Position and width of the bubbles’ boundary for the baseline model residuals above 10 GeV
+(Figures 30 and 31). The position and the width are determined from Equation (15). All values are in
+degrees. The LatandLoncolumns give the positions at the center of the boundary in Galactic
+coordinates. The Statcolumn is the statistical error. MinandMax Widths correspond to the envelope
+of the systematic uncertainties. Values larger than 20◦or smaller than 0 .5◦are not reported (see text
+for explanation).
+Lat Lon Width Stat Min Width Max Width
+North
+17.4 345.1 2.4 2.0 0.9 4.0
+25.5 342.0 1.7 1.3 0.7 3.4
+35.3 339.1 2.9 1.5 2.0 6.3
+44.8 342.5 6.3 2.5 1.2 9.4
+47.7 3.1 1.2 1.5 0.7 5.3
+37.5 14.9 2.5 2.4 0.5 10.6
+30.0 18.3 5.8 3.8 0.6 19.8
+16.8 16.8 0.9 2.2 0.5 15.7
+South
+-17.1 11.7 1.4 2.3 1.0 3.6
+-25.0 13.4 3.0 1.2 1.0 6.3
+-35.0 15.1 4.5 1.4 2.4 13.3
+-51.1 5.6 3.1 1.4 1.8 6.7
+-50.3 347.8 4.0 1.6 1.6 6.8
+-39.5 337.1 5.6 1.8 3.6 8.8
+-30.9 337.1 13.3 3.4 4.7 19.7
+-23.3 340.3 5.8 2.2 0.8 18.3
+50 100 150 200 250 300
+α(deg)051015202530∆ϕ(deg)North bubble
+E = 1 - 3 GeV
+E = 3 - 10 GeV
+E = 10 - 500 GeV
+50 100 150 200 250 300
+α(deg)051015202530∆ϕ(deg)South bubble
+E = 1 - 3 GeV
+E = 3 - 10 GeV
+E = 10 - 500 GeV
+Fig. 31.— The width of the edge for residual maps integrated in three energy ranges for the baseline model.
+The angle on the x-axis is determined relative to the centers of the bubbles, which we choose to be at b=±25◦,
+ℓ= 0◦. The angle is in the clockwise (counterclockwise) direction starting from the Galactic center for the northern
+(southern) bubble. The points with the error bars correspond to the baseline model and its statistical uncertainties
+derived in Section 3. The shaded areas give the systematic uncertainty due to different binning of the data
+perpendicular to the edge and different derivations of the foregrounds.
+– 42 –
+10−1100101102103
+E (GeV)10−810−710−6E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbig
+South
+North
+Fig. 32.— SED for the northern and southern bubbles. The points with statistical error bars correspond to the
+baseline SED. The bands represent an envelope of the SEDs for different derivations of the Galactic foreground
+emission and the definitions of the template of the bubbles. The uncertainty of the effective area is added in
+quadrature to the other systematic uncertainties.
+10−1100101102103
+E (GeV)10−810−710−610−5E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbig[40,60]
+[20,40]
+[10,20]
+10−1100101102103
+E (GeV)10−810−710−610−5E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbig[-60,-40]
+[-40,-20]
+[-20,-10]
+Fig. 33.— SED of the Fermi bubbles in latitude strips. Left: northern bubble. Right: southern bubble. For
+description of the points and bands, see caption of Figure 32.
+– 43 –
+for 10◦<|b|<20◦compared to higher latitudes. There is a large systematic uncertainty in the energy
+spectrum at latitudes 10◦< b < 20◦mostly due to uncertainties of the model of the foreground gamma-
+ray emission from the interactions of CR with interstellar gas. Manifestation of this uncertainty can be
+seen in the residual maps in Figure 22 and in the profile plots in Figure 23.
+7. IC and hadronic models of the bubbles
+In this section we fit the spectrum of the bubbles with IC and hadronic models of gamma-ray
+production. In addition, we calculate the synchrotron emission from the population of electrons in the
+IC model and from the secondary electrons and positrons in the hadronic model. The details of the
+calculations are presented in Appendix B.
+7.1. IC model of the bubbles
+The IC scattering is calculated with the cross sections presented by Blumenthal & Gould (1970). The
+interstellar radiation field (ISRF) is taken from the GALPROP v54 distribution (Porter & Strong 2005;
+Moskalenko et al. 2006). Since no significant variation of the gamma-ray spectrum across the bubbles
+has been found, we will use the spectrum averaged over the area of the bubbles (Figure 18, right, and
+Table 2).
+As a benchmark model for the spectrum of electrons we take the spectrum derived using the ISRF
+at 5 kpc above the GC. We also compare it with the electron spectrum obtained for CMB photons only.
+Since the gamma-ray spectrum of the Fermi bubbles has a significant cutoff at high energies, we model
+the electron spectrum by a power law with an exponential cutoff ∝E−ne−E/E cut. The best fit parameters
+aren= 2.17±0.05[stat]+0.33
+−0.89[syst] and Ecut= 1.25±0.13[stat]+1.73
+−0.68[syst] TeV. The corresponding IC
+spectra are shown in Figure 34 on the left. The details of the calculation can be found in Appendix
+B.1. The indices and the cutoff values for different foreground models and definitions of the templates
+of Loop I and the bubbles are shown in Figure 34 on the right. The bremsstrahlung emission is at least
+two orders of magnitude smaller than the IC emission for a characteristic gas density nH≲0.01 cm−3at
+a few kpc from the Galactic plane (Snowden et al. 1997), and can be neglected.
+We will assume that the center of the bubbles is at b= 25◦, i.e., the distance to the center of
+the bubbles is R=R⊙/cosb= 9.4 kpc, where R⊙= 8.5 kpc is the distance to the GC. The total
+energy contained in the electron population inside the bubbles above 1 GeV is (1 .0±0.2[stat]+6.0
+−1.0[syst]) ×
+1052erg, where the value corresponds to the baseline model; the statistical uncertainty is calculated by
+marginalizing over the index and cutoff of the electron spectrum. The systematic uncertainty is estimated
+by calculating the electron spectrum for different models of the foreground emission and definitions of
+the templates of the bubbles and Loop I.
+The synchrotron emission from the benchmark population of electrons for different values of the
+magnetic field is shown in Figure 35 together with the IC signal. On the same plot, we also include the
+Planck andWMAP microwave haze spectrum (Pietrobon et al. 2012; Ade et al. 2013). The index of the
+– 44 –
+10−1100101102103
+Eγ(GeV)10−710−6E2dNγ
+dE/parenleftbigGeV
+cm2s sr/parenrightbigICS, b = 30.5 deg (z = 5 kpc)
+ICS on CMB
+Fermi bubbles
+1.2 1.4 1.6 1.8 2.0 2.2 2.4 2.6 2.8
+Index102103104Ecutoﬀ [GeV]Electron Spectrum
+Fig. 34.— Left: IC model fit to the baseline gamma-ray spectrum of the Fermi bubbles (Section 5). The spectrum
+of electrons for the ISRF at 5 kpc is a power law with an index 2.2 and an exponential cutoff at 1.25 TeV (Section
+7.1). If we take into account only IC scattering on CMB photons, then the electron spectrum has an index 2.3
+and a cutoff at 2.0 TeV. Right: index and cutoff energy for electron spectra determined for different derivations of
+gamma-ray foregrounds and different definitions of the Fermi bubbles templates (for the ISRF at 5 kpc above the
+Galactic center). The red cross corresponds to the baseline model values with the statistical errors.
+microwave haze emission is harder than the synchrotron emission for a stationary population of electrons
+in the Galaxy. The microwave haze spatially overlaps with the gamma-ray bubbles at |b|<35◦. We
+confirm that the population of electrons that produces the gamma-ray emission of the Fermi bubbles via
+IC scattering can also produce the microwave haze (Dobler et al. 2010; Su et al. 2010; Su & Finkbeiner
+2012; Dobler 2012; Ade et al. 2013).
+The range of spectra of the synchrotron emission corresponding to the systematic uncertainty in the
+electron spectrum (Figure 34) is shown in Figure 35 on the right. For each electron spectrum, we find the
+magnetic field that gives the best fit to the microwave data. We find B= 8.4±0.2[stat]+11.2
+−3.5[syst] µG,
+where the value is for the baseline model, the statistical uncertainty is calculated using the statistical
+errors of the WMAP andPlanck haze spectra, the systematic uncertainty is due to modeling of the
+gamma-ray foregrounds and the definition of the template of the bubbles. The allowed magnetic fields
+are approximately in the range from 5 to 20 µG. A larger index (softer spectrum) corresponds to a greater
+number density of electrons at lower energies; in this case the magnetic field is ∼5µG. A harder index
+requires a magnetic field of ∼20µG. The uncertainties of the index and magnetic field are due to large
+uncertainties in the distribution of electrons around 10 −30 GeV. We note that the spectrum of the
+microwave haze was obtained for latitudes −35◦< b < −10◦(Pietrobon et al. 2012), i.e., the derived
+magnetic field corresponds to the region of the bubbles encompassed by these latitudes. At higher
+latitudes the microwave haze emission has smaller intensity, which can be explained if the magnetic field
+decreases with height above the Galactic plane.
+The main contribution to the IC signal comes from electrons at energies >100 GeV. We show in
+– 45 –
+10−610−410−210010210410610810101012
+E (eV)101102103104105106E2dNγ
+dE/parenleftbigeV
+cm2s sr/parenrightbigIC model
+Synchrotron model (5.0 µG)
+Synchrotron model (8.4 µG)
+Synchrotron model (15.0 µG)
+WMAP + Planck
+Fermi-LAT
+20 30 40 50 60 70
+ν(GHz)200300400500600νdI
+dν/parenleftbigeV
+cm2s sr/parenrightbigModels derived from IC emission
+WMAP + Planck
+Fig. 35.— Left: IC and synchrotron emission from the same benchmark population of electrons. The electron
+energy density is derived from fitting the IC model to the gamma-ray data. We use the synchrotron emission from
+the same population of electrons to fit the Planck microwave haze data (Ade et al. 2013) by optimizing the value
+of the magnetic field. The best-fit magnetic field is about 8 .4µG. Right: microwave haze spectrum compared to
+the synchrotron emission from the electrons in the IC model of the Fermi bubbles. The green band shows the
+systematic uncertainties introduced by the systematic uncertainty in the gamma-ray spectrum of the bubbles.
+Appendix B that the main contribution to the WMAP andPlanck frequencies, where the microwave
+haze is detected, comes from electrons between 10 GeV and 30 GeV. Thus, although the gamma-ray
+bubbles and the microwave haze can be produced by the same population of electrons, the presence of
+two populations of electrons cannot be excluded: one population producing the gamma-ray signal and
+the other producing the microwave signal. In this scenario, the magnetic field can have a lower value. As
+a result, the electron cooling time can be longer than in the case of a single population of electrons.
+The cooling time for 1 TeV electrons in a 5 µG magnetic field and in the ISRF at 5 kpc is only 500
+kyr, while taking into account only the IC losses gives a cooling time of ∼1 Myr (Appendix B.2). If
+the bubbles were formed by a jet or an outflow from the Galactic center, where most of the acceleration
+happened during the initial stages of the expansion, then the expansion velocity should be greater than
+10,000 km/s so that the bubbles formation time is smaller than the cooling time of the 1 TeV electrons.
+The lower bound on the expansion velocity becomes 20,000 km/s, if the magnetic field is 5 µG. In
+scenarios with electron reacceleration inside the volume of the bubbles (Mertsch & Sarkar 2011), the
+characteristic acceleration time for 1 TeV electrons should be shorter than 1 Myr for IC losses only, or
+500 kyr for IC and synchrotron losses in a 5 µG magnetic field. Since the synchrotron losses at these
+energies are about the same as the IC losses, in the case of a steady injection, the electron injection rate
+should be about two times larger than the gamma-ray luminosity of the bubbles, i.e. around 1038erg s−1.
+– 46 –
+7.2. Hadronic model of the bubbles
+For the calculation of the spectrum of gamma rays produced in hadronic interactions, we use the
+cross sections described in Kamae et al. (2006) and Karlsson & Kamae (2008), which are implemented
+in the cparamlib package11. In this analysis, we consider only proton cosmic rays in the hadronic model
+of the gamma-ray emission in the bubbles. We parameterize the spectrum of the protons as a function
+of momentum. A power law with an exponential cutoff spectrum of the CR protons
+dn(p)
+dp∝p−ne−pc/E cut(16)
+gives a better fit at high energies than a simple power-law spectrum (Figure 36). The parameters of the
+power law with a cutoff function are n= 2.13±0.01[stat]+0.15
+−0.52[syst] and Ecut= 14±7[stat]+6
+−13[syst] TeV.
+In order to estimate the amount of energy in hadronic cosmic rays required to produce the gamma-ray
+signal, one needs to know the density of gas inside the bubbles. We take into account only ionized
+hydrogen and we use nH= 0.01 cm−3as a reference value for the density12. It is of the same order of
+magnitude as the plasma density nH∼0.0035 cm−3at 2 kpc above the Galactic center (Snowden et al.
+1997).
+10−1100101102103
+Eγ(GeV)10−710−6E2dNγ
+dE/parenleftbigGeV
+cm2s sr/parenrightbigNp∝p−2.1e−pc/13.7TeV
+Np∝p−2.2
+Fermi bubbles
+Fig. 36.— Primary gamma-ray emission of hadronic model of the Fermi bubbles spectrum using a simple power
+law or a power law with an exponential cutoff for the spectrum of protons.
+The total energy in hadronic CRs above 1 GeV required to produce the gamma rays is (3 .5±
+0.1[stat]+4.7
+−3.0[syst]) ×1055
+0.01 cm−3
+nH
+erg. Including heavier nuclei may change this estimate. However,
+the evaluation of this effect depends on the uncertain composition of CRs and gas in the bubbles, hence
+it is beyond the scope of the modeling in this paper. In the relevant energy range of the proton kinetic
+11https://github.com/niklask/cparamlib
+12Note, that the gamma-ray emissivity integrated along the line of sight, which is relevant for the template fitting, is
+dominated by H I from the local ring, while the emissivity a few kpc above the Galactic plane is dominated by ionized
+hydrogen.
+– 47 –
+energy Ep∼0.1 - 10 TeV, the center of mass energy is ECM∼10 - 100 GeV and the inelastic cross section
+isσpp≈30 mb. The average time for a collision is tp= (nHc σpp)−1≈3.5×109
+0.01 cm−3
+nH
+yr. In a
+steady state, the minimal injection rate of cosmic-ray protons is Lp∼Wp/tp≈3.1×1038erg s−1. This
+calculation assumes that the main energy loss process is inelastic proton-proton collisions. The injection
+rate actually required may be an order of magnitude higher due to, e.g., adiabatic losses.
+The proton spectrum at high energies inside the bubbles must be much harder than the spectrum
+of CR protons in the Galactic plane (e.g., Adriani et al. 2011b; Ackermann et al. 2012; Dermer et al.
+2013). If we assume that the proton spectrum injected in the ISM by the supernova explosions is the
+same everywhere in the Galaxy and is ∝E−2.0−2.2, then the softening of the spectrum in the Galactic
+plane can be explained by energy-dependent escape, while the hard proton spectrum inside the bubbles
+can be explained if the escape time from the bubbles is longer than the interaction time (Crocker &
+Aharonian 2011). In other words, protons escape from the Galactic plane before they interact, but the
+protons inside the bubbles should interact before they can escape, which means that they have to remain
+inside the bubbles for several Gyr.
+In addition to producing gamma rays, interactions of high-energy protons also produce electrons,
+positrons, and several species of neutrinos. The flux of neutrinos from the hadronic interactions in the
+Fermi bubbles has been previously considered by Lunardini & Razzaque (2012); Adri´ an-Mart´ ınez et al.
+(2013); Ahlers & Murase (2013); Lunardini et al. (2013). We present our calculation of the fluxes of all
+particles produced in the hadronic interactions in Figure 37 on the left. As above, in this calculation
+the cross sections are taken from the cparamlib package. The electrons and positrons are included in
+this plot only formally to show their relative production cross sections compared to the cross sections
+of neutrinos and gamma rays. In reality, the secondary leptons are assumed to be trapped inside the
+bubbles together with the protons. Note that we calculate the neutrino spectrum based on the average
+gamma-ray spectrum of the bubbles. However, we cannot rule out that the cocoon spectrum follows a
+simple power law, which might produce neutrinos at higher energies.
+We now calculate the synchrotron emission from the secondary e±produced in the hadronic collisions
+inside the bubbles. The secondary electrons and positrons undergo cooling due to IC and synchrotron
+losses. We denote the energy loss function as ˙E=−b(E), where b(E)∝E2for the synchrotron and the
+IC energy loss in the Thomson approximation (Appendix B). Assuming that the high-energy leptons lose
+their energy inside the bubbles, the stationary energy density of secondary electrons and positrons is
+dQe±(E)
+dE=1
+b(E)Z∞
+EdJe±(˜E)
+d˜Ed˜E, (17)
+where dJe±/dE is the spectrum of electrons or positrons produced in interactions of hadronic CR with
+interstellar gas. We compare the energy density of secondary e±to the energy density of electrons
+necessary to produce the gamma-ray flux of the bubbles by IC scattering in Figure 37 on the right.
+In the range of energies relevant for the WMAP andPlanck haze, the density of the secondary
+electrons and positrons is comparable to the electrons producing the IC. Above the pion cutoff at ∼100
+MeV, the injection spectrum for the secondary leptons is proportional to the proton spectrum ∝E−2.
+There is an additional softening by one power of Edue to cooling. As a result, the spectrum of the
+secondary leptons above 100 MeV is proportional to E−3.
+– 48 –
+10−210−1100101102103104
+E (GeV)10−910−810−710−610−5E2dN
+dE/parenleftbigGeV
+cm2s sr/parenrightbiggamma-rays
+electrons
+positrons
+electron neutrino
+muon neutrino
+electron anti-neutrino
+muon anti-neutrino
+10−210−1100101102103104
+E (GeV)1051061071081091010101110121013E2dQe
+dE/parenleftbigGeV
+cm2/parenrightbigElectron column density on the bubble surface
+Secondary e±, B = 0µG
+Secondary e±, B = 10µG
+Secondary e±, B = 20µGICS, CMB only
+ICS, b = 30.5◦(z = 5 kpc)
+Ecritfor microwave haze
+Fig. 37.— Left: flux of neutrinos and gamma rays produced in the hadronic model of the gamma-ray emission
+in the bubbles. We also formally include the flux of secondary electrons and positrons as it would be observed
+if charged particles could propagate in straight lines and were not trapped inside the bubbles. Right: stationary
+energy density of secondary electrons and positrons (taking into account energy losses) produced in hadronic
+interactions compared to the energy density of electrons necessary for the IC production of the Fermi bubbles
+gamma-ray flux. The shaded region is an approximate range of energies relevant for production of synchrotron
+emission at the WMAP andPlanck microwave haze frequencies.
+Below the pion cutoff, the spectrum of secondary leptons is harder than E−1and the integral in
+Equation 17 is insensitive to the lower energy bound. As a result, the stationary spectrum of the
+secondary leptons below 100 MeV is simply proportional to b(E)−1∝E−2. For the benchmark gas
+density nH∼0.01 cm−3, the bremsstrahlung emission from the secondary leptons is at least an order of
+magnitude smaller than the gamma-ray signal for all energies above 100 MeV and we neglect it in our
+analysis.
+The IC and synchrotron spectra from the secondary leptons produced in the hadronic model for
+different magnetic fields are shown in Figure 38 on the left. We note that the synchrotron intensity is a
+factor of 3 - 4 lower than the WMAP andPlanck points and one cannot correct for this offset by tuning
+the magnetic field. The reason is that for electrons with a spectrum ∝E−3the synchrotron radiation
+scales as B2, but for large magnetic field strengthes the synchrotron energy losses dominate and the
+normalization of the secondary electrons is proportional to ˙E−1∝B−2. Consequently the dependence
+on the magnetic field cancels out. This is the reason that the synchrotron intensity is saturated for
+B≳10µG. The IC flux is proportional to the stationary energy density of the secondary leptons and it
+decreases with increasing magnetic field.
+The synchrotron radiation produced by E−3electrons is Iν∝ν−1which is significantly softer than
+the microwave haze spectrum Iν∝ν−0.55(Ade et al. 2013). The distribution of indices for the synchrotron
+radiation from the secondary leptons is shown in Figure 38 on the right. The lines on this plot are obtained
+by calculating the synchrotron radiation from the secondary leptons in a 10 µG magnetic field with a
+subsequent rescaling (for illustration) by an overall normalization factor to fit the WMAP andPlanck
+– 49 –
+10−510−310−110110310510710910111013
+E(eV)10−1100101102103104105νdI
+dν/parenleftbigeV
+cm2s sr/parenrightbigSecondary synch + IC, B = 1000 µG
+Secondary synch + IC, B = 100 µG
+Secondary synch + IC, B = 10 µG
+Secondary synch + IC, B = 1 µG
+Fermi bubbles
+WMAP + Planck
+20 30 40 50 60 70
+ν(GHz)200300400500600νdI
+dν/parenleftbigeV
+cm2s sr/parenrightbigSecondary electrons (renormalized)
+WMAP + Planck
+Fig. 38.— Left: synchrotron radiation produced by the secondary leptons in the hadronic model of the bubbles
+emission in comparison with the microwave haze (Ade et al. 2013). Right: the range of spectra for the synchrotron
+radiation from secondary leptons that correspond to different models of the foreground gamma-ray emission and
+different definitions of the bubbles template.
+points.
+The range of indices and the renormalization factors that we use to rescale the synchrotron radiation
+from the secondary leptons to fit the microwave haze are shown in Figure 39. Both the index and the
+rescaling factor have a relatively small range of values because both the leptons around 10 GeV, which
+are responsible for the synchrotron radiation, and the gamma rays around 10 GeV, where the Fermi
+bubbles spectrum has small statistical and systematic errors, are produced by the same protons with
+energies around 100 GeV. As a result, the synchrotron radiation at WMAP andPlanck haze frequencies
+is directly linked to the gamma-ray radiation around 10 GeV in this scenario. The conclusion is that there
+should be either an additional source of primary electrons or a reacceleration of the secondary leptons
+inside the bubbles to increase the overall normalization by a factor of 3 and to produce the spectrum
+∝E−2of electrons and positrons around 10 GeV required to fit the microwave haze data. The timescale
+of this reacceleration should be smaller than the cooling time of electrons around 10 GeV, which is about
+10 Myr for a 10 µG magnetic field (Appendix B.2). Another possibility in the hadronic scenario of the
+Fermi bubbles is transporting the electrons from the Galactic plane in the wind from supernovae together
+with the hadronic CR (Crocker & Aharonian 2011). The timescale of 10 Myr is sufficient to bring the
+electrons to 10 kpc above the Galactic plane with a wind of about 1000 km s−1. These electrons can
+produce the microwave haze by synchrotron radiation. They may also contribute to the gamma-ray
+spectrum at energies ≲10 GeV by IC scattering off starlight.
+Including emission from secondary leptons (Equation 17) in the hadronic models can improve the fit.
+The secondary gamma-ray spectrum depends on the value of the magnetic field: for magnetic fields larger
+than approximately 5 µG, most of the power injected in secondary leptons is dissipated into synchrotron
+emission and the gamma-ray spectrum is similar to the primary only emission. The total primary and
+– 50 –
+1.00 1.05 1.10 1.15 1.20 1.25 1.30 1.35
+Index3.03.54.04.55.05.56.06.5fSecondary Electrons
+Fig. 39.— Distribution of synchrotron indices and rescaling factor, f, for synchrotron emission from the secondary
+leptons in hadronic models in a B= 10µG field necessary to fit the microwave haze intensities.
+secondary gamma-ray spectrum for a 2 µG magnetic field is shown in Figure 40 on the left. A sample
+of proton spectral indices and cutoffs for the energy spectra of the Fermi bubbles derived for different
+foreground models and definitions of the bubbles and Loop I templates is shown in Figure 40 on the
+right.
+In Figure 41 we compare the reduced χ2for IC and hadronic models of the Fermi bubbles. In general,
+we find that the IC models fit the spectrum of the bubbles better than the primary gamma-ray spectrum
+in hadronic models with a significance of at least 4 .9σ(Figure 41 left). The distribution of the difference
+between the χ2in leptonic and hadronic models including secondary emission is presented in Figure 41
+on the right. For some cases, the hadronic model including secondary gamma-ray emission has a χ2
+comparable to the IC model. Therefore, we cannot discriminate between hadronic and IC models based
+on the current gamma-ray data alone. This calculation does not include uncertainties in the nuclear
+production models, which could affect the gamma-ray spectrum at low energies up to 30% (Dermer
+2012)13.
+8. Summary and conclusions
+In this paper, we analyze 50 months of Fermi -LAT data in order to determine the morphology and
+the spectrum of the Fermi bubbles. The main challenge is the spatial overlap with the other components
+of diffuse gamma-ray emission due to collisions of hadronic CRs with the interstellar gas, IC production
+of gamma rays, bremsstrahlung, extragalactic gamma-ray emission, and contamination from CRs.
+13Note that the microwave haze is produced by electrons at energies above 10 GeV, where the uncertainties in the nuclear
+production cross sections are lower ∼10% (Dermer 2012), hence, they are subordinate to the systematic uncertainties related
+to modeling of the foreground diffuse emission.
+– 51 –
+10−1100101102103
+Eγ(GeV)10−710−6E2dNγ
+dE/parenleftbigGeV
+cm2s sr/parenrightbigNp∝p−2.0e−pc/4.2TeV
+Np∝p−2.1
+Fermi bubbles
+1.7 1.8 1.9 2.0 2.1 2.2
+Index103104105Ecutoﬀ [GeV]Proton Spectrum
+Fig. 40.— Left: same as Figure 36 (left), but including IC gamma-ray emission from secondary leptons assuming
+a 2µG magnetic field. Right: index and cutoff energy for proton spectra determined for different derivations of
+gamma-ray foregrounds and different definitions of the Fermi bubbles templates. The red cross corresponds to the
+baseline model values with the statistical errors.
+IC2χ-hadronic2χ05101520253035404550modelsN
+05101520253035
+IC2χ-hadronic2χ05101520253035404550modelsN
+051015202530
+Fig. 41.— Difference of χ2values obtained from fits with IC models and primary emission of hadronic models
+(left) and including the secondary emission in the hadronic scenario (right).
+– 52 –
+We model the foreground gamma-ray emission with two independent methods. In the first method we
+use maps generated by the GALPROP CR propagation and interaction code as templates of the emission
+components. Fitting these templates to the data makes this method less sensitive to the distribution of
+CR sources and to the propagation model. In the second method we develop a more general data-driven
+model of diffuse gamma-ray foregrounds. We use gas maps derived from the 21-cm, CO, and dust surveys
+as tracers of the gamma rays produced by interactions of hadronic CRs and by bremsstrahlung. We fit
+the gas-correlated templates on small patches of the sky together with a combination of 2D polynomial
+functions that model components of emission not correlated with the distribution of the gas. In this
+method no assumptions are made on CR sources or propagation, except for an assumption that the
+CR density inside each patch can be approximated by a constant. After subtracting the gas-correlated
+component from the data, we model the IC component as a bivariate Gaussian along the Galactic plane.
+One of the largest systematic uncertainties is the definition of the template for Loop I, which is a
+large structure in the sky, overlapping the Fermi bubbles mostly in the northern hemisphere. In the
+paper we use three different definitions of the Loop I template: a template based on the radio data at
+408 MHz (Haslam et al. 1982), a geometrical model based on the 1.4 GHz polarization data (Wolleben
+2007), and a template derived from the gamma-ray residuals based on a correlation with the gamma-ray
+spectrum in the residuals outside the Fermi bubbles. We determine templates for the bubbles from the
+residuals obtained after subtracting the foreground emission components.
+We find that the gamma-ray spectra of the Fermi bubbles derived with the two methods agree with
+each other. At energies above approximately 10 GeV the uncertainty in the spectrum is dominated
+by statistics while below 10 GeV systematic uncertainties are dominant. The total luminosity of the
+bubbles between 100 MeV and 500 GeV is (4 .4±0.1[stat]+2.4
+−0.9[syst]) ×1037erg s−1(assuming that they
+are located at the distance of the Galactic center). The spectrum of the bubbles is well described either
+by a log parabola function or by a power law with an exponential cutoff. The fit of the photon spectrum
+above 1 GeV by a power law with an exponential cutoff has an index γ= (1.87±0.02[stat]+0.14
+−0.17[syst])
+and a cutoff Ecut= (113 ±19[stat]+45
+−53[syst]) GeV. A simple power-law spectrum is excluded with very
+high confidence (Figure 20). Both the log parabola and a power law with an exponential cutoff fit the
+spectrum of the Fermi bubbles with ∆ χ2/NDF≈1 for some models of gamma-ray diffuse foregrounds
+and the definition of the bubbles and Loop I templates. In the energy range between 100 MeV and 500
+GeV, a log parabola gives a slightly better fit than a power law with a cutoff. The reported spectrum has
+a higher normalization and a softer spectrum at energies below 1 GeV compared to previous results (Su
+& Finkbeiner 2012). For the first time we show that a significant cutoff exists at high energies.
+The brightness of the emission is not uniform across the bubbles: we confirm the previously re-
+ported (Su & Finkbeiner 2012) excess of emission on the south-eastern side of the bubbles (referred to as
+the cocoon). We define a template for the cocoon similarly to the bubbles template by applying a higher
+cut in significance to the residual maps. We find that fitting a flat cocoon template together with a flat
+bubbles template improves the fit compared to the flat bubbles template case by 2∆ log L/NDF >3.7
+for NDF = 25 (Figure 25). The probability that the cocoon is a statistical fluctuation is <10−9for
+some models of foreground emission that we have tested and for all definitions of the bubbles and Loop
+I templates. The energy spectrum of the cocoon is consistent with the spectrum of the Fermi bubbles.
+– 53 –
+We search for a jet-like structure inside the bubbles using two different techniques. First, we apply a
+higher cut in the residual significance map than in the definition of the cocoon (Figure 26). This structure
+is not significant, with a probability of statistical fluctuation of 20% for all models of foreground emission.
+We also searched for a narrow linear feature emanating from the Galactic center (Figure 28). We do
+not find any significant linear jet (in contrast to tentative claims by Su & Finkbeiner 2012) within our
+systematic uncertainty, although the scatter in significance for the different foreground models is very
+high.
+The spectra of the northern bubble and the southern bubble are consistent with each other (Figure
+32). We find no variation of the spectrum with latitude within the statistical and systematic uncertainties
+in contrast to claims by Hooper & Slatyer (2013) and Yang et al. (2014). The systematic uncertainties
+are especially high for the strips in the North due to strong contamination from gamma rays produced
+in hadronic interactions and a significant overlap with Loop I.
+We estimate the position and the width of the boundary of the bubbles by fitting a hyperbolic
+tangent function across the edge of the bubbles. The width is calculated for residuals in three energy
+ranges: 1 - 3 GeV, 3 - 10 GeV, and 10 - 500 GeV. We find that, on average, the width is smaller than
+∼6◦. We do not find a significant variation of the width with energy but the width changes with position
+along the boundary of the bubbles (Figure 30).
+We fit the spatially integrated spectrum of the bubbles with IC and hadronic models of gamma-ray
+production. The spectrum of the electrons in the IC model is well described by a power law with an
+exponential cutoff with n= 2.17±0.05[stat]+0.33
+−0.89[syst] and Ecut= 1.25±0.13[stat]+1.73
+−0.68[syst] TeV and the
+total energy in electrons above 1 GeV is (1 .0±0.2[stat]+6.0
+−1.0[syst]) ×1052erg. The spectrum of the protons
+in the hadronic scenario is expressed as a function of the proton momentum dn/dp ∝p−ne−pc/E cutwith
+n= 2.13±0.01[stat]+0.15
+−0.52[syst] and Ecut= 14±7[stat]+6
+−13[syst] TeV. The total energy in proton CRs
+above 1 GeV is (3 .5±0.1[stat]+4.7
+−3.0[syst]) ×1055
+0.01 cm−3
+nH
+erg. The IC model fits the energy spectrum of
+theFermi bubbles better than the primary gamma-ray emission in the hadronic model with a significance
+of at least 4 .9σwithout taking into account the uncertainties in the nuclear cross sections of Kamae et al.
+(2006). If we include gamma-ray emission from secondary leptons and assume a magnetic field weaker
+than approximately 5 µG, then the quality of the fits of the hadronic models to the gamma-ray data
+becomes comparable to the IC models (Figure 40). The derived spectra of CRs in leptonic and hadronic
+models of the Fermi bubbles agree with the previous results (e.g., Crocker & Aharonian 2011; Mertsch
+& Sarkar 2011).
+For IC models of the bubbles, the homogeneous energy spectrum within the area of the bubbles
+and the rather sharp edges may favor a transient bubble formation scenario with either fast transport of
+leptonic CRs to high latitudes or continuous reacceleration of leptons within the volume of the bubbles.
+The cutoff in the energy spectrum can be explained by cooling of electrons due to IC and synchrotron
+energy losses. The presence of a cutoff in the proton spectrum for the hadronic model of gamma-ray
+production (Crocker & Aharonian 2011) would indicate that either the mechanism of proton acceleration
+becomes less efficient around a few TeV or that the protons with higher energies can escape from the
+bubbles.
+– 54 –
+We find that the electrons in the IC scenario can also explain the WMAP andPlanck microwave
+haze data for a magnetic field in the range between 5 µG and 20 µG (Figure 35). The secondary electrons
+and positrons in the hadronic scenario produce synchrotron radiation with a spectrum that is too soft
+compared to the microwave haze spectrum while the overall normalization of the synchrotron radiation
+from the secondary particles is at least a factor 3 - 4 smaller than the microwave haze level (Figures 38
+and 39). A simultaneous explanation of the gamma-ray and the microwave data in a hadronic model
+requires an additional source of primary electrons or a reacceleration of the secondary leptons.
+9. Acknowledgements
+TheFermi -LAT Collaboration acknowledges generous ongoing support from a number of agencies
+and institutes that have supported both the development and the operation of the LAT as well as
+scientific data analysis. These include the National Aeronautics and Space Administration and the
+Department of Energy in the United States, the Commissariat ` a l’Energie Atomique and the Centre
+National de la Recherche Scientifique / Institut National de Physique Nucl´ eaire et de Physique des
+Particules in France, the Agenzia Spaziale Italiana and the Istituto Nazionale di Fisica Nucleare in Italy,
+the Ministry of Education, Culture, Sports, Science and Technology (MEXT), High Energy Accelerator
+Research Organization (KEK) and Japan Aerospace Exploration Agency (JAXA) in Japan, and the
+K. A. Wallenberg Foundation, the Swedish Research Council and the Swedish National Space Board in
+Sweden.
+Additional support for science analysis during the operations phase is gratefully acknowledged from
+the Istituto Nazionale di Astrofisica in Italy and the Centre National d’ ´Etudes Spatiales in France. Some
+parts of the data analysis have been done with the HEALPix package (Gorski et al. 2005).
+– 55 –
+A. χ2approximation to the likelihood
+In Section 4, we use the quadratic approximation to the log likelihood
+logL ≈E binsX
+ipixelsX
+jdijlogµij
+dij−(µij−dij)≈ −1
+2E binsX
+ipixelsX
+j(dij−µij)2
+σ2
+ij, (A1)
+where dijis the gamma-ray data and µijis the model in an energy bin iand a pixel j. For a large number
+of counts the statistical uncertainty in the denominator is σ2
+ij≈dij≈µij. For both choices σ2
+ij=dij
+andσ2
+ij=µijthe fit has a statistically significant bias. For example, consider an energy bin i(in the
+following argument we omit the energy index ifor brevity). If the underlying distribution of photons
+is isotropic (for example, in a high latitude patch), then the best estimate of the model µj=µis the
+arithmetic mean µ∗=¯d=1
+NpixPNpix
+i=1dj. If, however, one takes σ2
+j=dj, then the χ2minimization gives
+the harmonic mean
+µ∗=NpixPNpix
+i=11
+dj<¯d. (A2)
+The reason for this bias is that the fluctuations above the true model dj> µare underweighted in the
+χ2, while the fluctuations below the true model dj< µare overweighted.
+In the second case, if we take σ2
+j=µand minimize χ2with respect to µ, then we get the quadratic
+mean
+µ∗=vuut1
+NpixNpixX
+i=1d2
+j>¯d. (A3)
+The reason for this bias is that models with larger µhave smaller χ2due to the presence of µin the
+denominator.
+In order to get an unbiased µ∗from a χ2minimization, one can take σ2
+j=¯d. In this case both
+the best-fit parameter µ∗and the standard deviation found from the χ2minimization coincide with the
+best estimators in the true Poisson distribution. Indeed, the estimators of the mean and the standard
+deviation of the mean in a Poisson distribution are
+µ=¯d, σ2
+µ=¯d
+N. (A4)
+The same values are obtained by minimizing
+χ2(µ) =X
+j(dj−µ)2
+¯d(A5)
+with respect to µ. In particular, the standard deviation of the mean is
+1
+σ2µ=1
+2d2χ2
+dµ2=N
+¯d. (A6)
+The observed gamma-ray flux is not uniform, i.e., we cannot average over the whole sky to get an
+estimate of σ2. The gamma-ray flux can be approximated as a constant only locally. We find the value of
+the local average by smoothing the data with a Gaussian kernel. At low energies the radius of the kernel
+– 56 –
+is 2◦, which corresponds to averaging over approximately 15 pixels in the pixelation scheme chosen for
+the paper. At energies where on average there are fewer than 100 photons within a 2◦radius we take
+the smoothing radius rsuch that there are on average 100 photons within r. The radius stays at 2◦up
+to 5 GeV, then it grows to about 20◦at 100 GeV, and 100◦at 500 GeV. Thus the estimate of the σ2
+ij
+that we use in the χ2definition is given by the smoothed counts map ˜dij, where the smoothing radius
+depends on energy bin i. There is still a small bias due to using the smoothed data counts instead of the
+true but unknown model. This bias manifests itself in a small underestimation of the total gamma-ray
+flux. The difference is less than 1% below 2 GeV, it increases up to 2 - 3% around 10 GeV, and above
+10 GeV it is smaller than the statistical uncertainty. This bias is much smaller than the other sources of
+the systematic uncertainty.
+B. IC and hadronic models of the bubbles
+Here we present details about the calculation of IC and hadronic gamma-ray emission to model the
+spectrum of the Fermi bubbles. As in Section 7, we use the baseline model in Figure 18 as an example
+of the gamma-ray spectrum of the bubbles, while the other determinations of the Fermi bubbles spectra
+are used to estimate the systematic uncertainties.
+B.1. IC model of the Fermi bubbles
+The IC emission is produced by the scattering of high energy electrons on the ISRF photons. The
+density of the ISRF photons (Porter & Strong 2005; Moskalenko et al. 2006) that we use to calculate
+the IC emission is presented in Figure 42 on the left. The three large bumps (going from left to right)
+correspond to CMB, IR, and starlight (SL) photons. In this analysis we use the ISRF distribution at
+z= 5 kpc.
+The energy spectrum of the IC photons is found from the convolution of the electron and the ISRF
+densities
+dQγ
+dEγ=cZdσIC(Eγ, Ee, Eph)
+dEγdne
+dEedEednph
+dEphdEph, (B1)
+where cis the speed of light, dQγ/dE γis in units of (GeV−1cm−3s−1), and dne/dE eanddnph/dE ph
+are in units of (GeV−1cm−3). For completeness we present the scattering cross section (Blumenthal &
+Gould 1970)
+dσIC
+dEγ=3σT
+Ee1
+Γϵ
+2qlnq+ (1 + 2 q)(1−q) +1
+2(Γϵq)2
+1 + Γ ϵq(1−q)
+, (B2)
+where σTis the Thomson cross section and
+Γϵ=4EphEe
+m2ec4, q =Eγ
+Γ(Ee−Eγ). (B3)
+The transition between the non-relativistic (Thomson) and relativistic (Klein-Nishina) scattering happens
+when the energy of the ISRF photon in the center of mass is comparable to the mass of the electron
+hνγ∼mec2. The maxima of the CMB, IR and starlight components of the ISRF at 5 kpc are ECMB =
+– 57 –
+10−510−410−310−210−1100101
+Eisrf(eV)10−410−310−210−1100101102103λdU
+dλ/parenleftbigeV
+cm3/parenrightbigz = 2.0 kpc
+z = 5.0 kpc
+z = 10.0 kpcB = 20µG
+B = 10µG
+B = 5µG
+10−610−510−410−310−210−1100101102
+Eisrf(eV)101102103104105106107Ee(GeV)Klein-Nishina transition
+CMB
+Infrared
+Starlight
+Fig. 42.— Left: energy density of the ISRF (including CMB) at different heights above the Galactic center z= 2,
+5, 10 kpc (Porter & Strong 2005; Moskalenko et al. 2006). For comparison we also plot the energy density of 5, 10,
+and 20 µG magnetic fields. Right: Klein-Nishina transition energies Ee=m2
+ec2/EISRF for the peaks of the ISRF
+energy density fields at z= 5 kpc. The peaks of the ISRF at 5 kpc are ECMB = 9.2×10−4eV,EIR= 9.6×10−3eV
+andESL= 1.5 eV.
+9.2×10−4eV,EIR= 9.6×10−3eV and ESL= 1.5 eV. The characteristic electron energies for the
+maxima of the ISRF components are shown in Figure 42 on the left. For starlight photons the Klein-
+Nishina transition is around 100 GeV.
+The gamma-ray flux is determined from the source energy density as a line of sight integral
+dNγ
+dEγ=1
+4πZdQγ
+dEγdR. (B4)
+If we assume a spatially uniform ISRF distribution, then the flux of gamma rays can be expressed in
+terms of the column density of the electrons
+fe=1
+4πZdne
+dEedR. (B5)
+Then
+dNγ
+dEγ=cZdσIC
+dEγfe(Ee)dEednph
+dEphdEph. (B6)
+The best-fit electron spectrum is fe(Ee) = 3 .6×108·E−2.2
+ee−Ee/1.3 TeVin units of (GeV−1cm−2sr−1).
+The total energy in electrons above 1 GeV is
+We= Ω4 πR2Z∞
+1 GeVEefe(Ee)dEe≈1.0×1052erg (B7)
+where Ω ≈0.66 sr is the surface area of the bubbles (for |b|>10◦) and R≈9.4 kpc is the distance to the
+center of the bubbles at |b|= 25◦.
+The contribution of different ISRF fields and the contribution of electrons of different energies to
+the gamma-ray flux is presented in Figure 43. Most of the contribution below 100 GeV comes from
+– 58 –
+the CMB, which is the most abundant source of photons in terms of the number density. Above 100
+GeV the IC signal is dominated by starlight and IR photons. In this calculation, we assume isotropic
+IC scattering cross section. The anisotropy of the starlight and IR photon flux at high latitudes may
+introduce a correction to the calculations (Moskalenko & Strong 2000) at energies above 100 GeV where
+the IR and starlight contribution is significant. The magnitude of the change is not expected to be large
+as one can see from Figure 34, where we compare the full ISRF model with CMB only IC emission.
+10−1100101102103
+Eγ(GeV)10−710−6E2dNγ
+dE/parenleftbigGeV
+cm2s sr/parenrightbigICS, b = 30.5 deg (z = 5 kpc)
+CMB component
+IR component
+SL component
+Fermi bubbles
+10−410−310−210−1100101102103104
+E (GeV)10−910−810−710−610−5E2dNγ
+dE/parenleftbigGeV
+cm2s sr/parenrightbigICS, B = 30.5 deg (z = 5 kpc)
+Ee= 10 GeV
+Ee= 30 GeV
+Ee= 100 GeV
+Ee= 300 GeV
+Ee= 1000 GeV
+Ee= 3000 GeV
+Fermi bubbles
+Fig. 43.— Left: contribution to the IC model of the Fermi bubbles from different components of the ISRF. Right:
+contribution to the IC model of the Fermi bubbles from electrons of different energies.
+B.2. Microwave haze
+In this subsection, we calculate the synchrotron emission from the same population of electrons
+derived in the previous subsection. We find that this population of electrons can also explain the WMAP
+andPlanck microwave haze data (Finkbeiner 2004; Ade et al. 2013).
+The power emitted by an electron with an energy E=γmc2in a magnetic field Bwith an angle α
+between the electron velocity and the magnetic field is (Blumenthal & Gould 1970)
+Pemitted (ν, α, E, B ) =√
+3e3Bsinα
+mc2ν
+νcZ
+ν/νcdξK 5/3(ξ), (B8)
+where K5/3(ξ) is the modified Bessel function of the second kind and νcis the critical frequency
+νc=3eBγ2
+4πmcsinα. (B9)
+The electron distribution can be expressed as a product of a distribution related to pitch angle α,N(α),
+and the energy spectrum dne/dE
+dN
+dEdΩαdV=N(α)
+4πdne
+dE. (B10)
+– 59 –
+The power emitted from a volume element is
+dW
+dνdt=Z
+dEZ
+dΩαN(α)
+4πdne
+dEPemitted (ν, α, E, B ). (B11)
+The intensity of microwave flux is derived analogously to Equations (B4) and (B6)
+dI
+dν=Z
+dEZ
+dΩαN(α)
+4πfe(E)Pemitted (ν, α, E, B ), (B12)
+where fe(E) is the same distribution of electrons as in Equation (B5). We assume that there is no
+dependence on the pitch angle, i.e., N(α) = 1.
+In Figure (44) on the left we show the contribution of electrons at different energies to the total
+synchrotron spectrum. The curves are derived from Equation (B12) by integrating only over the pitch
+angle α. For a given electron energy E, most of the emitted power is concentrated around the critical
+frequency. In Figure (44) on the right we show the critical frequency for a range of magnetic fields
+relevant to the problem (we assume sin α= 1 on this plot). The electrons at energies between 5 and 30
+GeV contribute most of the power in the synchrotron emission at the WMAP and Planck frequencies.
+From Figure 43 we find that most of the contribution to the gamma-ray emission of the bubbles comes
+from electrons with energies above 100 GeV, i.e. the gamma-ray spectrum of the Fermi bubbles and the
+microwave haze signal in WMAP andPlanck data are produced by electrons in different energy ranges.
+100101102103104105106107
+ν(GHz)100101102103104105106νdI
+dν/parenleftbigeV
+cm2s sr/parenrightbigSynchrotron emission
+Ee= 10 GeV
+Ee= 30 GeV
+Ee= 100 GeV
+Ee= 300 GeV
+Ee= 1000 GeV
+Ee= 3000 GeV
+Synchrotron model (8.4 µG)
+WMAP + Planck
+100101102103104
+Ee(GeV)10−710−610−510−410−310−210−1100101102hνc(eV)Synchrotron critical frequency
+WMAP and Planck haze frequencies
+B = 5µG
+B = 10µG
+B = 20µG
+10−1100101102103104105106107
+νc(GHz)
+Fig. 44.— Left: synchrotron emission from electrons of different energies. The points correspond to the WMAP
+andPlanck microwave haze intensities. Right: synchrotron critical frequency as a function of electron energy for
+different magnetic fields at α= 90◦. The band corresponds to the WMAP andPlanck haze frequencies (Ade et al.
+2013).
+In Figure 45 we show the cooling time for electrons in different magnetic fields. In the case of zero
+magnetic field, all energy losses in this figure are due to IC scattering. The starlight photons do not
+contribute significantly to the energy loss above 100 GeV. Above 100 TeV the IR and the CMB photons
+must be considered in the Klein-Nishina regime as well. As a result, the IC cooling time above 100 TeV
+is leveling out (top curve on the left plot).
+– 60 –
+10−1100101102103104105106
+E (GeV)10−410−310−210−1100101102103104105tcool(Myr)Electron cooling time
+IC andB= 0µG
+IC andB= 5µG
+IC andB= 10µG
+IC andB= 20µG
+10−1100101102103104105106
+E (GeV)10−410−310−210−1˙E/E2/parenleftBig
+1
+GeV Myr/parenrightBigCMB
+CMB + Infrared
+CMB + Infrared + Starlight
+Fig. 45.— Left: IC and synchrotron characteristic cooling time for CR electrons, which is defined as tcool=−E/˙E.
+Right: the IC energy loss rate for different ISRF fields. The solid line represents the loss rate including the Klein-
+Nishina transition. Horizontal lines correspond to the Thomson approximation of the energy loss for different
+densities of the ISRF fields (CMB only, CMB+IR, CMB+IR+starlight). Vertical lines correspond to the Klein-
+Nishina transition energy for starlight, IR, and CMB (left to right). The characteristic transition energies are the
+same as in Figure 42.
+B.3. Hadronic model of the Fermi bubbles
+The gamma rays can be produced as a result of an interaction of high energy CR protons with
+interstellar gas. The rate of gamma-ray production per unit volume and unit energy is
+dQ
+dEγdt=Zdσ(Tp, Eγ)
+dEγnHvpdnp
+dTpdTp, (B13)
+where npandnHare the densities of CR protons and hydrogen atoms per unit volume, vpis the velocity
+of the CR, and dσ(Tp, Eγ)/dE γis the differential cross section to produce a gamma ray with energy Eγ
+in an interaction of a CR proton with kinetic energy Tp=Ep−mpand the nucleus of a hydrogen atom
+at rest.
+We assume that the hadronic CR spectrum can be described as a power law in momentum at low
+energies. The derivative with respect to Tpis transformed to the derivative with respect to the momentum
+ppthrough the expression
+vpdnp
+dTp=cdnp
+dpp. (B14)
+The gamma-ray flux at the in the vicinity of Earth is
+dNγ
+dEγ=Zdσ(Tp, Eγ)
+dEγnHcfp(pp)dTp, (B15)
+where we assume a constant gas density nHthroughout the bubbles and denote the line of sight integral
+of the CR density as
+fp(pp) =1
+4πZdnp
+dppdR. (B16)
+– 61 –
+In Figure 46 we show examples of fitting the gamma-ray data assuming a power law or a power law with
+a cutoff form of fp. We also show the contribution from different proton momenta in the power law with
+an exponential cutoff case. The parameters are fp∝p−2.1e−pc/13.7 TeV. In order to find the normalization
+and the total energy in protons, we need to make an assumption on the number density of hydrogen
+atoms inside the bubbles. We take nH= 0.01 cm−3as a reference value.
+10−210−1100101102103
+E (GeV)10−810−710−610−5E2dNγ
+dE/parenleftbigGeV
+cm2s sr/parenrightbigHadronic gamma-ray spectra
+Power law with a cutoff
+pp= 1 GeV
+pp= 10 GeV
+pp= 100 GeV
+pp= 1000 GeV
+Fermi bubbles
+Fig. 46.— Contributions to the gamma-ray spectrum from protons at different momenta. The overall spectrum
+of CR protons is derived from fitting to the Fermi bubbles spectrum in Section 7.2.
+The source function for the secondary particles is
+dQs
+dEs=Zdσpp→s(Tp, Es)
+dEsnHcdnp
+dppdTp, (B17)
+where sdenotes the particle species. The flux of neutrinos can be calculated similarly to the flux of
+gamma rays in Equation (B15)
+dNν
+dEν=Zdσ(Tp, Eν)
+dEνnHcfp(pp)dTp. (B18)
+The flux of neutrinos from the bubbles was presented in Figure 37 on the left.
+We compare the CR energy density in leptonic and hadronic models to the energy density of a 8.4
+µG magnetic field in Figure 47. We find that the energy density of CR in hadronic model of the Fermi
+bubbles is approximately in equipartition with the magnetic field. In IC model of the Fermi bubbles the
+energy density in leptonic CR is much lower than the magnetic field energy density.
+In Figure 48 we compare the CR energy density in leptonic and hadronic models of the Fermi bubbles
+to the local CR energy density. In hadronic model of the bubbles, the energy density of CR is about an
+order of magnitude larger than the energy density of local CR. In the leptonic model, the energy density
+of leptonic CR inside the bubbles is comparable to the local energy density of leptonic CR. The spectrum
+– 62 –
+10−1100101102103104105
+E (GeV)10−610−510−410−310−210−1100101102103E2dN
+dE/parenleftbigeV
+cm3/parenrightbigEnergy density above 100 MeV
+B= 8.4µG, W B= 1.8 eVcm−3
+Hadronic CR, Wp= 1.3 eVcm−3
+Leptonic CR, We±= 0.0007 eVcm−3
+Fig. 47.— Comparison of the energy density of CRs in leptonic and hadronic models of the Fermi bubbles and
+the energy density of an 8.4 µG magnetic field. The CR energy densities are obtained from Equations B5 and B16
+assuming that the distance to the center of the bubbles is 9.4 kpc.
+of leptonic CR in the bubbles is harder. As a result, above (below) 100 GeV the spectrum of leptonic
+CR inside the bubbles is larger (smaller) than the local CR spectrum.
+– 63 –
+101102103104
+E (GeV)10−310−210−1E3dNe
+dE/parenleftBig
+GeV2
+cm2s sr/parenrightBigLeptonic CR spectrum
+Fermi bubbles
+PAMELAe−
+HESS 2008
+HESS 2009
+Fermi LAT 2010
+101102103104105
+Rigidity (GV)10−1100101102103R2.7dNp
+dR/parenleftBig
+GV1.7
+cm2s sr/parenrightBigProton CR spectrum
+Fermi bubbles
+PAMELA
+ATIC-2
+CREAM
+Fig. 48.— Left: comparison of leptonic CR spectra in the IC model of the Fermi bubbles to the local CR spectra:
+PAMELA electron only spectrum (Adriani et al. 2011a), HESS 2008 (Aharonian et al. 2008), HESS 2009 (Aharonian
+et al. 2009), and Fermi LAT 2010 (Ackermann et al. 2010). Right: comparison of proton CR spectra in the hadronic
+model of the Fermi bubbles to the local proton CR spectrum: PAMELA (Adriani et al. 2011b), ATIC-2 (Panov
+et al. 2006), CREAM (Yoon et al. 2011). In both cases, the band represents an envelope of the CR spectra fitted
+to the gamma-ray spectra of the bubbles for different models of the foreground emission and definitions of the
+bubbles templates. We do the comparison at energies above 10 GeV because this is the energy range relevant for
+the production of the gamma rays from the bubbles and the microwave haze. Below ∼10 GeV the local CR spectra
+are affected by solar modulation.
+– 64 –
+REFERENCES
+Ackermann, M., Ajello, M., Albert, et al. 2012, ApJS, 203, 4
+Ackermann, M., Ajello, M., Atwood, et al. 2010, Phys. Rev. D, 82, 092004
+Ackermann, M., Ajello, M., Atwood, W. B., et al. 2012, Astrophys.J., 750, 3
+Ackermann, M., Albert, A., Atwood, W. B., et al. 2014, submitted to ApJ
+Ackermann, M., J´ ohannesson, G., Digel, S., et al. 2008, in American Institute of Physics Conference Se-
+ries, Vol. 1085, American Institute of Physics Conference Series, ed. F. A. Aharonian, W. Hofmann,
+& F. Rieger, 763–766
+Ade, P. A. R., Aghanim, N., Arnaud, M., et al. 2013, A&A, 554, A139
+Adri´ an-Mart´ ınez, S., Albert, A., Samarai, I. A., et al. 2013, ArXiv:1308.5260
+Adriani, O., Barbarino, G. C., Bazilevskaya, G. A., et al. 2011a, Physical Review Letters, 106, 201101
+—. 2011b, Science, 332, 69
+Aharonian, F., Akhperjanian, A. G., Anton, G., et al. 2009, A&A, 508, 561
+Aharonian, F., Akhperjanian, A. G., Barres de Almeida, U., et al. 2008, Physical Review Letters, 101,
+261104
+Ahlers, M., & Murase, K. 2013, ArXiv:1309.4077
+Atwood, W. B., Abdo, A. A., Ackermann, M., et al. 2009, ApJ, 697, 1071
+Bland-Hawthorn, J., Maloney, P. R., Sutherland, R. S., et al. 2013, ApJ, 778, 58
+Blumenthal, G. R., & Gould, R. J. 1970, Reviews of Modern Physics, 42, 237
+Carretti, E., Crocker, R. M., Staveley-Smith, L., et al. 2013, Nature, 493, 66
+Casandjian, J.-M., & Grenier, I. 2009, arXiv:0912.3478
+Case, G. L., & Bhattacharya, D. 1998, Astrophys.J., 504, 761
+Cheng, K.-S., Chernyshov, D. O., Dogiel, V. A., et al. 2011, ApJ, 731, L17
+Crocker, R. M., & Aharonian, F. 2011, Physical Review Letters, 106, 101102
+Dermer, C. D. 2012, Physical Review Letters, 109, 091101
+Dermer, C. D., Finke, J. D., Murphy, R. J., et al. 2013, ArXiv:1303.6482
+Dobler, G. 2012, ApJ, 750, 17
+Dobler, G., Finkbeiner, D. P., Cholis, I., et al. 2010, ApJ, 717, 825
+– 65 –
+Finkbeiner, D. P. 2004, ApJ, 614, 186
+Gaensler, B. M., Madsen, G. J., Chatterjee, S., et al. 2008, PASA, 25, 184
+Gorski, K., Hivon, E., Banday, A., et al. 2005, Astrophys.J., 622, 759
+Grenier, I. A., Casandjian, J.-M., & Terrier, R. 2005, Science, 307, 1292
+Guo, F., & Mathews, W. G. 2012, ApJ, 756, 181
+Guo, F., Mathews, W. G., Dobler, G., et al. 2012, ApJ, 756, 182
+Haslam, C., Salter, C., Stoffel, H., et al. 1982, Astron.Astrophys.Suppl.Ser., 47, 1
+Hooper, D., & Slatyer, T. R. 2013, Phys.Dark Univ., 2, 118
+James, F., & Roos, M. 1975, Comput.Phys.Commun., 10, 343
+Johannesson, G., Orlando, E., & for the Fermi-LAT collaboration. 2013, ArXiv:1307.0197
+Jones, D. I., Crocker, R. M., Reich, W., et al. 2012, ApJ, 747, L12
+Kamae, T., Karlsson, N., Mizuno, T., et al. 2006, ApJ, 647, 692
+Karlsson, N., & Kamae, T. 2008, ApJ, 674, 278
+Kataoka, J., Tahara, M., Totani, T., et al. 2013, ApJ, 779, 57
+Large, M. I., Quigley, M. J. S., & Haslam, C. G. T. 1962, MNRAS, 124, 405
+Lorimer, D., Faulkner, A., Lyne, A., et al. 2006, Mon.Not.Roy.Astron.Soc., 372, 777
+Lunardini, C., & Razzaque, S. 2012, Physical Review Letters, 108, 221102
+Lunardini, C., Razzaque, S., Theodoseau, K. T., et al. 2013, ArXiv:1311.7188
+Malyshev, D. 2012, ArXiv:1202.1034
+Mertsch, P., & Sarkar, S. 2011, Physical Review Letters, 107, 091101
+Moskalenko, I., & Strong, A. 1998, Astrophys.J., 493, 694
+Moskalenko, I. V., Porter, T. A., & Strong, A. W. 2006, ApJ, 640, L155
+Moskalenko, I. V., & Strong, A. W. 2000, ApJ, 528, 357
+Nolan, P. L., Abdo, A. A., Ackermann, M., et al. 2012, ApJS, 199, 31
+Panov, A. D., Adams, J. H., Ahn, H. S., et al. 2006, ArXiv:0612377
+Pietrobon, D., Gorski, K. M., Bartlett, J., et al. 2012, Astrophys.J., 755, 69
+Porter, T. A., Moskalenko, I. V., Strong, A. W., et al. 2008, Astrophys.J., 682, 400
+– 66 –
+Porter, T. A., & Strong, A. W. 2005, in International Cosmic Ray Conference, Vol. 4, International
+Cosmic Ray Conference, 77
+Ptuskin, V., Moskalenko, I. V., Jones, F., et al. 2006, Astrophys.J., 642, 902
+Schlegel, D. J., Finkbeiner, D. P., & Davis, M. 1998, Astrophys.J., 500, 525
+Snowden, S. L., Egger, R., Freyberg, M. J., et al. 1997, ApJ, 485, 125
+Strong, A. W., Moskalenko, I. V., & Ptuskin, V. S. 2007, Annual Review of Nuclear and Particle Science,
+57, 285
+Strong, A. W., Moskalenko, I. V., & Reimer, O. 2000, Astrophys.J., 537, 763
+—. 2004, Astrophys.J., 613, 962
+Su, M., & Finkbeiner, D. P. 2012, ApJ, 753, 61
+Su, M., Slatyer, T. R., & Finkbeiner, D. P. 2010, ApJ, 724, 1044
+Vladimirov, A. E., Digel, S. W., Johannesson, G., et al. 2011, Comput.Phys.Commun., 182, 1156
+Wolleben, M. 2007, Astrophys.J., 664, 349
+Yang, H.-Y. K., Ruszkowski, M., Ricker, P. M., et al. 2012, ApJ, 761, 185
+Yang, R.-z., Aharonian, F., & Crocker, R. 2014, ArXiv:1402.0403
+Yoon, Y. S., Ahn, H. S., Allison, P. S., et al. 2011, ApJ, 728, 122
+Zubovas, K., King, A. R., & Nayakshin, S. 2011, MNRAS, 415, L21
+This preprint was prepared with the AAS L ATEX macros v5.2.
