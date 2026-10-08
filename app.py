@@ -340,7 +340,7 @@ def chat(message, history, var_dict=var_dict):
 
 
 if __name__ == "__main__":
-    chat_box = gr.ChatInterface(chat, type="messages",     
+    chat_box = gr.ChatInterface(chat, #type="messages",     
                             textbox=gr.Textbox(placeholder="type /help for available commands", 
                                                lines=1, max_lines=30))
 

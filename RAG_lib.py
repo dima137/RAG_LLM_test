@@ -3,7 +3,8 @@ from PyPDF2 import PdfReader
 import pandas as pd
 import bm25s
 import numpy as np
-
+#from openai import OpenAI
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 def pdf2text(pdf_fn, PdfReader=PdfReader):
     reader = PdfReader(pdf_fn)
@@ -87,3 +88,145 @@ def bm25_metric(bm25qs, bm25chunks):
     retriever.index(bm25chunks)
     scores = retriever.get_scores(list(bm25qs.vocab.keys()))
     return scores
+
+
+
+
+def list2lines(lst, current=None):
+    res = ''
+    for x in lst:
+        if x == current:
+            res += f'\t- {x} (current)\n'
+        else:
+            res += f'\t- {x}\n'
+    return res
+
+def dict2lines(dct):
+    res = ''
+    for key, value in dct.items():
+        res += f'\n{key}:'
+        if type(value) is list:
+            res += '\n' + list2lines(value)
+        else:
+            res += f' {value}'
+    return res
+
+commands_dict = {
+    '/help': 'print the list of available commands etc.',
+    '/LLM': 'print current LLM',
+    '/LLMs': 'print available LLMs',
+    '/RAG': 'print current RAG',
+    '/RAGs': 'print available RAGs',
+    '/LLM=new_LLM_model': 'change LLM specified by "new_LLM_model" \
+        (partical match is supported: the first instance is returned)',
+    '/RAG=new_RAG_model': 'change RAG specified by "new_RAG_model" \
+        (partical match is supported: the first instance is returned)',
+    '/vars': 'print the current values of all variables',
+    '@RAG query': 'address the query to RAG, response is "ktop" top chunks',
+    '@LLM query': 'address the query to LLM',
+    '@LLM+RAG query or @RAG+LLM query or query': 'Use LLM with RAG context using "ktop" \
+        top chunks (if ktop > 0)',
+    'info': 'in general "/var_name" prints the current value of the variable, \
+        and "/var_name=new_value" changes the value of the variable to "new_value"',
+}
+
+
+
+
+def handle_special_commands(command, var_dict={}):
+    if command not in var_dict['special_commands']:
+        result = f'Command {command} is not found.\n'
+        result += handle_special_commands('help', var_dict=var_dict)
+        return result
+    if command == '/help':
+        result = 'Available commands:'
+        result += dict2lines(commands_dict)
+        return result
+    elif command == '/LLMs':
+        result = 'Available LLMs:\n'
+        result += list2lines(var_dict['LLMs'], current=var_dict['LLM'])
+        return result
+    elif command == '/RAGs':
+        result = 'Available RAGs:\n'
+        result += list2lines(var_dict['RAGs'], current=var_dict['RAG'])
+        return result
+    elif command == '/vars':
+        result = 'Current variable values:\n'
+        for var in var_dict['vars']:
+            result += f'{var} = {var_dict[var]}\n'
+        return result
+
+def get_model_index(model, model_list):
+    for ind, mdl in enumerate(model_list):
+        if mdl.find(model) > -1:
+            return ind
+    return -1
+
+def find_new_value(model, model_list):
+    ind = get_model_index(model, model_list)
+    if ind == -1:
+        return None
+    else:
+        return model_list[ind]
+
+def handle_model_commands(message, var_dict={}):
+    if not message.startswith('/'):
+        return None
+    command = message.split(' ')[0]
+    
+    if command in var_dict['special_commands']:
+        return handle_special_commands(command, var_dict=var_dict)
+    elif message.find('=') > -1:
+        var_name = message.split('=')[0]
+    else:
+        var_name = message.split(' ')[0]
+    var_name = var_name.replace('/', '').strip()
+
+    if var_name not in var_dict['vars']:
+        out_message = f'{command} is not found.\n'
+        out_message += handle_special_commands('/help', var_dict=var_dict)
+        return out_message
+    
+    if message.find('=') > -1:
+        new_value = message.split('=')[1].strip()
+        old_value = var_dict[var_name]
+        
+        if var_name == 'LLM':
+            if get_model_index(new_value, var_dict['LLMs']) == -1:
+                out_message = f'Model "{new_value}" not found.\n'
+                out_message += handle_special_commands('/LLMs', var_dict=var_dict)
+                return out_message
+            else:
+                new_value = find_new_value(new_value, var_dict['LLMs'])
+        elif var_name == 'RAG':
+            if get_model_index(new_value, var_dict['RAGs']) == -1:
+                out_message = f'Model "{new_value}" not found.\n'
+                out_message += handle_special_commands('/RAGs', var_dict=var_dict)
+                return out_message
+            else:
+                new_value = find_new_value(new_value, var_dict['RAGs'])
+        if new_value.isnumeric():
+            new_value = int(new_value)
+
+        var_dict[var_name] = new_value
+
+        out_message = f'Old {var_name} = {old_value}, new {var_name} = {new_value}'
+    else:
+        out_message = f'Current {var_name} = {var_dict[var_name]}'
+
+    return out_message
+
+
+def handle_help(message, var_dict={}):
+    return 'Print information about commands and other options'
+    
+def execute(message, var_dict={}):
+    if not message.startswith('/'):
+        return None
+    res = handle_model_commands(message, var_dict=var_dict)
+    if res: return res
+    res = handle_help(message, var_dict=var_dict)
+    if res: return res
+    return None
+
+
