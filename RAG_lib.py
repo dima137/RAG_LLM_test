@@ -230,3 +230,32 @@ def execute(message, var_dict={}):
     return None
 
 
+def get_token_costs(usage_dict, var_dict):
+    model = var_dict.get('LLM')
+    input_tokens = usage_dict.get('prompt_tokens')
+    result = 'Tokens and cost.\n'
+    if input_tokens is not None:
+        result += 'Input: %i' % (input_tokens)
+        input_cost = input_tokens * var_dict['token_cost_dict'].get(model, {}).get('input', 0) * 100
+        if input_cost > 0:
+            result += ' (%.2g cents)' % input_cost
+        result += '. '
+    else:
+        return None
+    
+    out_tokens = usage_dict.get('completion_tokens')
+    if out_tokens is not None:
+        result += 'Output: %i' % (out_tokens)
+        out_cost = out_tokens * var_dict['token_cost_dict'].get(model, {}).get('output', 0) * 100
+        if out_cost > 0:
+            result += ' (%.2g cents)' % out_cost
+        result += '. '
+
+    reasoning_tokens = usage_dict.get('reasoning_tokens', None)
+    if reasoning_tokens is not None:
+        result += '\nReasoning (part of output): %i' % (reasoning_tokens)
+        reasoning_cost = reasoning_tokens * var_dict['token_cost_dict'].get(model, {}).get('output', 0) * 100
+        if reasoning_cost > 0:
+            result += ' (%.2g cents)' % (reasoning_cost)
+        result += '. '
+    return result

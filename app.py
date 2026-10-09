@@ -25,6 +25,7 @@ var_dict['chunk_overlap'] = 200
 var_dict['chunk_overlap_BM25'] = 0 # overlap for BM25 RAG
 #chunk_overlap_dict = {'BM25':0} # custom overlap for different RAGs
 var_dict['ktop'] =  5 # if 0, then RAG is not used
+var_dict['print_costs'] = True # print token usage and costs for LLMs
 
 # BM25, vector
 #RAG_representation = 'tokens' # 'tokens', 'vectors'
@@ -70,7 +71,7 @@ for RAGs in RAG_dict.values():
 # LLM options
 #LLMs = ['gpt-5-mini', 'gpt-5-nano', 'llama3.2', "claude-sonnet-4-5", "gemini-2.5-flash"]
 LLM_dict = {'openai':['gpt-5-mini', 'gpt-5-nano'],
-             'anthropic':["claude-sonnet-4-5"],
+             'anthropic':["claude-sonnet-5-5"],
              'google':["gemini-2.5-flash"],
              'hf':[]}
 
@@ -83,6 +84,15 @@ LLM_dict['hf'] = ["meta-llama/Llama-3.2-1B-Instruct:featherless-ai", # 0
                     ]
 
 var_dict['LLM_dict'] = LLM_dict
+
+million = 1.e6
+var_dict['token_cost_dict'] = \
+    {'gpt-5-mini': {'input': 0.25/million, 'output': 2./million},
+    'gpt-5-nano': {'input': 0.05/million, 'output': 0.4/million},
+    'claude-sonnet-5-5': {'input': 2./million, 'output': 10./million},
+    'gemini-2.5-flash': {'input': 0.3/million, 'output': 2.5/million}
+    }
+
 
 var_dict['LLMs'] = OrderedSet()
 for LLMs in LLM_dict.values():
@@ -101,7 +111,7 @@ anthropic_api_key = os.getenv('ANTHROPIC_API_KEY')
 google_api_key = os.getenv('GOOGLE_API_KEY')
 hf_api_key = os.getenv('HF_TOKEN')
 
-if 1:
+if 0:
     # test if api keys exist
     if openai_api_key:
         print(f"OpenAI API Key exists and begins {openai_api_key[:8]}")
@@ -172,7 +182,12 @@ def anthropic_bot(var_dict):
     bot = Anthropic()
     def chatbot(messages, full_response=full_response):
         response = bot.messages.create(model=model, messages=messages, max_tokens=1000)
-        response_dict = {'text': response.content[0].text}
+        #response_dict = {'text': response.content[0].text}
+        for r in response.content:
+            # return the first text response, skip thinking blocks
+            if r.type == 'text':
+                response_dict = {'text': r.text}
+                break
         usage = response.usage
         # placeholder for usage for anthropic
         response_dict['usage'] = {'prompt_tokens': usage.input_tokens,
@@ -301,7 +316,8 @@ def RAG_response(query, var_dict):
 
 
 ## Variables and commands for the chat interface
-vars = ['LLM', 'RAG', 'chunk_size', 'chunk_overlap', 'chunk_overlap_BM25', 'ktop']
+vars = ['LLM', 'RAG', 'chunk_size', 'chunk_overlap', 'chunk_overlap_BM25', 'ktop', \
+        'print_costs']
 special_commands = ['/help', '/LLMs', '/RAGs', '/vars']
 var_dict['vars'] = vars
 var_dict['special_commands'] = special_commands
@@ -330,13 +346,28 @@ def chat(message, history, var_dict=var_dict):
         
         
         bot = get_bot(var_dict)
-        bot_response = bot(messages)
-        answer = bot_response['text'] # if LLM is used: overwrite answer with LLM response
-
+        try:
+            bot_response = bot(messages)
+            answer = bot_response['text'] # if LLM is used: overwrite answer with LLM response
+        except Exception as e:
+            bot_response = {}
+            answer = f"Error: {e}"
+        #print(bot_response)
+        
         response += f'LLM "{var_dict["LLM"]}" '
+        if var_dict.get('print_costs', False):
+            usage_dict = bot_response.get('usage', {})
+            costs = rlib.get_token_costs(usage_dict, var_dict)
+            #print('Usage dict and costs:',usage_dict, costs)
+        else:
+            #print('Token costs not printed. Set var_dict["print_costs"] = True to print token costs.')
+            costs = None
     response += f'response:\n\n{answer}'
+    if costs is not None:
+        response += f'\n\n{costs}'
 
     return response
+
 
 
 if __name__ == "__main__":
