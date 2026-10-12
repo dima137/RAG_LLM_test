@@ -338,14 +338,20 @@ def chat(message, history, var_dict=var_dict):
     if var_dict['ktop'] > 0 and message.lower().find('rag') > -1:
         # determine RAG response (or context if LLM is used)
         response += f'RAG "{var_dict["RAG"]}" top {var_dict["ktop"]} chunks '
-        answer = RAG_response(query, var_dict)
+        try:
+            answer = RAG_response(query, var_dict)
+        except Exception as e:
+            answer = f"Error: {e}"
+            response += f'\n\n{answer}'
+            return response
+        
     if message.lower().find('llm') > -1:
         messages = [{"role": "user", "content": query}]
         if len(response) > 0:
             response += '+ '
             messages.append({"role": "user", "content": answer})
         
-        
+        response += f'LLM "{var_dict["LLM"]}" '
         bot = get_bot(var_dict)
         try:
             bot_response = bot(messages)
@@ -353,9 +359,11 @@ def chat(message, history, var_dict=var_dict):
         except Exception as e:
             bot_response = {}
             answer = f"Error: {e}"
+            response += f'\n\n{answer}'
+            return response
         #print(bot_response)
         
-        response += f'LLM "{var_dict["LLM"]}" '
+        
         if var_dict.get('print_costs', False):
             usage_dict = bot_response.get('usage', {})
             costs = rlib.get_token_costs(usage_dict, var_dict)
