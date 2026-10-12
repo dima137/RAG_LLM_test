@@ -375,4 +375,4 @@ if __name__ == "__main__":
                                                lines=1, max_lines=30))
 
 
-    chat_box.launch()
+    chat_box.launch(share=True)
