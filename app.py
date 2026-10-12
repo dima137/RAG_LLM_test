@@ -147,7 +147,7 @@ def openai_bot(var_dict):
         usage = response.usage
         response_dict['usage'] = {'prompt_tokens': usage.prompt_tokens,
                                   'completion_tokens': usage.completion_tokens,
-                                  'reasoning_tokens': 0}
+                                  'reasoning_tokens': None}
         if hasattr(usage, 'completion_tokens_details') and usage.completion_tokens_details:
             reasoning_tokens = usage.completion_tokens_details.reasoning_tokens
             response_dict['usage']['reasoning_tokens'] = reasoning_tokens
@@ -168,7 +168,7 @@ def google_bot(var_dict):
         usage = response.usage
         response_dict['usage'] = {'prompt_tokens': usage.prompt_tokens,
                                   'completion_tokens': usage.completion_tokens,
-                                  'reasoning_tokens': 0}
+                                  'reasoning_tokens': None}
         if hasattr(usage, 'completion_tokens_details') and usage.completion_tokens_details:
             reasoning_tokens = usage.completion_tokens_details.reasoning_tokens
             response_dict['usage']['reasoning_tokens'] = reasoning_tokens
@@ -192,7 +192,7 @@ def anthropic_bot(var_dict):
         # placeholder for usage for anthropic
         response_dict['usage'] = {'prompt_tokens': usage.input_tokens,
                                   'completion_tokens': usage.output_tokens,
-                                  'reasoning_tokens': 0}
+                                  'reasoning_tokens': None}
         if hasattr(usage, 'output_tokens_details') and usage.output_tokens_details.thinking_tokens:
             reasoning_tokens = usage.output_tokens_details.thinking_tokens
             response_dict['usage']['reasoning_tokens'] = reasoning_tokens
@@ -219,7 +219,7 @@ def hf_bot(var_dict):
         usage = response.usage
         response_dict['usage'] = {'prompt_tokens': usage.prompt_tokens,
                                   'completion_tokens': usage.completion_tokens,
-                                  'reasoning_tokens': 0}
+                                  'reasoning_tokens': None}
         if hasattr(usage, 'completion_tokens_details') and usage.completion_tokens_details:
             reasoning_tokens = usage.completion_tokens_details.reasoning_tokens
             response_dict['usage']['reasoning_tokens'] = reasoning_tokens
@@ -334,6 +334,7 @@ def chat(message, history, var_dict=var_dict):
     target = message.split(' ')[0]
     query = message.replace(target, '').strip()
     response = ''
+    costs = None
     if var_dict['ktop'] > 0 and message.lower().find('rag') > -1:
         # determine RAG response (or context if LLM is used)
         response += f'RAG "{var_dict["RAG"]}" top {var_dict["ktop"]} chunks '
@@ -359,9 +360,7 @@ def chat(message, history, var_dict=var_dict):
             usage_dict = bot_response.get('usage', {})
             costs = rlib.get_token_costs(usage_dict, var_dict)
             #print('Usage dict and costs:',usage_dict, costs)
-        else:
-            #print('Token costs not printed. Set var_dict["print_costs"] = True to print token costs.')
-            costs = None
+
     response += f'response:\n\n{answer}'
     if costs is not None:
         response += f'\n\n{costs}'

@@ -233,7 +233,7 @@ def execute(message, var_dict={}):
 def get_token_costs(usage_dict, var_dict):
     model = var_dict.get('LLM')
     input_tokens = usage_dict.get('prompt_tokens')
-    result = 'Tokens and cost.\n'
+    result = 'Tokens and cost (if known).\n'
     if input_tokens is not None:
         result += 'Input: %i' % (input_tokens)
         input_cost = input_tokens * var_dict['token_cost_dict'].get(model, {}).get('input', 0) * 100
