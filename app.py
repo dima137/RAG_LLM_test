@@ -1,15 +1,15 @@
-
-
 from dotenv import load_dotenv
 from openai import OpenAI
 from anthropic import Anthropic
 import os
 import numpy as np
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import OllamaEmbeddings
+from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import gradio as gr
 from ordered_set import OrderedSet
+from transformers.utils import logging as hf_logging
+hf_logging.disable_progress_bar()
 
 import RAG_lib as rlib
 
@@ -39,10 +39,15 @@ RAG_options['vectors'] = {}
 metric_dict = {'cosine': lambda xs, ys: cosine_similarity(xs, ys)[0]}
 
 # an example of a vector model
-RAG_options['vectors']['ollama:nomic-embed-text_cos']  = {}
-RAG_options['vectors']['ollama:nomic-embed-text_cos']['embedding']  = \
-    OllamaEmbeddings(model="nomic-embed-text").embed_documents
-RAG_options['vectors']['ollama:nomic-embed-text_cos']['metric'] = 'cosine'
+#RAG_options['vectors']['ollama:nomic-embed-text_cos']  = {}
+#RAG_options['vectors']['ollama:nomic-embed-text_cos']['embedding']  = \
+#    OllamaEmbeddings(model="nomic-embed-text").embed_documents
+#RAG_options['vectors']['ollama:nomic-embed-text_cos']['metric'] = 'cosine'
+
+RAG_options['vectors']['transformer:all-MiniLM-L6-v2']  = {}
+RAG_options['vectors']['transformer:all-MiniLM-L6-v2']['embedding']  = \
+    SentenceTransformer('all-MiniLM-L6-v2').encode
+RAG_options['vectors']['transformer:all-MiniLM-L6-v2']['metric'] = 'cosine'
     
 
 # an example of a token model: words
@@ -58,7 +63,7 @@ RAG_options['tokens']['BM25']['metric'] = 'BM25_default'
 
 metric_dict['BM25_default'] = rlib.bm25_metric
 
-RAG_dict = {'vectors':['ollama:nomic-embed-text_cos'],
+RAG_dict = {'vectors':['transformer:all-MiniLM-L6-v2'],
              'tokens':['words', 'BM25']
              }
 
