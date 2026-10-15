@@ -332,7 +332,7 @@ def chat(message, history, var_dict=var_dict):
     messages = history + [message]
     if message.startswith('/'):
         response = rlib.execute(message, var_dict=var_dict)
-        return response
+        return response, var_dict
     if message.find('@') == -1:
         message = '@RAG+LLM: ' + message
 
@@ -348,7 +348,7 @@ def chat(message, history, var_dict=var_dict):
         except Exception as e:
             answer = f"Error: {e}"
             response += f'\n\n{answer}'
-            return response
+            return response, var_dict
         
     if message.lower().find('llm') > -1:
         messages = [{"role": "user", "content": query}]
@@ -378,14 +378,19 @@ def chat(message, history, var_dict=var_dict):
     if costs is not None:
         response += f'\n\n{costs}'
 
-    return response
+    return response, var_dict
 
 
 
 if __name__ == "__main__":
-    chat_box = gr.ChatInterface(chat, #type="messages",     
-                            textbox=gr.Textbox(placeholder="type /help for available commands", 
-                                               lines=1, max_lines=30))
+    with gr.Blocks() as chat_box:
+        var_dict_st = gr.State(var_dict)
+
+        gr.ChatInterface(chat, #type="messages",     
+                        additional_inputs=var_dict_st, 
+                        additional_outputs=var_dict_st,
+                        textbox=gr.Textbox(placeholder="type /help for available commands", 
+                                            lines=1, max_lines=30))
 
 
     chat_box.launch(share=True)
