@@ -413,11 +413,13 @@ def chat(message, history, var_dict=var_dict):
 if __name__ == "__main__":
     with gr.Blocks() as chat_box:
         var_dict_st = gr.State(var_dict)
-
-        gr.ChatInterface(chat, #type="messages",     
+        title = "Chatbot about Fermi bubbles and Galactic center"
+        placeholder = "ask about Fermi bubbles or type /help for available commands"
+        gr.ChatInterface(chat, #type="messages",
+                         title=title, 
                         additional_inputs=var_dict_st, 
                         additional_outputs=var_dict_st,
-                        textbox=gr.Textbox(placeholder="type /help for available commands", 
+                        textbox=gr.Textbox(placeholder=placeholder,
                                             lines=1, max_lines=30))
 
 
