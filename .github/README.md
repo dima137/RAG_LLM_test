@@ -6,7 +6,7 @@ https://dvmalyshev-rag-llm-test.hf.space
 The main goal is to test how different RAG approaches (e.g., vector embedding and BM25) work in combination with various LLMs.<br>
 We use https://arxiv.org/abs/1407.7905 paper to build the text data for RAG in this example. 
 
-One can ask questions in the chat and get answers, which combine RAG context and LLM response.
+One can ask questions in the chat and get answers, which combine RAG context and LLM response (the Chatbot answers only questions about Fermi bubbles and Galactic center region of the Milky way galaxy).
 
 We use slash commands in the app.<br>
 For instance, /help prints available commands and the corresponding short info.
