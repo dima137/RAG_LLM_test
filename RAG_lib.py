@@ -139,7 +139,8 @@ def handle_special_commands(command, var_dict={}):
         result += handle_special_commands('help', var_dict=var_dict)
         return result
     if command == '/help':
-        result = 'Available commands:'
+        result = 'Chatbot to answer questions related to Fermi bubbles and the center of Milky way galaxy.\n'
+        result += 'Available commands:'
         result += dict2lines(commands_dict)
         return result
     elif command == '/LLMs':

@@ -1,6 +1,7 @@
 from dotenv import load_dotenv
 from openai import OpenAI
 from anthropic import Anthropic
+from pydantic import BaseModel
 import os
 import numpy as np
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -327,6 +328,28 @@ special_commands = ['/help', '/LLMs', '/RAGs', '/vars']
 var_dict['vars'] = vars
 var_dict['special_commands'] = special_commands
 
+# Create a Pydantic model for the Evaluation
+
+
+class Evaluation(BaseModel):
+    is_acceptable: bool
+    feedback: str
+
+
+evaluator_system_prompt ='Is this quesion related to Fermi bubbles (FBs), \
+    i.e., large gamma-ray emitting structures in Milky way galaxy, \
+    to the center region of the Milky Way, \
+    or to structures around the center of the Milky Way galaxy? No explanation needed.'
+
+def evaluate(query) -> Evaluation:
+    messages = [{"role": "system", "content": evaluator_system_prompt}]
+    messages.append({"role": "user", "content": query})
+
+    eval_model = 'gpt-5-mini'
+    response = OpenAI().chat.completions.parse(model=eval_model, messages=messages, 
+                                                response_format=Evaluation)
+    return response.choices[0].message.parsed
+
 
 def chat(message, history, var_dict=var_dict):
     messages = history + [message]
@@ -338,6 +361,11 @@ def chat(message, history, var_dict=var_dict):
 
     target = message.split(' ')[0]
     query = message.replace(target, '').strip()
+    # check if query is related to GC and / or Fermi bubbles
+    evaluation = evaluate(query)
+    if not evaluation.is_acceptable:
+        return evaluation.feedback, var_dict
+    
     response = ''
     costs = None
     if var_dict['ktop'] > 0 and message.lower().find('rag') > -1:
